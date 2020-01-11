@@ -1,0 +1,9 @@
+[[ER_Overview]]
+== Summary of Testbed 15 Engineering Reports
+
+The following OGC Engineering Reports (ERs) describe the various activities completed as part of the Testbed 15 initiative. Each ER provides an Executive Summary followed by documentation on the research approach and technical details of the prototype implementations. The ER concludes with a summary of the results, recommendations related to the current OGC Standards baseline, and recommendations for future interoperability initiative work.
+
+OGC Engineering Reports have been presented to the OGC Membership at an OGC Technical Committee meeting. The Members then vote to approve each ER for public release.
+
+Following is the complete set of Testbed 15 ERs:
+
