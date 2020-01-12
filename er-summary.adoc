@@ -11,10 +11,18 @@ Following is the complete set of Testbed 15 ERs:
 |===
 |OGC Doc #|TB 15 Task|Title 
 |19-021  | D001| http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
+|19-027r2| D002| http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
+|19-016r1| D004| http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
+|19-012r1| D005| http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
 |19-020r1| D010| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 |19-023r1| D011| http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
 |19-010r2| D012| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
 |19-069  | D014| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
 |19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
 |19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
+|19-024  | D019| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
+|19-026  | D020| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
+|10-022r1| D021| http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
+|19-015  | D022| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
+|19-023  | D023| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
