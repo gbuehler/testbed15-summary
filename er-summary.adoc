@@ -17,7 +17,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-020r1| D010| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 |19-023r1| D011| http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
 |19-010r2| D012| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
-|19-069  | D014| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
+|19-069  | <<D014>>| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
 |19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
 |19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 |19-024  | D019| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
@@ -33,3 +33,12 @@ OGC ERs may be copied, distributed, and used as required for research and relate
 
 === ER Summaries
 
+
+[[D014]]
+==== Testbed 15 Maps and Tiles API Engineering Report
+
+Since 2017, the OGC has had focused effort developing API standards that support the Resource Oriented Architecture and are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a maps and tiles API specification.
+
+The draft Maps and Tiles specification builds on the OGC API - Features - Part 1: Core standard. The draft Tiles specification describes a service that retrieves data representations as tiles. In the draft specification, the assumption is that tiles are organized into https://www.opengeospatial.org/standards/tms[Tile Matrix Sets (TMS)] consisting of regular tile matrices available at different scales or resolutions.
+
+The draft Maps specification describes an API that presents data as maps by applying a style. These maps can be retrieved in a tiled structure or as maps of any size generated on-the-fly. Some of the functionality in the draft Maps specification is based on the https://www.opengeospatial.org/standards/wmts[OGC Web Map Tile Service (WMTS) 1.0] standard. This is related to the use of styles by using the draft Styles API specification that was developed in the Testbed-15 Open Portrayal Framework thread.
