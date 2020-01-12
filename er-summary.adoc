@@ -7,8 +7,14 @@ OGC Engineering Reports have been presented to the OGC Membership at an OGC Tech
 
 Following is the complete set of Testbed 15 ERs:
 
-
+[options="header"]
 |===
 |OGC Doc #|TB 15 Task|Title 
+|19-021  | D001| http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
+|19-020r1| D010| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 |19-023r1| D011| http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
+|19-010r2| D012| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
+|19-069  | D014| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
+|19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
+|19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 |===
