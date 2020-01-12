@@ -1,7 +1,7 @@
 [[ER_Overview]]
 == Summary of Testbed 15 Engineering Reports
 
-The following OGC Engineering Reports (ERs) describe the various activities completed as part of the Testbed 15 initiative. Each ER provides an Executive Summary followed by documentation on the research approach and technical details of the prototype implementations. The ER concludes with a summary of the results, recommendations related to the current OGC Standards baseline, and recommendations for future interoperability initiative work.
+A set of OGC Engineering Reports (ERs) describe the various activities completed as part of the Testbed 15 initiative. Each ER provides an Executive Summary followed by documentation on the research approach and technical details of the prototype implementations. The ER concludes with a summary of the results, recommendations related to the current OGC Standards baseline, and recommendations for future interoperability initiative work.
 
 OGC Engineering Reports have been presented to the OGC Membership at an OGC Technical Committee meeting. The Members then vote to approve each ER for public release.
 
@@ -26,3 +26,10 @@ Following is the complete set of Testbed 15 ERs:
 |19-015  | D022| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 |19-023  | D023| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
+
+Every OGC Engineering Report (ER) has an official OGC document number. This is for easy reference. "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed.
+
+OGC ERs may be copied, distributed, and used as required for research and related activities. ERs, however, are _not_ official positions of the OGC Membership and should never be listed as mandatory requirements in procurements. 
+
+=== ER Summaries
+
