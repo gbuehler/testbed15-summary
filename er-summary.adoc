@@ -38,7 +38,7 @@ OGC ERs may be copied, distributed, and used as required for research and relate
 
 *Testbed 15 Maps and Tiles API Engineering Report*
 
-Since 2017, the OGC has had focused effort developing API standards that support the Resource Oriented Architecture and are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a maps and tiles API specification.
+Since 2017, the OGC has had a focused effort developing API standards based on the concepts defined in a Resource Oriented Architecture (ROA) The OGC APIs are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a maps and tiles API specification.
 
 The draft Maps and Tiles specification builds on the OGC API - Features - Part 1: Core standard. The draft Tiles specification describes a service that retrieves data representations as tiles. In the draft specification, the assumption is that tiles are organized into https://www.opengeospatial.org/standards/tms[Tile Matrix Sets (TMS)] consisting of regular tile matrices available at different scales or resolutions.
 
