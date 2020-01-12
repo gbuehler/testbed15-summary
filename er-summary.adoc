@@ -27,7 +27,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-023  | D023| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
 
-Every OGC Engineering Report (ER) has an official OGC document number. This is for easy reference. "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed.
+Every OGC Engineering Report (ER) has an official OGC document number. This is for easy reference. "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
 
 OGC ERs may be copied, distributed, and used as required for research and related activities. ERs, however, are _not_ official positions of the OGC Membership and should never be listed as mandatory requirements in procurements. 
 
