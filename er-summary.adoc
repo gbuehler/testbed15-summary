@@ -33,10 +33,10 @@ OGC ERs may be copied, distributed, and used as required for research and relate
 
 === ER Summaries
 
-
 [[D014]]
+==== D014
 
-==== Testbed 15 Maps and Tiles API Engineering Report
+*Testbed 15 Maps and Tiles API Engineering Report*
 
 Since 2017, the OGC has had focused effort developing API standards that support the Resource Oriented Architecture and are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a maps and tiles API specification.
 
