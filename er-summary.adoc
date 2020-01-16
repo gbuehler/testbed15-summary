@@ -21,7 +21,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
 |19-070  | <<D016,D016>>|  http://docs.opengeospatial.org/per/19-070.html[Images and ChangesSet API Engineering Report]
 |19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
-|19-024  | D019| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
+|19-024  | <<D019,D019>>| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
 |19-026  | D020| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
 |10-022r1| <<D021,D021>>| http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
 |19-015  | D022| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
@@ -51,6 +51,12 @@ The draft Maps specification describes an API that presents data as maps by appl
 The Images and ChangesSet API ER define two related draft specifications that address the use case of a tile server that serves tiled images and a client that portrays the result as a set of images. A backend tile server provides access to a set of tiled images, such as satellite scenes or pictures captured using a drone. Access is via a standard API interface. The source images should be able to be updated. Therefore the tile server also needs to be able to deliver only those tiles that have changed.
 
 The draft API specification is divided into two independent but related APIs . The OGC API – Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection. The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
+
+[[D019]]
+
+==== D019: Federated Clouds Security Engineering Report
+
+The Federated Clouds Security ER documents the analysis of two types of federation: The centralized entity and distributed architecture approaches. Both approaches were analyzed through the lens of security. The work documented in this ER is on analyzing how federated membership, resource and access policy management can be provided within a security environment, while also providing portability and interoperability to all stakeholders. The work presented in the ER also took into account how governance can be affected by design choices. The ER also provides an introduction to the concepts of Federation and Federated Clouds and then introduces the concept of a Federation Manager (FM) and tries to establish a clear list of functionality aspects necessary to manage and use a Federation. The ER concludes with a complete analysis of the Federation Managers deployed during this Testbed-15 activity, and how to tackle each of the functionality challenges.
 
 [[D021]]
 
