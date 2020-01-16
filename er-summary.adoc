@@ -12,7 +12,7 @@ Following is the complete set of Testbed 15 ERs:
 |OGC Doc #|TB 15 Task|Title 
 |19-021  | D001| http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
 |19-027r2| <<D002,D002>>| http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
-|19-016r1| D004| http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
+|19-016r1| <<D004,D004>>| http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
 |19-012r1| D005| http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
 |19-020r1| D010| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 |19-023r1| D011| http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
@@ -49,6 +49,14 @@ The Machine Learning (ML) ER documents the results of the Testbed 15 ML thread .
 Each scenario utilized a set of supporting geospatial data coupled with cataloging and processing services to support the research objectives. A ML model is at the core of each scenario. In each scenario the goal was to have the model make key decisions that a human in the system would typically make under normal circumstances. Each scenario and corresponding prototype implementations were supported by at least one client to demonstrate the execution and parsing of outputs for visualization.
 
 In summary, the ML thread included five scenarios utilizing seven ML models in a solution architecture that included implementations of the OGC Web Processing Service (WPS), OGC Web Feature Service (WFS) and OGC Catalogue Service for the Web (CSW) standards. This ER includes a thorough investigation and documentation of the experiences of the thread participants resulting in a set of recommendations for future work.
+
+[[D004]]
+
+==== D004: Data Centric Security Engineering Report
+
+The Data Centric Security ER discusses the current state of security in protecting data in a geospatial environment. The ER examines the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" in combination with geospatial data using the encoding for an OGC Web Feature Service (WFS) FeatureCollection structure. This ER also makes a recommendation for the creation of new media types to support output container formats such as STANAG 4778. The report then discusses various implementation scenarios in which a STANAG 4778 (eXtensible Markup Language (XML) container maintains encrypted data from author to service to viewer. These implementations use the new http://docs.opengeospatial.org/DRAFTS/17-069r1.html[OGC API - Features - Part 1: Core] standard with features encrypted using keys supplied by feature authors and users.
+
+The participants demonstrated that it is possible to support data centric security within the OGC API service framework. The ER documents the three DCS scenarios used to investigate the data centric security and concludes with issues encountered and recommendations for future work.
 
 [[D014]]
 
