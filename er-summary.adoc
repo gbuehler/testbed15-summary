@@ -17,14 +17,14 @@ Following is the complete set of Testbed 15 ERs:
 |19-020r1| D010| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 |19-023r1| D011| http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
 |19-010r2| D012| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
-|19-069  | <<D014>>| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
+|19-069  | <<D014,D014>>| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
 |19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
 |19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 |19-024  | D019| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
 |19-026  | D020| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
 |10-022r1| <<D021,D021>>| http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
 |19-015  | D022| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
-|19-023  | <<D023>>| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
+|19-023  | <<D023,D023>>| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
 
 Every OGC Engineering Report (ER) has an official OGC document number. This is for easy reference. "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
@@ -34,9 +34,8 @@ OGC ERs may be copied, distributed, and used as required for research and relate
 === ER Summaries
 
 [[D014]]
-==== D014
 
-*Testbed 15 Maps and Tiles API Engineering Report*
+==== D014: Testbed 15 Maps and Tiles API Engineering Report
 
 Since 2017, the OGC has had a focused effort developing API standards based on the concepts defined in a Resource Oriented Architecture (ROA) The OGC APIs are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a maps and tiles API specification.
 
@@ -46,12 +45,11 @@ The draft Maps specification describes an API that presents data as maps by appl
 
 [[D021]]
 
-==== Scaling Units of Work (EOC, Scale, SEED) Engineering Report
+==== D021: Scaling Units of Work (EOC, Scale, SEED) Engineering Report
 This ER presents a thorough analysis of the work produced in the Earth Observation Clouds (EOC) threads in OGC Testbeds 13 and 14 in relation to the US National Geospatial Intelligence (NGA) GeoInt https://github.com/ngageoint/scale[Scale] and https://github.com/ngageoint/seed[SEED] environments. Scale provides management of automated processing on a cluster of machines. The SEED specification aids the discovery and consumption of a discrete unit of work contained within a Docker image. The ER attempts to explain how the OGC Testbed-13 and OGC Testbed-14 research results of "bringing applications/users to the data" relate to Scale and SEED. While comparing the two approaches, the ER identifies and describes opportunities for harmonization or standardization. This includes features that must remain separate and why. These hard problems require additional work. For developers, the ER constitutes a technical reference supporting the comparison of the two approaches, thereby enabling developers to make informed choices, understand trade-offs, identify relevant standards and clarify misunderstandings.
 
 [[D023]]
-==== D023
 
-*Quebec Model MapML Engineering Report*
+==== D023: Quebec Model MapML Engineering Report
 
 The Quebec Model MapML ER describes the Map Markup Language (MapML) enabled client implementation for the Quebec Lake-River Differentiation Model in the Machine Learning (ML) task. This ER describes the MapML parsing capabilities that were developed to illustrate the outputs of a ML model to delineate lake and river features from an undifferentiated waterbody vector dataset in Québec, Canada. Client data was accessed through an OGC Web Processing Service (WPS) interface in coordination with an OGC API - Features implementation.
