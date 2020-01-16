@@ -10,7 +10,7 @@ Following is the complete set of Testbed 15 ERs:
 [options="header"]
 |===
 |OGC Doc #|TB 15 Task|Title 
-|19-021  | D001| http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
+|19-021  | <<D001,D001>>| http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
 |19-027r2| <<D002,D002>>| http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
 |19-016r1| <<D004,D004>>| http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
 |19-012r1| <<D005,D005>>| http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
@@ -28,11 +28,19 @@ Following is the complete set of Testbed 15 ERs:
 |19-023  | <<D023,D023>>| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
 
-Every OGC Engineering Report (ER) has an official OGC document number. This is for easy reference. "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
+Every OGC Engineering Report (ER) has an official OGC document number (shown in first column). This is for easy reference. "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
 
 OGC ERs may be copied, distributed, and used as required for research and related activities. ERs, however, are _not_ official positions of the OGC Membership and should never be listed as mandatory requirements in procurements. 
 
 === ER Summaries
+
+[[D001]]
+
+==== D001: Semantic Web Link Builder and Triple Generator Engineering Report
+
+The Semantic Web Link Builder and Triple Generator ER describes a generalized approach towards performing data fusion from multiple heterogeneous geospatial linked data sources. The web and enterprise intranets have facilitated access to a vast amount of information. When data from multiple sources can be combined together, its usefulness increases dramatically. However, today there is no well-defined multi-modal data integration framework available.
+
+The specific use case addressed in this research activity is semantic enrichment of hydrographic features provided by Natural Resources Canada (NRCan). The discussion in the ER attempts to define and formalize the integration pipeline necessary to perform a fusion process for producing semantically coherent fused entities. This was done by using a number of ontologies for supporting correlation and semantic mediation defined using the new https://www.w3.org/TR/shacl/[W3C Shape Constraint Language] (SHACL), as well as a correlation engine that was implemented to be accessible through an Application Programming Interface (API) based on the Representational State Transfer (REST) paradigm.
 
 [[D002]]
 
