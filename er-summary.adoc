@@ -22,7 +22,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-070  | <<D016,D016>>|  http://docs.opengeospatial.org/per/19-070.html[Images and ChangesSet API Engineering Report]
 |19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 |19-024r1| <<D019,D019>>| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
-|19-026  | D020| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
+|19-026  | <<D020,D020>>| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
 |10-022r1| <<D021,D021>>| http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
 |19-015  | D022| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 |19-023  | <<D023,D023>>| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
@@ -81,6 +81,19 @@ The draft API specification is divided into two independent but related APIs . T
 ==== D019: Federated Clouds Security Engineering Report
 
 The Federated Clouds Security ER documents the analysis of two types of federation: The centralized entity and distributed architecture approaches. Both approaches were analyzed through the lens of security. The work documented in this ER is on analyzing how federated membership, resource and access policy management can be provided within a security environment, while also providing portability and interoperability to all stakeholders. The work presented in the ER also took into account how governance can be affected by design choices. The ER also provides an introduction to the concepts of Federation and Federated Clouds and then introduces the concept of a Federation Manager (FM) and tries to establish a clear list of functionality aspects necessary to manage and use a Federation. The ER concludes with a complete analysis of the Federation Managers deployed during this Testbed-15 activity, and how to tackle each of the functionality challenges.
+
+[[D020]]
+
+==== D020: Federated Cloud Analytics Engineering Report
+
+The Federated Clouds Analytics ER documents the results and experiences resulting from the Federated Cloud Analytics task. The work documented in this ER addresses a broader question as to how to leverage Cloud architectures managing automated processing on a cluster of machines combined with using OGC standards. The research focused on the https://ngageoint.github.io/scale/docs/architecture/jobs/index.html[SCALE] Data Center Environment. Also as part of this activity, the https://ngageoint.github.io/seed/[SEED] job interface specification was used to package job input/output parameters metadata with Docker images that contain discrete processing algorithms. This enables developers to prepare the software in a self-contained package containing all execution dependencies, deploy and execute it in a hosted environment with access to data. Within this context, the ER documents how the OGC Web Processing Service (WPS) 2.0 Standard can be used as a standard API for Cloud analytics for workflow automation.
+
+More specifically, the ER provides an analysis of: 
+
+* The potential for the OGC Web Processing Service (WPS) Interface Standard as an Application Programming Interface (API) to a workflow automation service for managing job execution involving multiple containers in the Scale Data Center Environment; 
+* Using an implementation of the OGC WPS standard as a general frontend to workflow automation with containers; 
+* The suitability of the OGC WPS 2.0 standard as an API for Cloud analytics; 
+* Using OGC Web Services (WS) as analytics data sources and sinks.
 
 [[D021]]
 
