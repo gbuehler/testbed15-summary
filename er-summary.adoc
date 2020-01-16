@@ -19,6 +19,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-010r2| D012| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
 |19-069  | <<D014,D014>>| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
 |19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
+|19-070  | <<D016,D016>>|  http://docs.opengeospatial.org/per/19-070.html[Images and ChangesSet API Engineering Report]
 |19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 |19-024  | D019| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
 |19-026  | D020| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
@@ -42,6 +43,14 @@ Since 2017, the OGC has had a focused effort developing API standards based on t
 The draft Maps and Tiles specification builds on the OGC API - Features - Part 1: Core standard. The draft Tiles specification describes a service that retrieves data representations as tiles. In the draft specification, the assumption is that tiles are organized into https://www.opengeospatial.org/standards/tms[Tile Matrix Sets (TMS)] consisting of regular tile matrices available at different scales or resolutions.
 
 The draft Maps specification describes an API that presents data as maps by applying a style. These maps can be retrieved in a tiled structure or as maps of any size generated on-the-fly. Some of the functionality in the draft Maps specification is based on the https://www.opengeospatial.org/standards/wmts[OGC Web Map Tile Service (WMTS) 1.0] standard. This is related to the use of styles by using the draft Styles API specification that was developed in the Testbed-15 Open Portrayal Framework thread.
+
+[[D016]]
+
+==== D016: Images and ChangesSet API Engineering Report
+
+The Images and ChangesSet API ER define two related draft specifications that address the use case of a tile server that serves tiled images and a client that portrays the result as a set of images. A backend tile server provides access to a set of tiled images, such as satellite scenes or pictures captured using a drone. Access is via a standard API interface. The source images should be able to be updated. Therefore the tile server also needs to be able to deliver only those tiles that have changed.
+
+The draft API specification is divided into two independent but related APIs . The OGC API – Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection. The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
 
 [[D021]]
 
