@@ -11,7 +11,7 @@ Following is the complete set of Testbed 15 ERs:
 |===
 |OGC Doc #|TB 15 Task|Title 
 |19-021  | D001| http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
-|19-027r2| D002| http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
+|19-027r2| <<D002,D002>>| http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
 |19-016r1| D004| http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
 |19-012r1| D005| http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
 |19-020r1| D010| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
@@ -21,7 +21,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
 |19-070  | <<D016,D016>>|  http://docs.opengeospatial.org/per/19-070.html[Images and ChangesSet API Engineering Report]
 |19-019  | D017| http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
-|19-024  | <<D019,D019>>| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
+|19-024r1| <<D019,D019>>| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
 |19-026  | D020| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
 |10-022r1| <<D021,D021>>| http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
 |19-015  | D022| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
@@ -33,6 +33,22 @@ Every OGC Engineering Report (ER) has an official OGC document number. This is f
 OGC ERs may be copied, distributed, and used as required for research and related activities. ERs, however, are _not_ official positions of the OGC Membership and should never be listed as mandatory requirements in procurements. 
 
 === ER Summaries
+
+[[D002]]
+
+==== D002: Machine Learning Engineering Report
+
+The Machine Learning (ML) ER documents the results of the Testbed 15 ML thread . Participants explored the ability of ML to interact with and use OGC web standards in the context of natural resources applications. As such, a key purpose of the research was to demonstrate the use of OGC standards in the ML domain through scenario development. The scenarios used in the ML thread were:
+
+* Petawawa Super Site Research forest change prediction model.
+* New Brunswick forest supply management decision maker ML models.
+* Quebec Lake river differentiation ML models.
+* Richelieu River Hydro linked data harvest models.
+* Arctic web services discovery ML model.
+
+Each scenario utilized a set of supporting geospatial data coupled with cataloging and processing services to support the research objectives. A ML model is at the core of each scenario. In each scenario the goal was to have the model make key decisions that a human in the system would typically make under normal circumstances. Each scenario and corresponding prototype implementations were supported by at least one client to demonstrate the execution and parsing of outputs for visualization.
+
+In summary, the ML thread included five scenarios utilizing seven ML models in a solution architecture that included implementations of the OGC Web Processing Service (WPS), OGC Web Feature Service (WFS) and OGC Catalogue Service for the Web (CSW) standards. This ER includes a thorough investigation and documentation of the experiences of the thread participants resulting in a set of recommendations for future work.
 
 [[D014]]
 
