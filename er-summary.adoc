@@ -19,7 +19,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-012r1| <<D005,D005>>| http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
 |19-020r1| <<D010,D010>>| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 |19-023r1| <<D011,D011>>| http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
-|19-010r2| D012| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
+|19-010r2| <<D012,D012>>| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
 |19-069  | <<D014,D014>>| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
 |19-018  | D015| http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
 |19-070  | <<D016,D016>>|  http://docs.opengeospatial.org/per/19-070.html[Images and ChangesSet API Engineering Report]
@@ -108,6 +108,20 @@ For this testbed activity, the http://portal.opengeospatial.org/files/?artifact_
 
 * The https://portal.opengeospatial.org/files/89616[OGC Symbology Conceptual Model: Core part] candidate standard which defines common portrayal concepts shared across various style encodings.
 * The http://docs.opengeospatial.org/per/18-101.html[OGC Vector Tiles Pilot] initiative that defined a prototype of a Styles API that is independent of the style encoding.
+
+[[D012]]
+
+==== D012: Styles API Engineering Report
+
+The Styles API ER documents a proof of concept for an OGC Styles API draft specification. The draft specification defines a Web API that enables map servers and clients as well as visual style editors to manage and fetch styles. Web APIs are software interfaces that use an architectural style that is founded on the technologies of the Web. Styles consist of symbolizing instructions that are applied by a rendering engine on features and/or coverages.
+
+The draft Styles API supports several types of consumers, mainly:
+
+* Visual style editors that create, update and delete styles for datasets that are shared by other Web APIs implementing the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] Standard or the draft https://github.com/opengeospatial/ogc_api_coverages[OGC API – Coverages] or draft https://github.com/opengeospatial/OGC-API-Tiles[OGC API – Tiles] specifications; 
+* Web APIs implementing the draft https://github.com/opengeospatial/OGC-API-Maps[ OGC API – Maps] specification fetch styles and render spatial data (features or coverages) on the server;
+* Map clients that fetch styles and render spatial data (features or coverages) on the client. 
+
+Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.opengeospatial.org/per/19-023r1.html [Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts: The style is the main resource. Each style is available in one or more stylesheets - the representation of a style in an encoding such as OGC SLD 1.0 or Mapbox Style. Clients can then use the stylesheet of a style that fits best based on the capabilities of available tools and their preferences. For each style, there is style metadata available which provides general descriptive information about the style, structural information (e.g., layers and attributes), and so forth that enable the user’s ability to discover and select existing styles for their data.
 
 [[D014]]
 
