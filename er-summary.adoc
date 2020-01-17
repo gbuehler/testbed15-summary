@@ -1,3 +1,6 @@
+Note to self: https://www.opengeospatial.org/pub/Testbed13/overview.html
+
+
 [[ER_Overview]]
 == Summary of Testbed 15 Engineering Reports
 
@@ -14,7 +17,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-027r2| <<D002,D002>>| http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
 |19-016r1| <<D004,D004>>| http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
 |19-012r1| <<D005,D005>>| http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
-|19-020r1| D010| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
+|19-020r1| <<D010,D010>>| http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 |19-023r1| D011| http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
 |19-010r2| D012| http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
 |19-069  | <<D014,D014>>| http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
@@ -78,6 +81,16 @@ The Delta Updates ER documents the design of a service architecture that allows 
 As such, this ER documents how prioritized `delta updates` can be served using a transactional extension to the OGC API – Features and the WPS standard/OGC API – Processes in front of WFS instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
 
 NOTE: `Changeset` is a synonym for `delta updates` as are incremental updates and change only updates (COU). The term `Changeset` is used in the <<D015,OGC Testbed-15: Open Portrayal Framework Engineering Report>> and <<D016,OGC Testbed-15: Images and ChangesSet API Draft Specification>>.
+
+[[D010]]
+
+==== D010: Catalogue and Discovery Engineering Report
+
+The Catalogue and Discovery ER describes the results of the Earth Observation (EO) Process and Application (EOPAD) Task in the OGC Testbed-15 Cloud Processing and Portrayal (CPP) thread. The problem addressed in this testbed activity is that several platforms have emerged that provide access to Earth Observation data and processing capacities. These platforms host very large datasets, which makes a paradigm shift from data download and local processing towards application upload and processing close to the physical location of the data more and more important. To best interpret peta- and https://en.wikipedia.org/wiki/Exascale_computing[exascale] scientific data, capabilities of these platforms need to be combined.
+
+The work documented in this ER builds on previous testbed activities. https://portal.opengeospatial.org/files/?artifact_id=77431[OGC Testbed-13] and Testbed-14 ERs proposed solutions for packaging, deployment and execution of applications in cloud environments that expose standardized interfaces such as the OGC Web Processing Service (WPS). As long as a dedicated standardized interface such as an OGC WPS instance, a container execution environment (e.g. Docker), and data access are provided, the proposed approach was agnostic to the target cloud platform.
+
+The ER presents the data model and service interface of the catalogue service allowing for discovery of EO applications and related processing services for subsequent deployment and/or invocation in a distributed environment.  The ER also provides the architectural and implementation details of the software components that were developed as part of the activity and which interact through the described data model. These software components include catalogue clients, catalogue servers and WPS transactional (WPS-T) servers.
 
 [[D014]]
 
