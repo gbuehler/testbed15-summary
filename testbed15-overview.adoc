@@ -2,3 +2,18 @@
 
 = Testbed 15 Overview
 
+[big red yellow-background]*Research and Rapid Prototyping with the goal of enhancing and extending the OGC Standards Baseline to meet Community requirements.*
+
+In OGC’s annual testbeds, sponsoring organisations specify interoperability requirements to address both their needs as well as gaps in the https://www.opengeospatial.org/standards[OGC Standards Baseline]. OGC staff integrate these requirements into a formal https://www.opengeospatial.org/pressroom/pressreleases/2927[Call for Participation]. Technology providers, also known as participants, then receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. When the testbed is completed, the results are documented in https://www.opengeospatial.org/docs/er[OGC Engineering Reports]. The Engineering Reports may specify change requests to existing OGC standards, extensions to an existing standard, or even a new draft specification. These are submitted to the OGC Standards Program for discussion, consideration, and eventually consensus-based open standards and best practices.
+
+== Sponsoring Organizations
+
+
+* https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory[Defence Science and Technology Laboratory (Dstl)]
+* https://www.esa.int/[European Space Agency (ESA)]
+* https://www.satcen.europa.eu/[European Union Satellite Centre (SatCen)]
+* https://www.nrcan.gc.ca/home[Natural Resources Canada (NRCan)]
+* https://www.agc.army.mil/[US Army Geospatial Center (AGC)]
+* https://www.usgs.gov/[US Geological Survey (USGS)]
+* https://www.nasa.gov/[US National Aeronautics and Space Administration (NASA)]
+* https://www.nga.mil/Pages/Default.aspx[US National Geospatial-Intelligence Agency (NGA)]
