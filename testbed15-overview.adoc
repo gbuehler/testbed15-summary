@@ -28,14 +28,12 @@ The Testbed is organized in a number of threads. Each thread combines a number o
 The following OGC Member organizations sponsored OGC Testbed 15. The sponsors provided interoperability requirements, use cases, and scenarios. The also provided cost share funding as well as geospatial data as required to run the scenarios.
 
 |===
-|image:images/dstl-logo.png[width=60,height=50] | https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory[Defence Science and Technology Laboratory (Dstl)]
-|image:images/esa-logo.png[width=100,height=50] | https://www.esa.int/[European Space Agency (ESA)]
+|image:images/dstl-logo.png[width=60,height=50]  | https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory[Defence Science and Technology Laboratory (Dstl)]
+|image:images/esa-logo.png[width=100,height=50]  | https://www.esa.int/[European Space Agency (ESA)]
 |image:images/eusc-logo.png[width=150,height=50] | https://www.satcen.europa.eu/[European Union Satellite Centre (SatCen)]
+|image:images/nrcan-logo.png[width=170,height=50]| https://www.nrcan.gc.ca/home[Natural Resources Canada (NRCan)]
+|image:images/agc-logo.png[width=50,height=50]   | https://www.agc.army.mil/[US Army Geospatial Center (AGC)]
+|image:images/usgs-logo.png[width=120,height=50] | https://www.usgs.gov/[US Geological Survey (USGS)]
+|image:images/nasa-logo.png[width=100,height=50] | https://www.nasa.gov/[US National Aeronautics and Space Administration (NASA)]
+|image:images/nga-logo.png[width=50,height=50]   | https://www.nga.mil/Pages/Default.aspx[US National Geospatial-Intelligence Agency (NGA)]
 |===
-
-
-* https://www.nrcan.gc.ca/home[Natural Resources Canada (NRCan)]
-* https://www.agc.army.mil/[US Army Geospatial Center (AGC)]
-* https://www.usgs.gov/[US Geological Survey (USGS)]
-* https://www.nasa.gov/[US National Aeronautics and Space Administration (NASA)]
-* https://www.nga.mil/Pages/Default.aspx[US National Geospatial-Intelligence Agency (NGA)]
