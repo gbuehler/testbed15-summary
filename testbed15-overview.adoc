@@ -4,13 +4,13 @@
 
 [big red yellow-background]*Research and Rapid Prototyping with the goal of enhancing and extending the OGC Standards Baseline to meet Community requirements.*
 
-In OGC’s annual testbeds, sponsoring organisations specify interoperability requirements to address both their needs as well as gaps in the https://www.opengeospatial.org/standards[OGC Standards Baseline]. OGC staff integrate these requirements into a formal https://www.opengeospatial.org/pressroom/pressreleases/2927[Call for Participation]. Technology providers, also known as participants, then receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. When the testbed is completed, the results are documented in https://www.opengeospatial.org/docs/er[OGC Engineering Reports]. The Engineering Reports may specify change requests to existing OGC standards, extensions to an existing standard, or even a new draft specification. These are submitted to the OGC Standards Program for discussion, consideration, and eventually consensus-based open standards and best practices.
+In OGC’s annual testbeds, sponsoring organisations specify interoperability requirements to address both their needs as well as gaps in the https://www.opengeospatial.org/standards[OGC Standards Baseline]. OGC staff integrate these requirements into a formal https://www.opengeospatial.org/pressroom/pressreleases/2927[Call for Participation (CFP)]. Technology providers, also known as participants, then receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. When the testbed is completed, the results are documented in https://www.opengeospatial.org/docs/er[OGC Engineering Reports]. The Engineering Reports may specify change requests to existing OGC standards, extensions to an existing standard, or even a new draft specification. These are submitted to the OGC Standards Program for discussion, consideration, and eventually consensus-based open standards and best practices.
 
 [[Threads]]
 
 == Testbed 15 Key work activities (Threads)
 
-The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the following chapters. The threads integrate both an architectural and a thematic view, which allows to keep related work items closely together and to remove dependencies across threads.
+The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the Call for Participation. The threads integrate both an architectural and a thematic view, which allows keeping related work items close together and removing dependencies across threads.
 
 * Thread 1: Secure Data and Federated Clouds (SFC)
 ** Data Centric Security
@@ -21,7 +21,6 @@ The Testbed is organized in a number of threads. Each thread combines a number o
 * Thread 3: Machine Learning and Delta Updates (MLD)
 ** https://portal.opengeospatial.org/files/?artifact_id=82290#MachineLearning[Machine Learning]
 ** Delta Updates
-
 
 [[Sponsoring]]
 == Sponsoring Organizations
