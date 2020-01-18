@@ -62,3 +62,33 @@ The following OGC Member organizations sponsored OGC Testbed 15. The sponsors pr
 |image:images/nasa-logo.png[width=100,height=50] | https://www.nasa.gov/[US National Aeronautics and Space Administration (NASA)]
 |image:images/nga-logo.png[width=50,height=50]   | https://www.nga.mil/Pages/Default.aspx[US National Geospatial-Intelligence Agency (NGA)]
 |===
+
+[[Participating]]
+
+=== Participating Organizations
+
+|===
+|52 North | Germany
+|Arizona Board of Regents | US
+|Compusult| Canada
+|CRIM     | Canada
+|CubeWerx | Canada
+|Deimos Space  | Spain
+|DigitalGlobe| US
+|Ecere    | Canada
+|Frisia IT| Germany
+|GeoSolutions | Italy
+|CSISS George Mason University | US
+|Helyx | UK
+|Image Matters | US
+|interactive instruments | Germany
+|rasdaman | Germany
+|RHEA Group | Belgium
+|Secure Dimensions |Germany
+|Skymantics | US
+|Solenix | Germany
+|Spacebel | Belgium
+|Terradue |Italy
+|UAB-CREAF |Spain
+|===
+
