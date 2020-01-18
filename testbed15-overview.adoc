@@ -10,22 +10,22 @@ In OGC’s annual testbeds, sponsoring organisations specify interoperability re
 
 == Testbed 15 Key work activities (Threads)
 
-The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the Call for Participation. The threads integrate both an architectural and a thematic view, which allows keeping related work items close together and removing dependencies across threads.
+The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the Call for Participation. The threads integrate both an architectural and a thematic view, which allows keeping related work items close together and removing dependencies across threads. Click on the link if you want to read the detailed description of a Thread as provided in the CFP. In addition, short overviews are provided here.
 
 * Thread 1: Secure Data and Federated Clouds (SFC)
-** Data Centric Security
-** Federated Cloud Analytics
+** https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity[Data Centric Security]
+** https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics[Federated Cloud Analytics]
 * Thread 2: Cloud Processing and Portrayal (CPP)
-** Earth Observation Process and Application Discovery
-** Open Portrayal Framework
+** https://portal.opengeospatial.org/files/?artifact_id=82290#EOPAD[Earth Observation Process and Application Discovery]
+** https://portal.opengeospatial.org/files/?artifact_id=82290#Portrayal[Open Portrayal Framework]
 * Thread 3: Machine Learning and Delta Updates (MLD)
 ** https://portal.opengeospatial.org/files/?artifact_id=82290#MachineLearning[Machine Learning]
-** Delta Updates
+** https://portal.opengeospatial.org/files/?artifact_id=82290#DeltaUpdates[Delta Updates]
 
 [[Sponsoring]]
 == Sponsoring Organizations
 
-The following OGC Member organizations sponsored OGC Testbed 15. The sponsors provided interoperability requirements, use cases, and scenarios. The also provided cost share funding as well as geospatial data as required.
+The following OGC Member organizations sponsored OGC Testbed 15. The sponsors provided interoperability requirements, use cases, and scenarios. The also provided cost share funding as well as geospatial data as required to run the scenarios.
 
 |===
 https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory[Defence Science and Technology Laboratory (Dstl)] | image:images/dstl-logo.png[width=50,height=50]
