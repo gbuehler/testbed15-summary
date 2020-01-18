@@ -17,7 +17,7 @@ The following are key facts about the OGC Testbed 15 activity.
 
 === Testbed 15 Key work activities (Threads)
 
-The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the Call for Participation. The threads integrate both an architectural and a thematic view, which allows keeping related work items close together and removing dependencies across threads. Click on the link if you want to read the detailed description of a Thread as provided in the CFP. In addition, short overviews are provided <<thread-overviews,here>>.
+The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the Call for Participation. The threads integrate both an architectural and a thematic view, which allows keeping related work items close together and removing dependencies across threads. Click on the link if you want to read the detailed description of a Thread as provided in the CFP. In addition, short overviews are provided <<thread-summaries,here>>.
 
 * Thread 1: Secure Data and Federated Clouds (SFC)
 ** https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity[Data Centric Security]
