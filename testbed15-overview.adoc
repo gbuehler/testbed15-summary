@@ -18,6 +18,10 @@ The following are key facts about the OGC Testbed 15 activity.
 * 113 Observers representing 72 Member organizations.
 * 16 <<ER_Overview,Engineering Reports>> written and approved for public release
 
+Testbed-15 commenced with a Kickoff Workshop in early April, 2019. The kick-off workshop was hosted by the USGS at their Reston Virgina facility. The Testbed activity culminated with a presentations and short demonstrations at the December 2019 Technical Committee meetings in Toulouse France. 
+
+Sponsorship funding totaled <xx> million U.S. Dollars and attracted in-kind Participant contributions of <xx> million.
+
 [[Threads]]
 
 === Testbed 15 Key work activities (Threads)
