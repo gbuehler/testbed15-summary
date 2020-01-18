@@ -25,7 +25,11 @@ The Testbed is organized in a number of threads. Each thread combines a number o
 [[Sponsoring]]
 == Sponsoring Organizations
 
-* https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory[Defence Science and Technology Laboratory (Dstl)]
+The following OGC Member organizations sponsored OGC Testbed 15. The sponsors provided interoperability requirements, use cases, and scenarios. The also provided cost share funding as well as geospatial data as required.
+
+|===
+https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory[Defence Science and Technology Laboratory (Dstl)] | image:images/dstl-logo.png[width=50,height=50]
+|===
 * https://www.esa.int/[European Space Agency (ESA)]
 * https://www.satcen.europa.eu/[European Union Satellite Centre (SatCen)]
 * https://www.nrcan.gc.ca/home[Natural Resources Canada (NRCan)]
