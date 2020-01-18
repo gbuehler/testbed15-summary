@@ -28,7 +28,7 @@ The Testbed is organized in a number of threads. Each thread combines a number o
 
 In addition to the Engineering Reports, the participants developed a suite of videos that showcase the results of the work done to meet the requirements for each Thread as defined in the CFP and modified as necessary as part of the research and prototyping activity.
 
-The videos are available on the https://www.youtube.com/channel/UCR5YGb1pVBBFV-XNA6mA0gg[Open Geospatial YouTube channel]. 
+The videos are available on the https://www.youtube.com/channel/UCR5YGb1pVBBFV-XNA6mA0gg[Open Geospatial YouTube channel]. If you navigate to the OGC YouTube channel, then click on the Testbed 15 playlist. Also take the opportunity to view other videos that document a variety of OGC Interoperability Initiatives.
 
 [[Sponsoring]]
 == Sponsoring Organizations
