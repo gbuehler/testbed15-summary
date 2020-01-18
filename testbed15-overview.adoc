@@ -4,7 +4,7 @@
 
 [big red yellow-background]*Research and Rapid Prototyping with the goal of enhancing and extending the OGC Standards Baseline to meet Community requirements.*
 
-In OGC’s annual testbeds, sponsoring organisations specify interoperability requirements to address both their needs as well as gaps in the https://www.opengeospatial.org/standards[OGC Standards Baseline]. OGC staff integrate these requirements into a formal https://www.opengeospatial.org/pressroom/pressreleases/2927[Call for Participation (CFP)]. Technology providers, also known as participants, then receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. When the testbed is completed, the results are documented in https://www.opengeospatial.org/docs/er[OGC Engineering Reports]. The Engineering Reports may specify change requests to existing OGC standards, extensions to an existing standard, or even a new draft specification. These are submitted to the OGC Standards Program for discussion, consideration, and eventually consensus-based open standards and best practices.
+In OGC’s annual testbeds, sponsoring organisations specify interoperability requirements to address both their needs as well as gaps in the https://www.opengeospatial.org/standards[OGC Standards Baseline]. OGC staff integrate these requirements into a formal https://www.opengeospatial.org/pressroom/pressreleases/2927[Call for Participation (CFP)]. Technology providers, also known as participants, then receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. When the testbed is completed, the results are documented in https://www.opengeospatial.org/docs/er[OGC Engineering Reports]. The Engineering Reports may specify change requests to existing OGC standards, extensions to an existing standard, or even a new draft specification. These are submitted to the OGC Standards Program for discussion, consideration, and eventually Member approved consensus-based open standards and best practices.
 
 [[Threads]]
 
@@ -21,6 +21,14 @@ The Testbed is organized in a number of threads. Each thread combines a number o
 * Thread 3: Machine Learning and Delta Updates (MLD)
 ** https://portal.opengeospatial.org/files/?artifact_id=82290#MachineLearning[Machine Learning]
 ** https://portal.opengeospatial.org/files/?artifact_id=82290#DeltaUpdates[Delta Updates]
+
+[[Demonstrations]]
+
+== Online Demonstrations
+
+In addition to the Engineering Reports, the participants developed a suite of videos that showcase the results of the work done to meet the requirements for each Thread as defined in the CFP and modified as necessary as part of the research and prototyping activity.
+
+The videos are available on the https://www.youtube.com/channel/UCR5YGb1pVBBFV-XNA6mA0gg[Open Geospatial YouTube channel]. 
 
 [[Sponsoring]]
 == Sponsoring Organizations
