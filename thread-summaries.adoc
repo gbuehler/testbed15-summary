@@ -20,11 +20,12 @@ Data-centric security is an approach to security that emphasizes the security of
 
 To answer those questions, the particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an OGC API for Features and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as NATO STANAG 4778 "Information on standard Metadata Binding" with metadata as defined in NATO STANAG 4774 "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
 
-[options, header]
+[options="header"]
 |===
 | Information Resource | Location of resource
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
-| Power Point Presentation | 
+| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Data%20Centric%20Security.pdf[Slide presentation]
+| Short Video | link:https://www.youtube.com/watch?v=5_ynVa8ZMY4&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=7&t=0s[Youtube Video]
 |===
 
 
