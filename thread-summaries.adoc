@@ -34,10 +34,32 @@ The following are additional information resources regarding the Data Centric Se
 
 ==== Federated Cloud Analytics
 
+The advent of the cloud computing era has fundamentally changed how people and organizations view computing — and more specifically how people and organizations interact with the resources that they care about: data and services. All computing resources, including clouds, exist in some type of administrative domain wherein access management can be done. As long as resources are all in the same administrative domain, managing access is straight-forward. However, with the continued development of our interconnected world, it is becoming increasingly common that data and services desired by a user exist across different administrative domains.
+
+Easily accessing resources distributed across different administrative domains is a challenge. The naive approach is for an individual to maintain n different accounts and credentials for n different organizations. A more effective approach is federation.
+
+Simply put, a federation enables a set of participating organizations to selectively share data and resources for specific purposes. The goal is to make federated environments as seamless, transparent, and easy to use as a single centralized environment. More precisely, a federation is a security and collaboration context wherein participants can define, agree up on, and enforce joint resource discovery and access policies.
+
+Previous OGC Testbeds addressed a number of issues related to supporting analytic workflows where the data and analytics are hosted or deployed in an ad-hoc manner on multiple heterogeneous clouds that belong to different administrative domains. In this Testbed activity the OGC began to assess the sufficiency of that body of work and identify areas were additional work is needed. This assessment was performed through a proof of concept executing a non-trivial analytic mission leveraging data and analytics hosted on two or more clouds.
+
+Of particular interest in this context are three aspects. Firstly, the handling of security in federations. Second, how the Testbed-13 and Testbed-14 research results of "bringing applications to the data" relate to SCALE and SEED. SCALE is an open source system that provides management and scheduling of automated processing on a cluster of machines. SCALE uses the SEED specification to aid in the discovery and consumption of processes packaged in a Docker containers. Third, the role of blockchain and distributed ledger technologies in the context of handling provenance in federations.
+
+To meet this objective, this task was organized in four separate sub-tasks. The following research questions were addressed by the particpants:
+
+* Federated Security: Can the NIST/IEEE Federated Cloud architecture be validated (or invalidated) in a typical federated clouds analytics scenario that includes separate cloud environments? How can the Mediation Server concept developed in Testbed-14 be further enhanced to a fully functional Federation Manager in the sense of NIST/IEEE? What are the advantages and disadvantages, and how does this extended functionality fit within the OGC family of standards?
+* Federated Cloud Analytics: How to bring SCALE and SEED into the family of cloud architectures supported by OGC standards? What role does WPS play? What catalog solutions work best?
+* EOC, SCALE, and SEED: How to handle the different approaches for cloud processing? Where are harmonization opportunities, what needs to remain separate?
+* Federated Clouds Provenance: How can Blockchain and distributed ledger technologies be used to protect the integrity of different types of provenance data?
+
+There are individual Engineering Report that describes the results of each of these work activities. These information resources are provided below.
+
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Engineering Report(s) |http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
+| Engineering Report(s) | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
+      http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report] +
+      http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report] +
+      http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Federated%20Cloud%20analytics.pdf[Slide presentation]
 | Short Video | link:https://portal.opengeospatial.org/files/?artifact_id=91766[OGC Video]
 |===
