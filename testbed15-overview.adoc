@@ -20,8 +20,6 @@ The following are key facts about the OGC Testbed 15 activity.
 
 Testbed-15 commenced with a Kickoff Workshop in early April, 2019. The kick-off workshop was hosted by the USGS at their Reston Virgina facility. The Testbed activity culminated with a presentations and short demonstrations at the December 2019 Technical Committee meetings in Toulouse France. 
 
-Sponsorship funding totaled <xx> million U.S. Dollars and attracted in-kind Participant contributions of <xx> million.
-
 [[Threads]]
 
 === Testbed 15 Key work activities (Threads)
@@ -66,6 +64,8 @@ The following OGC Member organizations sponsored OGC Testbed 15. The sponsors pr
 [[Participating]]
 
 === Participating Organizations
+
+The following organizations were selected as official Testbed 15 participants. Each particpating organization had specific deliverables and tasks based on their responses to the Call for Participation.
 
 |===
 |52 North | Germany
