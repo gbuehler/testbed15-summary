@@ -13,8 +13,8 @@ In OGC’s annual testbeds, sponsoring organisations specify interoperability re
 The following are key facts about the OGC Testbed 15 activity.
 
 * <<Sponsoring,8 Sponsoring Member organizations>>
-* 30 Participants from the 8 Sponsoring organizations
-* 66 Active individual particpants from 22 Member Organizations.
+* 30 Representatives from the 8 Sponsoring organizations
+* 66 Active individual particpants from <<Participating,22 Member Organizations>>.
 * 113 Observers representing 72 Member organizations.
 * 16 <<ER_Overview,Engineering Reports>> written and approved for public release
 
