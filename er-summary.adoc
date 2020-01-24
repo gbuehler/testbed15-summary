@@ -48,7 +48,7 @@ The specific use case addressed in this research activity is semantic enrichment
 
 ==== D002: Machine Learning Engineering Report
 
-The Machine Learning (ML) ER documents the results of the Testbed 15 ML thread . Participants explored the ability of ML to interact with and use OGC web standards in the context of natural resources applications. As such, a key purpose of the research was to demonstrate the use of OGC standards in the ML domain through scenario development. The scenarios used in the ML thread were:
+The intersection of Machine Learning (ML) and Deep Learning (DL) and geospatial technology is creating opportunities that have not been possible before. Use of these technologies is enhancing our ability to increase crop yield through precision agriculture, to fight crime by deploying predictive policing models, to enhanced image classification and feature detection. In this Testbed activity, participants explored the ability of ML to interact with and use OGC web standards in the context of natural resources applications. As such, a key purpose of the research was to demonstrate the use of OGC standards in the ML domain through scenario development. The scenarios used in the ML thread were:
 
 * Petawawa Super Site Research forest change prediction model.
 * New Brunswick forest supply management decision maker ML models.
