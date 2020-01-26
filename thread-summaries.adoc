@@ -78,5 +78,27 @@ There are individual Engineering Report that describes the results of each of th
 
 ==== Machine Learning
 
+The synergies obtained by integrating machine learning and deep learning (DL/ML) and geospatial analysis, also known as GeoAI is providing ever increasing societal value. Applications such as quickly identifying diseased timber, diffusion of viral infections, or avalanche risk analysis are already providing value and saving lives. However, much work remains to continue to both evolve the geospatial and ML/DL synergy. Issues such as how can training be optimized and what role do standards have need to be answered. A large variety of geospatial data are available through standardized OGC interfaces that could facilitate the discovery and access to datasets used to feed ML tools.
+
+Therefore, the OGC Testbed-15 Machine Learning (ML) task explored the utility of existing OGC Web services (OWS) to support a large scope of ML tools including EO data processing, image classification, feature extraction and vector attribution. The key research question was how these various ML models can be integrated best within standards-based infrastructures. These infrastructures include OGC Web services that interface any kind of data repository from rather stable image archives to Big data sensor data archives or real time systems.
+
+The research involved implementing five different scenarios. Each scenario focused on a different machine learning challenge and prototype were implemented as an individual demonstrations. The five scenarios were:
+
+* Petawawa Super Site research forest change prediction ML model. As a first step towards an automated forest change prediction system, participants developed prototype capability and demonstrated the use of Machine Learning to remove clouds and high altitude cloudets (popcorn clouds) from historical datasets for the http://www.forestresearch.ca/index.php?option=com_content&view=article&id=272&Itemid=83[Petawawa super site].
+* New Brunswick forest supply management decision maker ML model. For this scenario, particpants delivered a forest supply management decision maker ML model for the province of New Brunswick forested areas. This included recommending the most efficient optimized path from forest to market -”wood flow model” and recommending new road construction that will be the most efficient over time and safety being considered. 
+* Quebec lake - river differentiation ML model. Participants delivered an ML model that delineated lake and river features from an undifferentiated waterbody vector dataset.
+* Richelieu River hydro linked data harvest model. The participants developed a semantically driven ML capability to harvest hydrological relations from the web for the Richelieu River / Watershed area. The harvesting process used a variety of data sources. 
+* Arctic web services discovery ML model. The participants delivered a component capable of building an evergreen catalogue of relevant arctic circumpolar Web services. The goal was to develop a machine learning model that could perform such activities as discover OGC and Esri REST Web services that have some relevance to circumpolar science and evaluate the confidence level of each recommended service using both metadata and data parameters.
+
+[options="header"]
+|===
+| Information Resource | Location of resource
+| Engineering Report(s) |http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report] +
+                         http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report] +
+                         http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
+| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Machine%20Learning.pdf[Slide presentation]
+| Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
+|===
+
 ==== Delta Updates
 
