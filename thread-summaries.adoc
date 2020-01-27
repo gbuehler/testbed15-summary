@@ -109,6 +109,6 @@ The research involved implementing five different scenarios. Each scenario focus
 |===
 | Information Resource | Location of resource
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
-| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Delta%20Updates.pptx[Slide presentation]
+| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Delta%20Updates.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=Ka_xCszws1A&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=8&t=0s[Youtube Video]
 |===
