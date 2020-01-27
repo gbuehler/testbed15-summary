@@ -20,6 +20,9 @@ Data-centric security is an approach to security that emphasizes the security of
 
 To answer those questions, the particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an OGC API for Features and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as NATO STANAG 4778 "Information on standard Metadata Binding" with metadata as defined in NATO STANAG 4774 "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
 
+image::images/GepPEP as a Proxy for STANAG 4778.png[image,width=326,height=308]
+* Geospatial Policy Enforcement Point (GeoPEP) as a Proxy for STANAG 4778 *
+
 In general, the work performed in Testbed 15 was able to demonstrate that with a security proxy and an OGC API - Features service, an implementation can satisfy the requirements for a data centric security model. The Engineering Report documents the results of implementing three scenarios. Scenarios one and two show a backward compatible method for implementing data centric security. One requirement that was not completely investigated in the first two scenarios was encryption of the data from the author to storage. 
 
 The following are additional information resources regarding the Data Centric Security task.
