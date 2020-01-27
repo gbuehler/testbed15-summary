@@ -81,6 +81,9 @@ Interoperable, dynamic portrayal of maps and related geospatial data is still ch
 
 Therefore, the primary topics addressed in the OPF thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on a draft http://www.opengis.net/doc/PER/t15-D011[conceptual style model]. In addition, there was a requirement to render data according to style definitions in a denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure.
 
+image::images/overviewOPF.png[image,width=380,height=308]
+* Overview of the Testbed-15 Open Portrayal Framework major work items *
+
 The goal of the Testbed-15 Open Portrayal Framework thread was to implement a data discovery, access, and styled rendering scenario. The scenario included data updates performed as a background tasks and support for online/offline functionality. 
 
 [[MLD]]
