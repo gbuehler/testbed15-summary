@@ -136,7 +136,10 @@ The draft Maps specification describes an API that presents data as maps by appl
 
 ==== D015: Open Portrayal Framework (OPF) Engineering Report
 
-The Portrayal Framework ER describes the OPF requirements, test scenario, high-level architecture, and prototype solutions that were developed. Further, this ER along with companion ERs document a set of emerging specifications that support interoperable portrayal of heterogeneous geospatial data. 
+The Portrayal Framework ER summarizes the work performed in the Open Portrayal Framework (OPF) Thread. The goal of the OPF work is to enable the rendering of geospatial data in a uniform way, according to specific user requirements without undo burden on the user. The ER therefore includes an overview of the requirements, detailed presentation of the demonstration scenario, a high-level architecture, and prototype solutions that were developed. Main topics addressed in the OPF Thread include style changing and sharing, converting style encodings, client- / server-side rendering of vector- and raster data and data provision in denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure situations.Further, this ER along with companion ERs document a set of emerging specifications that support interoperable portrayal of heterogeneous geospatial data.
+
+
+
 
 [[D016]]
 
