@@ -136,10 +136,19 @@ The draft Maps specification describes an API that presents data as maps by appl
 
 ==== D015: Open Portrayal Framework (OPF) Engineering Report
 
-The Portrayal Framework ER summarizes the work performed in the Open Portrayal Framework (OPF) Thread. The goal of the OPF work is to enable the rendering of geospatial data in a uniform way, according to specific user requirements without undo burden on the user. The ER therefore includes an overview of the requirements, detailed presentation of the demonstration scenario, a high-level architecture, and prototype solutions that were developed. Main topics addressed in the OPF Thread include style changing and sharing, converting style encodings, client- / server-side rendering of vector- and raster data and data provision in denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure situations.Further, this ER along with companion ERs document a set of emerging specifications that support interoperable portrayal of heterogeneous geospatial data.
+The Portrayal Framework ER summarizes the work performed in the Open Portrayal Framework (OPF) Thread. The goal of the OPF work was to enable the rendering of geospatial data in a uniform way, according to specific user requirements without undo burden on the user. The ER therefore includes an overview of the requirements, detailed presentation of the demonstration scenario, a high-level architecture, and prototype solutions that were developed. 
 
+Main topics addressed in the OPF Thread include style changing and sharing, converting style encodings, client- / server-side rendering of vector- and raster data and data provision in denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure situations. Further, this ER along with companion ERs, document a set of emerging specifications that support interoperable portrayal of heterogeneous geospatial data.
 
+The scenario for the emerging Open Portrayal Framework is described in detail in the Open Portrayal Framework Scenario chapter of the ER. The scenario discussion explains the driving requirements for the various developments conducted in Testbed-15. Among these have been a series of Web APIs.
 
+The API discussion is from a more abstract viewpoint, with some of the major discussion items and design decisions being highlighted in the Emerging OGC Web APIs chapter. The detailed documentation of the APIs can be found in the respective Engineering Reports that are listed in the <<OPF,OPF Thread Summary>>.
+
+An enhanced GeoPackage model was developed to facilitate advanced styling in offline situations. The main results are discussed in GeoPackage chapter.
+
+The ER concludes with the documentation of a number of general discussions and design decisions that were made by the OPF participants.
+
+A detailed description of implementation aspects and presentation of the results was provided by the participants and is presented in Annex A: OPF Implementations.
 
 [[D016]]
 
