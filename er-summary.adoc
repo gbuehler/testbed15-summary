@@ -168,4 +168,8 @@ This ER presents a thorough analysis of the work produced in the Earth Observati
 
 ==== D023: Quebec Model MapML Engineering Report
 
-The Quebec Model MapML ER describes the Map Markup Language (MapML) enabled client implementation for the Quebec Lake-River Differentiation Model in the Machine Learning (ML) task. This ER describes the MapML parsing capabilities that were developed to illustrate the outputs of a ML model to delineate lake and river features from an undifferentiated waterbody vector dataset in Québec, Canada. Client data was accessed through an OGC Web Processing Service (WPS) interface in coordination with an OGC API - Features implementation.
+https://maps4html.github.io/MapML/spec/[MapML] is a text format for encoding map information for the World Wide Web. The value of MapML is enabling Web-based user agent software (browsers and others) to display and edit maps and map data without unnecessary customization.
+
+The Quebec Model MapML ER describes the Map Markup Language (MapML) enabled client implementation for the Quebec Lake-River Differentiation Model in the Machine Learning (ML) task. This ER details the MapML parsing capabilities that were developed to illustrate the outputs of a ML model to delineate lake and river features from an undifferentiated waterbody vector dataset in Québec, Canada. Client data was accessed through an OGC Web Processing Service (WPS) interface in coordination with an OGC API - Features implementation.
+
+The ER concludes that MapML is suitable for representing not only a selection of features from a data source, but may also be useful as a metadata document describing a collection of information. MapML could provide links into the collection using map semantics (bounding boxes, tiles, images, features etc.).
