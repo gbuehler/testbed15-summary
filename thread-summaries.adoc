@@ -73,7 +73,15 @@ There are individual Engineering Report that describes the results of each of th
 
 ==== Earth Observation Process and Application Discovery
 
+[[OPF]]
+
 ==== Open Portrayal Framework
+
+Interoperable, dynamic portrayal of maps and related geospatial data is still challenging when working across multiple computing, rendering, communications and display environments.  Despite the previous efforts the OGC is still missing a robust conceptual model and related APIs capable of supporting multiple style encodings and the style encodings themselves. 
+
+Therefore, the primary topics addressed in the OPF thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on a draft http://www.opengis.net/doc/PER/t15-D011[conceptual style model]. In addition, there was a requirement to render data according to style definitions in a denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure.
+
+The goal of the Testbed-15 Open Portrayal Framework thread was to implement a data discovery, access, and styled rendering scenario. The scenario included data updates performed as a background tasks and support for online/offline functionality. 
 
 [[MLD]]
 
