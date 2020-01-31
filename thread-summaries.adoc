@@ -31,7 +31,7 @@ The following are additional information resources regarding the Data Centric Se
 |===
 | Information Resource | Location of resource
 | Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity[CFP Sponsor Requirements for Data Centric Security]
-| Engineering Report(s) |http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
+| Engineering Report |http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Data%20Centric%20Security.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=5_ynVa8ZMY4&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=7&t=0s[Youtube Video]
 |===
@@ -65,7 +65,7 @@ There are individual Engineering Report that describes the results of each of th
 |===
 | Information Resource | Location of resource
 | Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics[CFP Sponsor Requirements for Federated Cloud Analytics]
-| Engineering Report(s) | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
+| Engineering Reports | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
       http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report] +
       http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report] +
       http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
@@ -132,8 +132,12 @@ image::images/TB15_OPF.png[image,width=380,height=308]
 |===
 | Information Resource | Location of resource
 | Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#Portrayal[CFP Sponsor Requirements for Open Portrayal Framework]
-| Engineering Report(s) | http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report] +
-                        http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
+| Engineering Reports | http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report] +
+     http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report] +
+     http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report] +
+     http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report] +
+     http://docs.opengeospatial.org/per/19-070.html[Images and Changes Set API Engineering Report] +
+     http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Open%20Portrayal%20Framework.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
 |===
