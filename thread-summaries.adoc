@@ -86,6 +86,9 @@ image::images/overviewOPF.png[image,width=380,height=308]
 
 The goal of the Testbed-15 Open Portrayal Framework thread was to implement a data discovery, access, and styled rendering scenario. The scenario included data updates performed as a background tasks and support for online/offline functionality. 
 
+image::images/TB15_OPF.png[image,width=380,height=308]
+* Result of applying knowledge and draft APIs developed in the OPF Thread *
+
 [[MLD]]
 
 === Thread 3: Machine Learning and Delta Updates (MLD)
