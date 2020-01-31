@@ -30,11 +30,13 @@ The following are additional information resources regarding the Data Centric Se
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Call for Participation Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity[CFP Sponsor Requirements for Data Centric Security]
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Data%20Centric%20Security.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=5_ynVa8ZMY4&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=7&t=0s[Youtube Video]
 |===
+
+[[FCA]]
 
 ==== Federated Cloud Analytics
 
@@ -60,7 +62,7 @@ There are individual Engineering Report that describes the results of each of th
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Call for Participation Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics[CFP Sponsor Requirements for Federated Cloud Analytics 
 | Engineering Report(s) | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
       http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report] +
       http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report] +
@@ -97,7 +99,7 @@ The following are additional information resources regarding the Data Centric Se
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Call for Particpation requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#EOPAD
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#EOPAD[CFP Sponsor Requirements for Earth Observation Process and Application Discovery]
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html.html[Catalogue and Discovery Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Earth%20Observation%20Task.pdf[Slide presentation]
 |===
@@ -123,7 +125,7 @@ image::images/TB15_OPF.png[image,width=380,height=308]
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Call for Particpation requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#OPF
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#Portrayal[CFP Sponsor Requirements for Open Portrayal Framework]
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html.html[Catalogue and Discovery Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Earth%20Observation%20Task.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
@@ -150,6 +152,7 @@ The research involved implementing five different scenarios. Each scenario focus
 [options="header"]
 |===
 | Information Resource | Location of resource
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#MachineLearning[CFP Sponsor Requirements for Machine Learning]
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report] +
                          http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report] +
                          http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
@@ -162,6 +165,7 @@ The research involved implementing five different scenarios. Each scenario focus
 [options="header"]
 |===
 | Information Resource | Location of resource
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DeltaUpdates[CFP Sponsor Requirements for Delat Updates]
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Delta%20Updates.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=Ka_xCszws1A&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=8&t=0s[Youtube Video]
