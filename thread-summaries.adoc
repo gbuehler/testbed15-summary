@@ -139,7 +139,8 @@ image::images/TB15_OPF.png[image,width=380,height=308]
      http://docs.opengeospatial.org/per/19-070.html[Images and Changes Set API Engineering Report] +
      http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Open%20Portrayal%20Framework.pdf[Slide presentation]
-| Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
+| Short Videos | link:https://www.youtube.com/watch?v=igtXZcHgqfQ[Example of using draft OGC Tiles API] +
+      link:https://www.youtube.com/watch?v=jToYiE89cSA[Example of using draft Styles API]
 |===
 
 [[MLD]]
