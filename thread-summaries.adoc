@@ -30,6 +30,7 @@ The following are additional information resources regarding the Data Centric Se
 [options="header"]
 |===
 | Information Resource | Location of resource
+| Call for Participation Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Data%20Centric%20Security.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=5_ynVa8ZMY4&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=7&t=0s[Youtube Video]
@@ -59,6 +60,7 @@ There are individual Engineering Report that describes the results of each of th
 [options="header"]
 |===
 | Information Resource | Location of resource
+| Call for Participation Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics
 | Engineering Report(s) | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
       http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report] +
       http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report] +
@@ -73,9 +75,38 @@ There are individual Engineering Report that describes the results of each of th
 
 ==== Earth Observation Process and Application Discovery
 
+Over the last decade, several platforms have emerged that provide access to Earth Observation data and processing capacities. These platforms host very large (peyabyte) datasets. As such, a paradigm shift from data download and local processing towards application upload and processing close to the physical local of the data is now critical. To interpret peta- or exascale scientific data, capabilities of these platforms need to be combined in future.
+
+Hence, the focus of Testbed-15 work was to define the building blocks through which such applications and related services can be exposed through a Catalogue service. Within that overarching goal, the Testbed particpants described and demonstrated how OGC standards can be used or need to be extended to provide for discovery and use of EO data processing applications that can be deployed and executed by the user or are already deployed and available behind standardized OGC interfaces. The particpants also demonstrated how existing and emerging systems as deployed by NASA (e.g. NASA DAACs and NASA DASS), ESA (ESA TEPs) or systems that have already integrated various nodes such as the Earth System Grid Federation (ESGF) can be federated to allow for cross-platform analysis and visualization of data.
+
+The results of this work, documented in the Engineering Report, define the building blocks through which such applications and related services can be exposed through a Catalogue service, including:
+
+* A Data model.
+* Service interfaces.
+* A Service management interface.
+
+The key findings from the work include:
+
+* The bindings for the proposed Catalogue and GeoJSON Data Model are consistent with existing OGC Standards related to OWS Context and OGC Extensions of OpenSearch.
+* Support for facet discovery and faceted search responses was borrowed from existing OASIS SRU specifications and the http://docs.opengeospatial.org/per/19-020r1.html#SRU-Extension[SRU extension of OpenSearch].
+* The proposed Data Model relies on OGC OWS Context [OGC14-055r2] Offerings to describe service or application access mechanisms and endpoints.
+* In addition to the GeoJSON-based model, the corresponding JSON-LD representation is proposed as well in this ER. A service or application described in the catalog is modelled as a dcat:DataService in [DCAT-2].
+
+The following are additional information resources regarding the Data Centric Security task.
+
+[options="header"]
+|===
+| Information Resource | Location of resource
+| Call for Particpation requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#EOPAD
+| Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html.html[Catalogue and Discovery Engineering Report]
+| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Earth%20Observation%20Task.pdf[Slide presentation]
+|===
+
 [[OPF]]
 
 ==== Open Portrayal Framework
+
+* Define the Models, APIs, and Architecture to Support and enable Open and Interoperable Portrayal*
 
 Interoperable, dynamic portrayal of maps and related geospatial data is still challenging when working across multiple computing, rendering, communications and display environments.  Despite the previous efforts the OGC is still missing a robust conceptual model and related APIs capable of supporting multiple style encodings and the style encodings themselves. 
 
@@ -88,6 +119,15 @@ The goal of the Testbed-15 Open Portrayal Framework thread was to implement a da
 
 image::images/TB15_OPF.png[image,width=380,height=308]
 * Result of applying knowledge and draft APIs developed in the OPF Thread *
+
+[options="header"]
+|===
+| Information Resource | Location of resource
+| Call for Particpation requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#OPF
+| Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html.html[Catalogue and Discovery Engineering Report]
+| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Earth%20Observation%20Task.pdf[Slide presentation]
+| Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
+|===
 
 [[MLD]]
 
