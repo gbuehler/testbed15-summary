@@ -62,7 +62,7 @@ There are individual Engineering Report that describes the results of each of th
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics[CFP Sponsor Requirements for Federated Cloud Analytics 
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics[CFP Sponsor Requirements for Federated Cloud Analytics]
 | Engineering Report(s) | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
       http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report] +
       http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report] +
@@ -160,12 +160,19 @@ The research involved implementing five different scenarios. Each scenario focus
 | Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
 |===
 
+[[DeltaUpdates]]
+
 ==== Delta Updates
+
+*Explore how changes (updates) to geospatial data can be provided to users in the field*
+
+In today's world, geosaptial data is collected and updated at an ever increasing pace. In many application domains, users require these updated data as quickly as possible. First responders, wild fire repsonse teams, war fighters, extreme sports enthusiasts and more all need the latest and best content - including near real time updates.
+
 
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DeltaUpdates[CFP Sponsor Requirements for Delat Updates]
+| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DeltaUpdates[CFP Sponsor Requirements for Delta Updates]
 | Engineering Report(s) |http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Delta%20Updates.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=Ka_xCszws1A&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=8&t=0s[Youtube Video]
