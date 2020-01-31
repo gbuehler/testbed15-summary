@@ -168,6 +168,16 @@ The research involved implementing five different scenarios. Each scenario focus
 
 In today's world, geosaptial data is collected and updated at an ever increasing pace. In many application domains, users require these updated data as quickly as possible. First responders, wild fire repsonse teams, war fighters, extreme sports enthusiasts and more all need the latest and best content - including near real time updates.
 
+The key research question in the Delta Updates task was how to implement reliable and secure delta update mechanisms with OGC next generation Web Services such as http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] (aka WFS 3.0) and the draft https://github.com/opengeospatial/wps-rest-binding[OGC API - Processes] (aka WPS 3.0). The research included exploring different mechanisms that either require enhancements to existing WFS 3.0 instances or use to be developed WPS 3.0 instances to realize similar functionality without touching existing data access services.
+
+The Delta Updates participants designed and documented a service architecture that allows the delivery of prioritized updates of features to a client, possibly acting in a DDIL (Denied, Degraded, Intermitted or Limited Bandwidth) environment. Two different technical scenarios were investigated and tested:
+
+* The enhancement of Web Feature Service (WFS) instances to support updates on features sets.
+* Utilizing a Web Processing Service (WPS) instance to access features, without the need to modify the downstream data service.
+
+image::images/DeltaUpdates.png[image,width=380,height=308]
+
+In the Delta Updates ER, the participants document how prioritized delta updates can be served using a transactional extension to the OGC API – Features and the WPS standard/OGC API – Processes in front of WFS instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
 
 [options="header"]
 |===
