@@ -40,6 +40,8 @@ The following are additional information resources regarding the Data Centric Se
 
 ==== Federated Cloud Analytics
 
+*Research how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC standards*
+
 The advent of the cloud computing era has fundamentally changed how people and organizations view computing — and more specifically how people and organizations interact with the resources that they care about: data and services. All computing resources, including clouds, exist in some type of administrative domain wherein access management can be done. As long as resources are all in the same administrative domain, managing access is straight-forward. However, with the continued development of our interconnected world, it is becoming increasingly common that data and services desired by a user exist across different administrative domains.
 
 Easily accessing resources distributed across different administrative domains is a challenge. The naive approach is for an individual to maintain n different accounts and credentials for n different organizations. A more effective approach is federation.
@@ -75,7 +77,11 @@ There are individual Engineering Report that describes the results of each of th
 
 === Thread 2: Cloud Processing and Portrayal (CPP)
 
+[[EOPAD]]
+
 ==== Earth Observation Process and Application Discovery
+
+*Researching approaches for users to discover and run the Earth Observation applications they need.*
 
 Over the last decade, several platforms have emerged that provide access to Earth Observation data and processing capacities. These platforms host very large (peyabyte) datasets. As such, a paradigm shift from data download and local processing towards application upload and processing close to the physical local of the data is now critical. To interpret peta- or exascale scientific data, capabilities of these platforms need to be combined in future.
 
@@ -135,7 +141,11 @@ image::images/TB15_OPF.png[image,width=380,height=308]
 
 === Thread 3: Machine Learning and Delta Updates (MLD)
 
+[[Machine Learning]]
+
 ==== Machine Learning
+
+*Develop a set of machine learning models and explore their usage within OGC Web service based environments.*
 
 The synergies obtained by integrating machine learning/deep learning (DL/ML) with geospatial analysis, also known as GeoAI, is providing ever increasing societal value. Applications such as quickly identifying diseased timber, diffusion of viral infections, or avalanche risk analysis are already providing value and saving lives. However, much work remains to continue to both evolve the geospatial and ML/DL synergy. Issues such as how can training be optimized and what role do standards have need to be answered. A large variety of geospatial data are available through standardized OGC interfaces that could facilitate the discovery and access to datasets used to feed ML tools.
 
@@ -164,7 +174,7 @@ The research involved implementing five different scenarios. Each scenario focus
 
 ==== Delta Updates
 
-*Explore how changes (updates) to geospatial data can be provided to users in the field*
+*Explore how changes (updates) to geospatial data can be securely provided to users in the field*
 
 In today's world, geosaptial data is collected and updated at an ever increasing pace. In many application domains, users require these updated data as quickly as possible. First responders, wild fire repsonse teams, war fighters, extreme sports enthusiasts and more all need the latest and best content - including near real time updates.
 
