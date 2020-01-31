@@ -158,6 +158,12 @@ The Images and ChangesSet API ER define two related draft specifications that ad
 
 The draft API specification is divided into two independent but related APIs . The OGC API – Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection. The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
 
+[[D017]]
+
+==== D017: Portrayal Summary Engineering Report
+
+The Portrayal Summary ER provides an executive summary of the Testbed 15 Open Portrayal Framework (OPF) Thread.The OGC Open Portrayal Framework is a set of emerging models and API specifications that support interoperable portrayal of heterogeneous geospatial data. The OPF facilitates the rendering of geospatial data in a uniform way, according to specific user requirements. The primary topics addressed in the OPF thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on the concepts, relationships and terms defined in a draft conceptual style model. In addition, the requirement to render data according to style definitions in a scenario with denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure was addressed. 
+
 [[D019]]
 
 ==== D019: Federated Clouds Security Engineering Report
