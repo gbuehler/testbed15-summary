@@ -106,7 +106,7 @@ The following are additional information resources regarding the Data Centric Se
 |===
 | Information Resource | Location of resource
 | Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#EOPAD[CFP Sponsor Requirements for Earth Observation Process and Application Discovery]
-| Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html.html[Catalogue and Discovery Engineering Report]
+| Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Earth%20Observation%20Task.pdf[Slide presentation]
 |===
 
@@ -114,7 +114,7 @@ The following are additional information resources regarding the Data Centric Se
 
 ==== Open Portrayal Framework
 
-* Define the Models, APIs, and Architecture to Support and enable Open and Interoperable Portrayal*
+*Define the Models, APIs, and Architecture to Support and enable Open and Interoperable Portrayal.*
 
 Interoperable, dynamic portrayal of maps and related geospatial data is still challenging when working across multiple computing, rendering, communications and display environments.  Despite the previous efforts the OGC is still missing a robust conceptual model and related APIs capable of supporting multiple style encodings and the style encodings themselves. 
 
@@ -132,8 +132,9 @@ image::images/TB15_OPF.png[image,width=380,height=308]
 |===
 | Information Resource | Location of resource
 | Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#Portrayal[CFP Sponsor Requirements for Open Portrayal Framework]
-| Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html.html[Catalogue and Discovery Engineering Report]
-| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Earth%20Observation%20Task.pdf[Slide presentation]
+| Engineering Report(s) | http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report] +
+                        http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
+| Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Open%20Portrayal%20Framework.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
 |===
 
