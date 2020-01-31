@@ -139,8 +139,12 @@ image::images/TB15_OPF.png[image,width=380,height=308]
      http://docs.opengeospatial.org/per/19-070.html[Images and Changes Set API Engineering Report] +
      http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Open%20Portrayal%20Framework.pdf[Slide presentation]
-| Short Videos | link:https://www.youtube.com/watch?v=igtXZcHgqfQ[Example of using draft OGC Tiles API] +
-      link:https://www.youtube.com/watch?v=jToYiE89cSA[Example of using draft Styles API]
+| Short Videos | link:https://www.youtube.com/watch?v=igtXZcHgqfQ[Example of using draft OGC Tiles API (Step 1)] +
+      link:https://www.youtube.com/watch?v=jToYiE89cSA[Example of using draft Styles API (Step 2)] +
+      link:https://www.youtube.com/watch?v=ExgSVz9TcPQ[Example of using Visual Style Editor (Steps 3, 4, 5)] +
+      link:https://www.youtube.com/watch?v=X-UUkiMyIOw[Example of using draft Image API (Steps 6,7,8)] +
+      link:https://www.youtube.com/watch?v=ctGrhFgAONE&t=31s[NRCAN Example of MapML Vector Tiles Client] +
+      link:https://www.youtube.com/watch?v=fJvSOExN5D4[Example of integrated use of draft Tiles and Styles API with GeoPackage]
 |===
 
 [[MLD]]
