@@ -89,9 +89,9 @@ NOTE: `Changeset` is a synonym for `delta updates` as are incremental updates an
 
 ==== D010: Catalogue and Discovery Engineering Report
 
-The Catalogue and Discovery ER describes the results of the Earth Observation (EO) Process and Application (EOPAD) Task in the OGC Testbed-15 Cloud Processing and Portrayal (CPP) thread. The problem addressed in this testbed activity is that several platforms have emerged that provide access to Earth Observation data and processing capacities. These platforms host very large datasets, which makes a paradigm shift from data download and local processing towards application upload and processing close to the physical location of the data more and more important. To best interpret peta- and https://en.wikipedia.org/wiki/Exascale_computing[exascale] scientific data, capabilities of these platforms need to be combined.
+The problem addressed in this testbed activity is that several platforms have emerged that provide access to Earth Observation data and processing capacities. These platforms host very large datasets, which makes a paradigm shift from data download and local processing towards application upload and processing close to the physical location of the data more and more important. To best interpret peta- and https://en.wikipedia.org/wiki/Exascale_computing[exascale] scientific data, capabilities of these platforms need to be combined.
 
-The work documented in this ER builds on previous testbed activities. https://portal.opengeospatial.org/files/?artifact_id=77431[OGC Testbed-13] and Testbed-14 ERs proposed solutions for packaging, deployment and execution of applications in cloud environments that expose standardized interfaces such as the OGC Web Processing Service (WPS). As long as a dedicated standardized interface such as an OGC WPS instance, a container execution environment (e.g. Docker), and data access are provided, the proposed approach was agnostic to the target cloud platform.
+The work documented in this ER builds on previous testbed activities. https://portal.opengeospatial.org/files/?artifact_id=77431[OGC Testbed-13] and Testbed-14 ERs proposed solutions for packaging, deployment and execution of applications in cloud environments that expose standardized interfaces such as the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)]. As long as a dedicated standardized interface such as an OGC WPS instance, a container execution environment (e.g. Docker), and data access are provided, the proposed approach is agnostic to the target cloud platform.
 
 The ER presents the data model and service interface of the catalogue service allowing for discovery of EO applications and related processing services for subsequent deployment and/or invocation in a distributed environment.  The ER also provides the architectural and implementation details of the software components that were developed as part of the activity and which interact through the described data model. These software components include catalogue clients, catalogue servers and WPS transactional (WPS-T) servers.
 
@@ -99,9 +99,9 @@ The ER presents the data model and service interface of the catalogue service al
 
 ==== D011: Encoding and Metadata Conceptual Model for Styles Engineering Report
 
-The Encoding and Metadata Conceptual Model for Styles ER describes a style encoding and metadata conceptual model. A style is a sequence of rules of symbolizing instructions to be applied by a rendering engine on one or more features and/or coverages. The model provides information for understanding a style’s intended usage, availability, and compatibility with existing layers. The model also supports style search.
+The emerging client-side style capabilities in web mapping require a way to locate a suitable style on the server side, determine the style’s applicability to the current displayed layers, and retrieve the style. To meet this and related style interoperability requirements, a style encoding and metadata conceptual model is required. A style is a sequence of rules of symbolizing instructions to be applied by a rendering engine on one or more features and/or coverages. The model provides information for understanding a style’s intended usage, availability, and compatibility with existing layers. The model also supports style search. The ER describes the Styles conceptual model developed in Testbed 15.
 
-The work done in the testbed focused on several requirements:
+The work done in Testbed 15 focused on several requirements:
 
 * The emerging client-side style capabilities in web mapping require a way to locate a suitable style on the server side, determine the style’s applicability to the current displayed layers, and retrieve the style.
 * Style catalogs and style reuse require a way to describe styles (what kind of symbolization is used, what layers are involved, what attributes are needed).
@@ -116,7 +116,7 @@ For this testbed activity, the http://portal.opengeospatial.org/files/?artifact_
 
 ==== D012: Styles API Engineering Report
 
-The Styles API ER documents a proof of concept for an OGC Styles API draft specification. The draft specification defines a Web API that enables map servers and clients as well as visual style editors to manage and fetch styles. Web APIs are software interfaces that use an architectural style that is founded on the technologies of the Web. Styles consist of symbolizing instructions that are applied by a rendering engine on features and/or coverages.
+This ER documents a draft specification for a Web API that enables map servers and clients as well as visual style editors to manage and fetch styles. Web APIs are software interfaces that use an architectural style that is founded on the technologies of the Web. Styles consist of symbolizing instructions that are applied by a rendering engine on features and/or coverages.
 
 The draft Styles API supports several types of consumers, mainly:
 
@@ -124,7 +124,11 @@ The draft Styles API supports several types of consumers, mainly:
 * Web APIs implementing the draft https://github.com/opengeospatial/OGC-API-Maps[ OGC API – Maps] specification fetch styles and render spatial data (features or coverages) on the server;
 * Map clients that fetch styles and render spatial data (features or coverages) on the client. 
 
-Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts: The style is the main resource. Each style is available in one or more stylesheets - the representation of a style in an encoding such as OGC SLD 1.0 or Mapbox Style. Clients can then use the stylesheet of a style that fits best based on the capabilities of available tools and their preferences. For each style, there is style metadata available which provides general descriptive information about the style, structural information (e.g., layers and attributes), and so forth that enable the user’s ability to discover and select existing styles for their data.
+Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts: 
+
+* The style is the main resource. 
+* Each style is available in one or more stylesheets - the representation of a style in an encoding such as http://portal.opengeospatial.org/files/?artifact_id=22364[OGC SLD 1.0] or https://docs.mapbox.com/mapbox-gl-js/style-spec/[Mapbox Style]. Clients can then use the stylesheet of a style that best fits their needs based on the capabilities of available tools and user preferences. 
+* For each style, there is style metadata available which provides general descriptive information about the style, structural information (e.g., layers and attributes), and so forth that enables the user’s ability to discover and select existing styles for their data.
 
 [[D014]]
 
