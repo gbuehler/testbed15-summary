@@ -3,9 +3,9 @@
 
 == Summary of Testbed 15 Engineering Reports
 
-A set of OGC Engineering Reports (ERs) describe the various activities completed as part of the Testbed 15 initiative. Each ER provides an Executive Summary followed by documentation on the research approach and technical details of the prototype implementations. The Executive Summary includes a value statement as to why the work described is important to the geospatial and/or IT communities. The ER concludes with a summary of the results, recommendations related to the current OGC Standards baseline, and recommendations for future interoperability initiative work.
+A set of OGC Engineering Reports (ERs) describe the various activities completed during the Testbed 15 initiative. Each ER provides an Executive Summary followed by sections that document the research approach and technical details of the prototype implementations. The Executive Summary includes a value statement as to why the work described is important to the geospatial and/or IT communities. Each ER concludes with a summary of the results, recommendations related to the current OGC Standards baseline, and recommendations for future interoperability initiative work.
 
-OGC Engineering Reports have been presented to the OGC Membership at an OGC Technical Committee meeting. The Members then vote to approve each ER for public release.
+These public OGC Engineering Reports are presented to and approved for public release by the OGC Membership. 
 
 Following is the complete set of Testbed 15 ERs:
 
@@ -30,7 +30,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-023  | <<D023,D023>>| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
 
-Every OGC Engineering Report (ER) has an official OGC document number (shown in first column). This is for easy reference. "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
+Every OGC Engineering Report (ER) has an official OGC document number (shown in first column). This is for easy reference. The column labeled "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
 
 OGC ERs may be copied, distributed, and used as required for research and related activities. ERs, however, are _not_ official positions of the OGC Membership and should never be listed as mandatory requirements in procurements. 
 
@@ -42,13 +42,15 @@ OGC ERs may be copied, distributed, and used as required for research and relate
 
 The Semantic Web Link Builder and Triple Generator ER describes a generalized approach towards performing data fusion from multiple heterogeneous geospatial linked data sources. The web and enterprise intranets have facilitated access to a vast amount of information. When data from multiple sources can be combined together, its usefulness increases dramatically. However, today there is no well-defined multi-modal data integration framework available.
 
-The specific use case addressed in this research activity is semantic enrichment of hydrographic features provided by Natural Resources Canada (NRCan). The discussion in the ER attempts to define and formalize the integration pipeline necessary to perform a fusion process for producing semantically coherent fused entities. This was done by using a number of ontologies for supporting correlation and semantic mediation defined using the new https://www.w3.org/TR/shacl/[W3C Shape Constraint Language] (SHACL), as well as a correlation engine that was implemented to be accessible through an Application Programming Interface (API) based on the Representational State Transfer (REST) paradigm.
+The specific use case addressed in the Testbed 15 research activity was semantic enrichment of hydrographic features provided by Natural Resources Canada (NRCan). The discussion in the ER attempts to define and formalize the integration pipeline necessary to perform a fusion process for producing semantically coherent fused entities. This was done by using a number of ontologies for supporting correlation and semantic mediation defined using the new https://www.w3.org/TR/shacl/[W3C Shape Constraint Language] (SHACL), as well as a correlation engine that was implemented to be accessible through an Application Programming Interface (API) based on the Representational State Transfer (REST) paradigm. 
+
+Based on the findings in Testbed 15, future OGC innovation work will need to implement the suggested semantic mediation and fusion engine.
 
 [[D002]]
 
 ==== D002: Machine Learning Engineering Report
 
-The intersection of Machine Learning (ML) and Deep Learning (DL) and geospatial technology is creating opportunities that have not been possible before. Use of these technologies is enhancing our ability to increase crop yield through precision agriculture, to fight crime by deploying predictive policing models, to enhanced image classification and feature detection. In this Testbed activity, participants explored the ability of ML to interact with and use OGC web standards in the context of natural resources applications. As such, a key purpose of the research was to demonstrate the use of OGC standards in the ML domain through scenario development. The scenarios used in the ML thread were:
+The intersection of Machine Learning (ML) and Deep Learning (DL) and geospatial technology is creating opportunities that have not been possible before. Use of these technologies is enhancing our ability to increase crop yield through precision agriculture, to fight crime by deploying predictive policing models, to enhanced image classification and feature detection. In the Testbed 15 ML activity, participants explored the ability of ML to interact with and use OGC web standards in the context of natural resources applications. As such, a key purpose of the research was to demonstrate the use of OGC standards in the ML domain through scenario development. The scenarios used in the ML thread were:
 
 * Petawawa Super Site Research forest change prediction model.
 * New Brunswick forest supply management decision maker ML models.
@@ -58,7 +60,7 @@ The intersection of Machine Learning (ML) and Deep Learning (DL) and geospatial 
 
 Each scenario utilized a set of supporting geospatial data coupled with cataloging and processing services to support the research objectives. A ML model is at the core of each scenario. In each scenario the goal was to have the model make key decisions that a human in the system would typically make under normal circumstances. Each scenario and corresponding prototype implementations were supported by at least one client to demonstrate the execution and parsing of outputs for visualization.
 
-In summary, the ML thread included five scenarios utilizing seven ML models in a solution architecture that included implementations of the OGC Web Processing Service (WPS), OGC Web Feature Service (WFS) and OGC Catalogue Service for the Web (CSW) standards. This ER includes a thorough investigation and documentation of the experiences of the thread participants resulting in a set of recommendations for future work.
+In summary, the ML thread included five scenarios utilizing seven ML models in a solution architecture that included implementations of the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)], http://docs.opengeospatial.org/is/09-025r2/09-025r2.html[OGC Web Feature Service (WFS)] and http://docs.opengeospatial.org/is/12-168r6/12-168r6.html[OGC Catalogue Service for the Web (CSW)] standards. This ER includes a thorough investigation and documentation of the experiences of the ML participants resulting in a set of recommendations for future work.
 
 [[D004]]
 
