@@ -26,7 +26,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-024r1| <<D019,D019>>| http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
 |19-026  | <<D020,D020>>| http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
 |10-022r1| <<D021,D021>>| http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
-|19-015  | D022| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
+|19-015  | <<D022,D022>>| http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 |19-023  | <<D023,D023>>| http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
 
@@ -162,7 +162,11 @@ The draft API specification is divided into two independent but related APIs . T
 
 ==== D017: Portrayal Summary Engineering Report
 
-The Portrayal Summary ER provides an executive summary of the Testbed 15 Open Portrayal Framework (OPF) Thread.The OGC Open Portrayal Framework is a set of emerging models and API specifications that support interoperable portrayal of heterogeneous geospatial data. The OPF facilitates the rendering of geospatial data in a uniform way, according to specific user requirements. The primary topics addressed in the OPF thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on the concepts, relationships and terms defined in a draft conceptual style model. In addition, the requirement to render data according to style definitions in a scenario with denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure was addressed. 
+The Portrayal Summary ER provides an executive summary of the Testbed 15 Open Portrayal Framework (OPF) Thread.The OGC Open Portrayal Framework is a set of emerging models and API specifications that support interoperable portrayal of heterogeneous geospatial data. The OPF facilitates the rendering of geospatial data in a uniform way, according to specific user requirements. The primary topics addressed in the OPF thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on the concepts, relationships and terms defined in a draft conceptual style model. In addition, the requirement to render data according to style definitions in a scenario with denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure was addressed.
+
+To progress the development, testing, and demonstration of the prototype models and APIs, the participants assessed the ability of the OPF to support simulated users in a humanitarian relief situation. To accomplish this task, governmental and nongovernmental partners need to understand the environment and infrastructure in the Daraa, Syria area - and quickly share that understanding with a variety of partners.
+
+To promote this 'common picture', simple maps with styles for day or night operations were rapidly customized and shared between partnering organizations from many nations. The most recent satellite imagery for the Daraa, Syria, area was also be added to the 'common picture'.
 
 [[D019]]
 
@@ -187,6 +191,16 @@ More specifically, the ER provides an analysis of:
 
 ==== D021: Scaling Units of Work (EOC, Scale, SEED) Engineering Report
 This ER presents a thorough analysis of the work produced in the Earth Observation Clouds (EOC) threads in OGC Testbeds 13 and 14 in relation to the US National Geospatial Intelligence (NGA) GeoInt https://github.com/ngageoint/scale[Scale] and https://github.com/ngageoint/seed[SEED] environments. Scale provides management of automated processing on a cluster of machines. The SEED specification aids the discovery and consumption of a discrete unit of work contained within a Docker image. The ER attempts to explain how the OGC Testbed-13 and OGC Testbed-14 research results of "bringing applications/users to the data" relate to Scale and SEED. While comparing the two approaches, the ER identifies and describes opportunities for harmonization or standardization. This includes features that must remain separate and why. These hard problems require additional work. For developers, the ER constitutes a technical reference supporting the comparison of the two approaches, thereby enabling developers to make informed choices, understand trade-offs, identify relevant standards and clarify misunderstandings.
+
+[[D022]]
+
+==== D022: Federated Cloud Provenance Engineering Report
+
+Assurance of the quality and repeatability of data results is essential in many fields, such as eScience, and healthcare, and requires cloud auditing and the maintenance of provenance information for the whole workflow execution. The use of heterogeneous components in cloud computing environment introduces the risks of accidental data corruption, processing errors, vulnerabilities such as security violation, data tampering or malicious forgery of provenance. Cloud systems are structured in a fundamentally different way from other distributed systems, such as grids, and therefore present new challenges for the collection of provenance data.
+
+The scope of the study documented in this ER is a review of the state-of-the-art of Provenance and Blockchain technologies, identifing the challenges and requirements about using cloud computing provenance on a blockchain. Based on these analyses, an architecture is proposed to share provenance information from federated cloud workflows that ensure the provenance information has not be tampered with so that user can trust the results produced by the workflow. 
+
+The study determined that W3C Self Sovereign Identifiers (SSIs) and Verifiable credentials are fundamental assets for interaction over the Internet and are the cornerstone of establishing the Web Of Trust needed to ensure provenance of information. SSI brings back full control of the identity to the owner and the use of DLTs and Blockchain to support Decentralized PKI provides a solid alternative that addresses the usability and security issues of the centralized PKI approach. 
 
 [[D023]]
 
