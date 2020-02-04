@@ -115,14 +115,14 @@ This ER documents a draft specification for a Web API that enables map servers a
 The draft Styles API supports several types of consumers, mainly:
 
 * Visual style editors that create, update and delete styles for datasets that are shared by other Web APIs implementing the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] Standard or the draft https://github.com/opengeospatial/ogc_api_coverages[OGC API – Coverages] or draft https://github.com/opengeospatial/OGC-API-Tiles[OGC API – Tiles] specifications; 
-* Web APIs implementing the draft https://github.com/opengeospatial/OGC-API-Maps[ OGC API – Maps] specification fetch styles and render spatial data (features or coverages) on the server;
+* Web APIs implementing the draft https://github.com/opengeospatial/OGC-API-Maps[ OGC API – Maps] specification fetch styles and render spatial data on the server;
 * Map clients that fetch styles and render spatial data (features or coverages) on the client. 
 
 Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts: 
 
 * The style is the main resource. 
-* Each style is available in one or more stylesheets - the representation of a style in an encoding such as http://portal.opengeospatial.org/files/?artifact_id=22364[OGC SLD 1.0] or https://docs.mapbox.com/mapbox-gl-js/style-spec/[Mapbox Style]. Clients can then use the stylesheet of a style that best fits their needs based on the capabilities of available tools and user preferences. 
-* For each style, there is style metadata available which provides general descriptive information about the style, structural information (e.g., layers and attributes), and so forth that enables the user’s ability to discover and select existing styles for their data.
+* Each style is available in one or more stylesheets - the representation of a style in an encoding such as http://portal.opengeospatial.org/files/?artifact_id=22364[OGC SLD 1.0] or https://docs.mapbox.com/mapbox-gl-js/style-spec/[Mapbox Style]. Clients can then use the stylesheet of a style that best fits their needs.
+* For each style, there is style metadata available which provides general descriptive information about the style.
 
 [[D014]]
 
