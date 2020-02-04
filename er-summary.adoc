@@ -183,14 +183,14 @@ The results of the integration experiments indicated that both architectures lea
 
 ==== D020: Federated Cloud Analytics Engineering Report
 
-The Federated Clouds Analytics ER documents the results and experiences resulting from the Federated Cloud Analytics task. The work documented in this ER addresses a broader question as to how to leverage Cloud architectures managing automated processing on a cluster of machines combined with using OGC standards. The research focused on the https://ngageoint.github.io/scale/docs/architecture/jobs/index.html[SCALE] Data Center Environment. Also as part of this activity, the https://ngageoint.github.io/seed/[SEED] job interface specification was used to package job input/output parameters metadata with Docker images that contain discrete processing algorithms. This enables developers to prepare the software in a self-contained package containing all execution dependencies, deploy and execute it in a hosted environment with access to data. Within this context, the ER documents how the OGC Web Processing Service (WPS) 2.0 Standard can be used as a standard API for Cloud analytics for workflow automation.
+The Federated Clouds Analytics ER documents the results and experiences gained during the Federated Cloud Analytics task. The work documented addresses a broader question as to how to leverage Cloud architectures managing automated processing on a cluster of machines combined with using OGC standards. The research focused on the https://ngageoint.github.io/scale/docs/architecture/jobs/index.html[SCALE] Data Center Environment. Also as part of this activity, the https://ngageoint.github.io/seed/[SEED] job interface specification was used to package job input/output parameters metadata with Docker images that contain discrete processing algorithms. This enables developers to prepare the software in a self-contained package containing all execution dependencies, deploy and execute it in a hosted environment with access to data. Within this context, the ER documents how the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS) 2.0 Standard] can be used as a standard API for Cloud analytics for workflow automation.
 
 More specifically, the ER provides an analysis of: 
 
-* The potential for the OGC Web Processing Service (WPS) Interface Standard as an Application Programming Interface (API) to a workflow automation service for managing job execution involving multiple containers in the Scale Data Center Environment; 
-* Using an implementation of the OGC WPS standard as a general frontend to workflow automation with containers; 
-* The suitability of the OGC WPS 2.0 standard as an API for Cloud analytics; 
-* Using OGC Web Services (WS) as analytics data sources and sinks.
+* The potential for the OGC WPS Standard as an Application Programming Interface (API) to a workflow automation service for managing job execution involving multiple containers in the Scale Data Center Environment; 
+* Using an implementation of the OGC WPS Standard as a general frontend to workflow automation with containers; 
+* The suitability of the OGC WPS 2.0 Standard as an API for Cloud analytics; 
+* Using OGC Web Services (OWS) as analytics data sources and sinks.
 
 [[D021]]
 
