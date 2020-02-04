@@ -152,9 +152,18 @@ The ER concludes with the documentation of a number of general discussions and d
 
 ==== D016: Images and ChangesSet API Engineering Report
 
-The Images and ChangesSet API ER define two related draft specifications that address the use case of a tile server that serves tiled images and a client that portrays the result as a set of images. A backend tile server provides access to a set of tiled images, such as satellite scenes or pictures captured using a drone. Access is via a standard API interface. The source images should be able to be updated. Therefore the tile server also needs to be able to deliver only those tiles that have changed.
+There is a critical need to be able to easily and efficiently update - on a priority basis - content in a tiled imagery datastore. The OGC API – Images and Changeset draft specification addresses the use case of an OGC API tile server that serves image tiles and a client that portrays the result as a set of images. The source images can be updated and therefore the tile server also needs to be able to deliver only the tiles that have changed.
 
-The draft API specification is divided into two independent but related APIs . The OGC API – Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection. The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
+The ER two independent but related APIs. The OGC API – Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection. The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
+
+The OGC API – Images simplifies the creation and maintenance of sets of images that can then be exposed and retrieved by other OGC API’s, such as OGC API – Coverages.. The use of the Changeset filter helps keep clients synchronized with changes to the source content on servers while also minimizing the bandwidth necessary for the synchronization.
+
+This draft specification covers the following conformance classes:
+
+* The image core describes how to retrieve images from an image set.
+* The image transaction describes how to create or update an image in an existing image set.
+* The changeset core describes how to filter data requests using a checkpoint and how the changeset is encoded
+* The changeset tiles details the changeset encoding in the case of a multi-tiles request.
 
 [[D017]]
 
