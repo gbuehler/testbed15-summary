@@ -12,18 +12,18 @@ The following are overviews of each of the major Testbed 15 thread activities.
 
 *Explore How Data Centric Security principals can be applied at the feature level in a geospatial data store.*
 
-Data-centric security is an approach to security that emphasizes the security of the data itself rather than the security of networks, servers, or applications. In Testbed-15, the focus was on how security works at a Feature Level as well as implications as a data burden on the network. With focus on the actual interactions and general workflows, Testbed-15 work sought to answer the question of how data centric security can be applied to OGC standards based architectures:
+Data-centric security emphasizes the security of the data itself rather than the security of networks, servers, or applications. In Testbed-15, the focus was on how security works at a Feature Level as well as implications as a data burden on the network. With focus on actual interactions and general workflows, Testbed-15 work sought to answer the question of how data centric security can be applied to OGC standards based architectures:
 
 * How does data centric security works with OGC standards and best practices?
 * Which elements are already supported and how?
-* Which modifications to existing standards or best practices are necessary to exploit full potential of data centric security?
+* Which modifications to existing OGC standards or best practices are necessary to exploit the full potential of data centric security?
 
-To answer those questions, the particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an OGC API for Features and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as NATO STANAG 4778 "Information on standard Metadata Binding" with metadata as defined in NATO STANAG 4774 "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
+To answer these questions, the Testbed particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an OGC API for Features and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
 
 image::images/GepPEP as a Proxy for STANAG 4778.png[image,width=326,height=308]
 * Geospatial Policy Enforcement Point (GeoPEP) as a Proxy for STANAG 4778 *
 
-In general, the work performed in Testbed 15 was able to demonstrate that with a security proxy and an OGC API - Features service, an implementation can satisfy the requirements for a data centric security model. The Engineering Report documents the results of implementing three scenarios. Scenarios one and two show a backward compatible method for implementing data centric security. One requirement that was not completely investigated in the first two scenarios was encryption of the data from the author to storage. 
+In general, the work performed in Testbed 15 demonstrated that with a security proxy and an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] service, an implementation can satisfy the requirements for a data centric security model. An OGC Engineering Report documents the results of implementing three data centric scenarios. Two of the scenarios verified that there are backward compatible methods for implementing data centric security.
 
 The following are additional information resources regarding the Data Centric Security task.
 
@@ -54,7 +54,7 @@ Of particular interest in this context are three aspects. Firstly, the handling 
 
 To meet this objective, this task was organized in four separate sub-tasks. The following research questions were addressed by the particpants:
 
-* Federated Security: Can the NIST/IEEE Federated Cloud architecture be validated (or invalidated) in a typical federated clouds analytics scenario that includes separate cloud environments? How can the Mediation Server concept developed in Testbed-14 be further enhanced to a fully functional Federation Manager in the sense of NIST/IEEE? What are the advantages and disadvantages, and how does this extended functionality fit within the OGC family of standards?
+* Federated Security: Can the https://www.nist.gov/system/files/documents/2019/07/09/nist_cfra_20190709_draft_v1.0.pdf[NIST/IEEE Federated Cloud Architecture] be validated (or invalidated) in a typical federated clouds analytics scenario that includes separate cloud environments? How can the Mediation Server concept developed in Testbed-14 be further enhanced to a fully functional Federation Manager in the sense of NIST/IEEE? What are the advantages and disadvantages, and how does this extended functionality fit within the OGC family of standards?
 * Federated Cloud Analytics: How to bring SCALE and SEED into the family of cloud architectures supported by OGC standards? What role does WPS play? What catalog solutions work best?
 * EOC, SCALE, and SEED: How to handle the different approaches for cloud processing? Where are harmonization opportunities, what needs to remain separate?
 * Federated Clouds Provenance: How can Blockchain and distributed ledger technologies be used to protect the integrity of different types of provenance data?
