@@ -123,10 +123,12 @@ Therefore, the primary topics addressed in the OPF thread covered supporting sty
 image::images/overviewOPF.png[image,width=380,height=308]
 * Overview of the Testbed-15 Open Portrayal Framework major work items *
 
-The goal of the Testbed-15 Open Portrayal Framework thread was to implement a data discovery, access, and styled rendering scenario. The scenario included data updates performed as a background tasks and support for online/offline functionality. 
+The goal of the Testbed-15 Open Portrayal Framework thread was to implement a data discovery, access, and styled rendering scenario. The scenario was based on a simulated humanitarian relief effort in Daraa, Syria area. The simulated scenario requied multiple partners to share information quickly and seamlessly via a Common Operational Picture. To promote this 'common picture', simple maps with styles for day or night operations must be rapidly customized and shared between partnering organizations from many nations. The most recent satellite imagery for the Daraa, Syria, area was also added to the 'common picture', as illustrated below. The scenario also included requirements for data updates performed as a background tasks and support for online/offline functionality. 
 
 image::images/TB15_OPF.png[image,width=380,height=308]
-* Result of applying knowledge and draft APIs developed in the OPF Thread *
+*Result of applying knowledge and draft APIs developed in the OPF Thread*
+
+
 
 [options="header"]
 |===
