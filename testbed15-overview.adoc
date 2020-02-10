@@ -4,6 +4,10 @@
 
 In OGC’s annual major testbed, sponsoring organisations define geospatial IT interoperability and/or technology requirements. OGC staff integrate these requirements into a set of software architectures. The requirements and architectures are documented and released as an OGC CAll for Participation (CFP). Technology providers respond to the CFP and selected organizations receive support and funding to collaboratively research and rapidly develop prototype solutions. Eventually, the results pf the Testbed activity are submitted to the OGC Standards Program to be considered as input into ongoing OGC consensus-based standards and best practices work.
 
+Testbed-15 addressed six main topics (threds) as illustrated in the figure below.
+
+image::images/testbed-overview.png[width=600,align="center"]
+
 = Impacts on OGC standards work and the Future
 
 The next Testbed, Testbed-16, runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
