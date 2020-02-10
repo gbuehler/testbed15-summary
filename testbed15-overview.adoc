@@ -1,0 +1,6 @@
+[[Overview]]
+
+Innovating Geospatial Data Processing, Analysis, and Visualization
+
+In OGC’s annual major testbed, sponsoring organisations define geospatial IT interoperability and/or technology requirements. OGC staff integrate these requirements into a set of software architectures. The requirements and architectures are documented and released as an OGC CAll for Participation (CFP). Technology providers respond to the CFP and selected organizations receive support and funding to collaboratively research and rapidly develop prototype solutions. Eventually, the results pf the Testbed activity are submitted to the OGC Standards Program to be considered as input into ongoing OGC consensus-based standards and best practices work.
+
