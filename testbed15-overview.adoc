@@ -1,6 +1,16 @@
 [[Overview]]
 
-Innovating Geospatial Data Processing, Analysis, and Visualization
+= Innovating Geospatial Data Processing, Analysis, and Visualization
 
 In OGC’s annual major testbed, sponsoring organisations define geospatial IT interoperability and/or technology requirements. OGC staff integrate these requirements into a set of software architectures. The requirements and architectures are documented and released as an OGC CAll for Participation (CFP). Technology providers respond to the CFP and selected organizations receive support and funding to collaboratively research and rapidly develop prototype solutions. Eventually, the results pf the Testbed activity are submitted to the OGC Standards Program to be considered as input into ongoing OGC consensus-based standards and best practices work.
 
+= Impacts on OGC standards work and the Future
+
+The next Testbed, Testbed-16, runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
+
+Additionally, Testbed 15 work resulted in:
+
+* All Engineering Reports being presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
+* The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] resulting in the ability to release this document as a draft OGC standard.
+* Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
+* Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
