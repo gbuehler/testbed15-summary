@@ -11,6 +11,6 @@ The next Testbed, Testbed-16, runs April to December 2020, with testbed results 
 Additionally, Testbed 15 work resulted in:
 
 * All Engineering Reports being presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
-* The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] resulting in the ability to release this document as a draft OGC standard.
+* The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] resulting in the release of this document as a draft OGC standard.
 * Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
 * Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
