@@ -6,7 +6,7 @@ In OGC’s annual major testbed, sponsoring organisations define geospatial IT i
 
 Testbed-15 addressed six main topics (threads) as illustrated in the figure below:
 
-image::images/testbed-overview.png[width=800,align="center"]
+image::images/testbed15-overview.png[width=800,align="center"]
 
 = Impacts on OGC Standards Work and the Future
 
