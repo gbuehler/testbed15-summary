@@ -1,4 +1,4 @@
-[[Facts]]
+[[Testbed15Facts]]
 
 = Testbed 15 Facts
 
