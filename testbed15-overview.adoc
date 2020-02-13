@@ -6,7 +6,8 @@ In OGC’s annual major testbed, sponsoring organisations define geospatial IT i
 
 Testbed-15 addressed six main topics (threads) as illustrated in the figure below:
 
-image::images/testbed15-overview.png[width=800,align="center"] +
+image::images/testbed15-overview.png[width=800,align="center"] 
+
 
 Earth Observation focused on developing a data model and associated catalogue interface to support application and process discovery. The Data Centric Security task researched the current state of security in protecting data in a geospatial environment using encrypted containers and the encoding for an OGC FeatureCollection structure. The Federated Cloud Analytics thread researched how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC standards. The Machine Learning thread used related user scenarios to investigate the integration of ML models and outputs into an OGC Open Web Services (OWS) architecture. 
 
