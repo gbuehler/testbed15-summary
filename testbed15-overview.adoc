@@ -18,3 +18,5 @@ Additionally, Testbed 15 work resulted in:
 * The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] resulting in the release of this document as a draft OGC standard.
 * Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
 * Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
+* Proposals for extensions/ehancements to the OGC geoPackage Standard: Extensions related to tiled feature data, extensions to encode portrayal information (styles and symbols), proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
+
