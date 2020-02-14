@@ -54,7 +54,7 @@ The following OGC Member organizations and others sponsored OGC Testbed 15. The 
 |image:images/dstl-logo.png[width=60,height=50]  | https://www.gov.uk/government/organisations/defence-science-and-technology-laboratory[Defence Science and Technology Laboratory (Dstl)]
 |image:images/esa-logo.png[width=100,height=50]  | https://www.esa.int/[European Space Agency (ESA)]
 |image:images/eusc-logo.png[width=150,height=50] | https://www.satcen.europa.eu/[European Union Satellite Centre (SatCen)]
-|image:images/nrcan-logo.png[width=170,height=50]| https://www.nrcan.gc.ca/home[Natural Resources Canada (NRCan)]
+|image:images/nrcan-logo.png[width=170,height=50]| https://www.nrcan.gc.ca/[Natural Resources Canada (NRCan)]
 |image:images/usgs-logo.png[width=120,height=50] | https://www.usgs.gov/[US Geological Survey (USGS)]
 |image:images/nasa-logo.png[width=100,height=50] | https://www.nasa.gov/[US National Aeronautics and Space Administration (NASA)]
 |===
@@ -66,11 +66,11 @@ The following OGC Member organizations and others sponsored OGC Testbed 15. The 
 The following organizations were selected as official Testbed 15 participants. Each particpating organization had specific deliverables and tasks based on their responses to the Call for Participation.
 
 |===
-|52 North | Germany
-|Arizona Board of Regents | US
-|Compusult| Canada
-|CRIM     | Canada
-|CubeWerx | Canada
+|http://www.52north.org/[52 North] | Germany
+|http://www.asu.edu/[Arizona Board of Regents] | US
+|http://www.compusult.net/[Compusult]| Canada
+|http://www.crim.ca/[CRIM]     | Canada
+|http://www.cubewerx.com/[CubeWerx] | Canada
 |Deimos Space  | Spain
 |DigitalGlobe| US
 |Ecere    | Canada
