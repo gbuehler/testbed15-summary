@@ -26,7 +26,7 @@ Following is the complete set of Testbed 15 ERs:
 |19-024r1| <<D019,D019>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
 |19-026  | <<D020,D020>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
 |10-022r1| <<D021,D021>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
-|19-015  | <<D022,D022>>|Federated Cloud Analytics || http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
+|19-015  | <<D022,D022>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 |19-023  | <<D023,D023>>|Machine Learning | http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
 |===
 
