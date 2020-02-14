@@ -66,27 +66,27 @@ The following OGC Member organizations and others sponsored OGC Testbed 15. The 
 The following organizations were selected as official Testbed 15 participants. Each particpating organization had specific deliverables and tasks based on their responses to the Call for Participation.
 
 |===
-|http://www.52north.org/[52 North] | Germany
+|http://www.52north.org/[52 North]             | Germany
 |http://www.asu.edu/[Arizona Board of Regents] | US
-|http://www.compusult.net/[Compusult]| Canada
-|http://www.crim.ca/[CRIM]     | Canada
-|http://www.cubewerx.com/[CubeWerx] | Canada
-|Deimos Space  | Spain
-|DigitalGlobe| US
-|Ecere    | Canada
+|http://www.compusult.net/[Compusult]          | Canada
+|http://www.crim.ca/[CRIM]                     | Canada
+|http://www.cubewerx.com/[CubeWerx]            | Canada
+|http://www.elecnor-deimos.com/[Deimos Space]  | Spain
+|http://www.digitalglobe.com/[DigitalGlobe]    | US
+|http://ecere.ca/[Ecere]                       | Canada
 |Frisia IT| Germany
-|GeoSolutions | Italy
-|CSISS George Mason University | US
-|Helyx | UK
-|Image Matters | US
-|interactive instruments | Germany
-|rasdaman | Germany
-|RHEA Group | Belgium
-|Secure Dimensions |Germany
-|Skymantics | US
-|Solenix | Germany
-|Spacebel | Belgium
-|Terradue |Italy
-|UAB-CREAF |Spain
+|http://www.geo-solutions.it/[GeoSolutions]    | Italy
+|http://csiss.gmu.edu/[CSISS George Mason University] | US
+|http://www.helyx.co.uk/[Helyx Ltd.]           | UK
+|http://www.imagemattersllc.com/[Image Matters] | US
+|http://www.interactive-instruments.de/[interactive instruments] | Germany
+|http://www.rasdaman.com/[rasdaman]            | Germany
+|http://www.rheagroup.com/[RHEA Group]         | Belgium
+|http://www.secure-dimensions.de/[Secure Dimensions] |Germany
+|http://www.skymantics.com/[Skymantics]        | US
+|http://www.solenix.ch/[Solenix Deutschland]   | Germany
+|http://www.spacebel.be/[Spacebel]             | Belgium
+|http://www.terradue.com/[Terradue]            |Italy
+|http://www.creaf.uab.es/miramon[UAB-CREAF]    |Spain
 |===
 
