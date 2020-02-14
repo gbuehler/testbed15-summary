@@ -8,17 +8,25 @@ Testbed-15 addressed six main topics (threads) as illustrated in the figure belo
 
 image::images/testbed15-overview.png[width=800,align="center"] 
 
-Earth Observation focused on developing a data model and associated catalogue interface to support Earth Observation (EO) application and process discovery. The Data Centric Security task researched the current state of security in protecting data in a geospatial environment using encrypted containers and the encoding for an OGC FeatureCollection structure. The Federated Cloud Analytics thread researched how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC standards. The Delta Updates thread explored how changes (updates) to geospatial data can be securely provided to users in the field especially in a Denied, Disrupted, Intermittent, and Limited (bandwidth) situation. The Open Portrayal Framework thread investigated OPF requirements and defined models, APIs, and an architecture to support and enable open and interoperable portrayal.The Machine Learning thread used related user scenarios to investigate the integration of ML models and outputs into an OGC Open Web Services (OWS) architecture. 
+The following was the primary research goal for each thread:
+
+- The Earth Observation thread focused on developing a data model and an associated catalogue interface to support Earth Observation (EO) application and process discovery. 
+- The Data Centric Security thread researched the current state of security in protecting data in a geospatial environment using encrypted containers. 
+- The Federated Cloud Analytics thread researched how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC Open Web Services. 
+- The Delta Updates thread explored how changes (updates) to geospatial data can be securely provided to users in the field, especially in a Denied, Disrupted, Intermittent, and Limited (bandwidth) situation. 
+- The Open Portrayal Framework thread defined models, APIs, and an architecture to support and enable open and interoperable portrayal of geospatial content. 
+- The Machine learning thread explored how machine learning models and their outputs could be integrated with OGC Open Web Services. 
 
 = Impacts on OGC Standards Work and the Future
 
-The next major OGC Initiative, Testbed-16, runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
+Testbed 15 work resulted in:
 
-Additionally, Testbed 15 work resulted in:
-
-* All Engineering Reports presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
+* Seventeen Engineering Reports presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
 * The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] resulting in the release of this document as a draft OGC standard.
 * Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
 * Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
 * Proposals for extensions/ehancements to the OGC GeoPackage Standard: Extensions related to tiled feature data, extensions to encode portrayal information (styles and symbols), proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
 
+= Future Steps
+
+The next major OGC Initiative, Testbed-16, runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
