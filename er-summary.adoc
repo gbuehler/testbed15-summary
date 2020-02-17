@@ -68,14 +68,13 @@ In summary, the ML thread included five scenarios utilizing seven ML models in a
 
 With the rise in cloud computing, sensitive data can transit through or be stored in systems that are outside the traditional security perimeter. Data is free to flow anywhere and everywhere it might be needed by an increasingly mobile workforce. Therefore, cybersecurity strategies need to shift from trying to maintain a secure perimeter around systems and applications to secure data against unauthorized access. https://blog.netwrix.com/2019/12/17/the-shift-to-data-centric-security/[A data-centric security strategy is required].
 
-The Data Centric Security ER discusses the current state of security in protecting data in a geospatial environment. The ER examines the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" in combination with geospatial data using the encoding for an OGC Web Feature Service (WFS) FeatureCollection structure. The ER also recommends the creation of new media types to support output container formats such as STANAG 4778. The ER then discusses various implementation scenarios in which a STANAG 4778 (eXtensible Markup Language (XML) container maintains encrypted data from author to service to viewer. These implementations use the new http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] standard with features encrypted using keys supplied by feature authors and users.
+The Data Centric Security ER discusses the current state of security in protecting data in a geospatial environment. The ER examines the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" in combination with geospatial data using the encoding for an OGC Web Feature Service (WFS) FeatureCollection structure. The ER also recommends the creation of new media types to support output container formats such as STANAG 4778. The ER then discusses various implementation scenarios in which a STANAG 4778 (eXtensible Markup Language (XML) container maintains encrypted data from author to service to viewer. These implementations use the new http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] standard with features encrypted using keys supplied by feature authors and users.
 
 The participants demonstrated that data centric security is possible within the OGC API service framework. The ER documents the three DCS scenarios used to investigate the data centric security:
 
 [yellow-background]*DCS Scenarios should probably be introduced here*
 
-The ER concludes with issues encountered and recommendations for future work.
-
+The ER concludes with issues encountered and recommendations for  future work. Based on these recommendations, Testbed 16 participants will develop a Data Centric Security implementation in the OGC API family of standards, including a Data Centric Security JSON implementation.
 
 [[D005]]
 
@@ -87,6 +86,8 @@ The Delta Updates ER documents the design of a service architecture that allows 
 * Utilizing a Web Processing Service (WPS) instance to access features, without the need to modify the downstream data service.
 
 As such, the ER documents how prioritized `delta updates` can be served using a transactional extension to the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API – Features Core] and the draft https://github.com/opengeospatial/wps-rest-binding[WPS standard/OGC API – Processes] specification in front of Web Feature Service instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
+
+The work demonstrated that prioritized delta updates of datasets can be served using a transactional extension of the OGC API – Features as well as an OGC API – Processes implementation in front of existing WFS instances.The ER concludes with a key recommendation that the OGC investigate a common approach for delta updates across existing and in development OGC APIs.
 
 NOTE: `Changeset` is a synonym for `delta updates` as are incremental updates and change only updates (COU). The term `Changeset` is used in the <<D015,OGC Testbed-15: Open Portrayal Framework Engineering Report>> and <<D016,OGC Testbed-15: Images and ChangesSet API Draft Specification>>.
 
@@ -157,15 +158,17 @@ The ER concludes with the documentation of a number of general discussions and d
 
 ==== D016: Images and ChangesSet API Engineering Report
 
-There is a critical need to be able to easily and efficiently update - on a priority basis - content in a tiled imagery datastore. The OGC API - Images and Changeset draft specification addresses the use case of an OGC API tile server that serves image tiles and a client that portrays the result as a set of images. The source images can be updated and therefore the tile server also needs to be able to deliver only the tiles that have changed.
+There is a critical need to be able to easily and efficiently update - on a priority basis - content in a tiled imagery datastore. The OGC API - Images and ChangeSet draft specification addresses the use case of an OGC API Tile Server that serves image tiles and a client that portrays the result as a set of images. The source images can be updated and therefore the tile server also needs to be able to deliver only the tiles that have changed.
 
 The ER addresses two independent but related APIs:
 
 - The OGC API - Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection.
 
-- The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
+- The draft ChangeSet Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
 
-The OGC API - Images is designed to simplify the creation and maintenance of sets of images that can then be exposed and retrieved by other OGC API’s, such as OGC API - Coverages.. The use of the Changeset filter helps keep clients synchronized with changes to the source content on servers while also minimizing the bandwidth necessary for the synchronization.
+The OGC API - Images is designed to simplify the creation and maintenance of sets of images that can then be exposed and retrieved by other OGC API’s, such as OGC API - Coverages. The use of the ChangeSet filter helps keep clients synchronized with changes to the source content on servers while also minimizing the bandwidth necessary for the synchronization.
+
+Note: That the http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates ER] recommends that the OGC investigate a common approach for delta updates across existing and in development OGC APIs.
 
 [[D017]]
 
