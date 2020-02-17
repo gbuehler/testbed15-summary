@@ -14,11 +14,9 @@ The following was the primary research goal for each thread:
 - The <<EOPAD,Earth Observation>> thread focused on developing a data model and an associated catalogue interface to support Earth Observation (EO) application and process discovery.
 - The <<DataCentricSecurity,Data Centric Security>> thread researched the current state of security in protecting data in a geospatial environment using encrypted containers.
 - The <<FCA,Federated Cloud Analytics>> thread researched how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC Open Web Services.
-- The Delta Updates thread explored how changes (updates) to geospatial data can be securely provided to users in the field, especially in a Denied, Disrupted, Intermittent, and Limited (bandwidth) situation.
-- The Open Portrayal Framework thread defined models, APIs, and an architecture to support and enable open and interoperable portrayal of geospatial content.
-- The Machine learning thread explored how machine learning models and their outputs could be integrated with OGC Open Web Services.
-
-[yellow-background]*would be good to have the Thread Names highlighted and linked to thread abstracts.*
+- The <<DeltaUpdates,Delta Updates>> thread explored how changes (updates) to geospatial data can be securely provided to users in the field, especially in a Denied, Disrupted, Intermittent, and Limited (bandwidth) situation.
+- The <<OPF,Open Portrayal Framework>> thread defined models, APIs, and an architecture to support and enable open and interoperable portrayal of geospatial content.
+- The <<MachineLearning,Machine Learning>> thread explored how machine learning models and their outputs could be integrated with OGC Open Web Services.
 
 = Impacts on OGC Standards Work and the Future
 
