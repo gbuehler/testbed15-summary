@@ -226,8 +226,7 @@ Assurance of the quality and repeatability of data results is essential in many 
 
 The scope of the study documented in this ER is a review of the state-of-the-art of Provenance and Blockchain technologies, identifing the challenges and requirements about using cloud computing provenance on a blockchain. Based on these analyses, an architecture is proposed to share provenance information from federated cloud workflows that ensure the provenance information has not be tampered with so that user can trust the results produced by the workflow.
 
-The study determined that W3C Self Sovereign Identifiers (SSIs) and verifiable credentials are fundamental assets for interaction over the Internet and are the cornerstone of establishing the Web Of Trust needed to ensure provenance of information. SSI brings back full control of the identity to the owner and the use of DLTs and Blockchain to support Decentralized PKI provides a solid alternative that addresses the usability and security issues of the centralized PKI approach.
-[yellow-background]*DLTs and Decentralized PKI should probably be defined*
+The study determined that https://w3c-ccg.github.io/did-primer/[W3C Self Sovereign Identifiers] (SSIs) and verifiable credentials are fundamental assets for interaction over the Internet and are the cornerstone of establishing the https://en.wikipedia.org/wiki/Web_of_trust[Web Of Trust] needed to ensure provenance of information. SSI brings back full control of the identity to the owner and the use of https://searchcio.techtarget.com/definition/distributed-ledger[Distributed Ledger Technology] (DLT) and Blockchain to support https://hackernoon.com/decentralized-public-key-infrastructure-dpki-what-is-it-and-why-does-it-matter-babee9d88579[Distributed Public Key Infrastructure] (DPKI) provides a solid alternative that addresses the usability and security issues of the centralized PKI approach.
 
 [[D023]]
 
