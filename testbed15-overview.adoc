@@ -2,30 +2,31 @@
 
 = Innovating Geospatial Data Processing, Analysis, and Visualization
 
-In OGC’s annual major testbed, sponsoring organisations define geospatial IT interoperability and/or technology requirements. OGC staff integrate these requirements into a set of software architectures. The requirements and architectures are documented and released as an OGC CAll for Participation (CFP). Technology providers respond to the CFP and selected organizations receive support and funding to collaboratively research and rapidly develop prototype solutions. Eventually, the results pf the Testbed activity are submitted to the OGC Standards Program to be considered as input into ongoing OGC consensus-based standards and best practices work.
+Sponsoring organisations once again defined geospatial IT interoperability and/or technology requirements in OGC’s 15th annual major testbed, following the proven and well established testbed process: The sponsors' real world requirements were integrated into a set of software architectures by OGC Staff and the combined requirements were documented and released as an OGC Call for Participation (CFP). Technology providers respond to the CFP and selected organizations receive support and funding to collaboratively research and rapidly develop prototype solutions. Eventually, the results of the Testbed activity are submitted to the OGC Standards Program to be considered as input into ongoing OGC consensus-based standards and best practices work. Testbed-15 addressed six main topics (Threads) as illustrated in the figure below:
 
-Testbed-15 addressed six main topics (threads) as illustrated in the figure below:
 
-image::images/testbed15-overview.png[width=800,align="center"] 
+image::images/testbed15-overview.png[width=800,align="center"]
 
 The following was the primary research goal for each thread:
 
-- The Earth Observation thread focused on developing a data model and an associated catalogue interface to support Earth Observation (EO) application and process discovery. 
-- The Data Centric Security thread researched the current state of security in protecting data in a geospatial environment using encrypted containers. 
-- The Federated Cloud Analytics thread researched how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC Open Web Services. 
-- The Delta Updates thread explored how changes (updates) to geospatial data can be securely provided to users in the field, especially in a Denied, Disrupted, Intermittent, and Limited (bandwidth) situation. 
-- The Open Portrayal Framework thread defined models, APIs, and an architecture to support and enable open and interoperable portrayal of geospatial content. 
-- The Machine learning thread explored how machine learning models and their outputs could be integrated with OGC Open Web Services. 
+- The Earth Observation thread focused on developing a data model and an associated catalogue interface to support Earth Observation (EO) application and process discovery.
+- The Data Centric Security thread researched the current state of security in protecting data in a geospatial environment using encrypted containers.
+- The Federated Cloud Analytics thread researched how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC Open Web Services.
+- The Delta Updates thread explored how changes (updates) to geospatial data can be securely provided to users in the field, especially in a Denied, Disrupted, Intermittent, and Limited (bandwidth) situation.
+- The Open Portrayal Framework thread defined models, APIs, and an architecture to support and enable open and interoperable portrayal of geospatial content.
+- The Machine learning thread explored how machine learning models and their outputs could be integrated with OGC Open Web Services.
+
+[yellow-background]*would be good to have the Thread Names highlighted and linked to thread abstracts.*
 
 = Impacts on OGC Standards Work and the Future
 
 Testbed 15 work resulted in:
 
-* Seventeen Engineering Reports presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
-* The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] resulting in the release of this document as a draft OGC standard.
-* Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
+* Sixteen Engineering Reports presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
+* The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] supporting the release of this document as a draft OGC standard.
+* Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.[yellow-background]*if already available, a link to the charter doc / WG landing page would be good*
 * Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
-* Proposals for extensions/ehancements to the OGC GeoPackage Standard: Extensions related to tiled feature data, extensions to encode portrayal information (styles and symbols), proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
+* Proposals for extensions/enhancements to the OGC GeoPackage Standard: Extensions related to tiled feature data, extensions to encode portrayal information (styles and symbols), proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
 
 = Future Steps
 
