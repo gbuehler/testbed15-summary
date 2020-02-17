@@ -3,15 +3,15 @@
 
 == Summary of Testbed 15 Engineering Reports
 
-A set of OGC Engineering Reports (ERs) describe the various activities completed during the Testbed 15 initiative. Each ER provides an Executive Summary followed by sections that document the research approach and technical details of the prototype implementations. The Executive Summary includes a value statement as to why the work described is important to the geospatial and/or IT communities. Each ER concludes with a summary of the results, recommendations related to the current OGC Standards baseline, and recommendations for future interoperability initiative work.
+A set of OGC Engineering Reports (ERs) describes the various activities completed during the Testbed 15 initiative. Each ER provides an Executive Summary followed by sections that document the research approach and technical details of the prototype implementations. The Executive Summary includes a value statement as to why the work described is important to the geospatial and/or IT communities. Each ER concludes with a summary of the results, recommendations related to the current OGC Standards baseline, and recommendations for future interoperability initiative work.
 
-These public OGC Engineering Reports are presented to and approved for public release by the OGC Membership. 
+These public OGC Engineering Reports are presented to and approved for public release by the OGC Membership.
 
 Following is the complete set of Testbed 15 ERs:
 
 [options="header"]
 |===
-|OGC Doc #|TB 15 Task|Thread|Title 
+|OGC Doc #|TB 15 Task|Thread|Title
 |19-021  | <<D001,D001>>|Machine Learning | http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
 |19-027r2| <<D002,D002>>|Machine Learning | http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
 |19-023  | <<D023,D023>>|Machine Learning | http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
@@ -30,9 +30,9 @@ Following is the complete set of Testbed 15 ERs:
 |19-015  | <<D022,D022>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 |===
 
-Every OGC Engineering Report (ER) has an official OGC document number (shown in first column). This is for easy reference. The column labeled "TB 15 Task" refers to the internal task number used in the Testbed and are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
+Every OGC Engineering Report (ER) has an official OGC document number (shown in first column). This is for easy reference. The column labeled "TB 15 Task" refers to the internal task number used in the Testbed. The task numbers are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
 
-OGC ERs may be copied, distributed, and used as required for research and related activities. ERs, however, are _not_ official positions of the OGC Membership and should never be listed as mandatory requirements in procurements. 
+OGC ERs may be copied, distributed, and used as required for research and related activities. ERs, however, are _not_ official positions of the OGC Membership and should never be listed as mandatory requirements in procurements.
 
 === ER Summaries
 
@@ -42,7 +42,7 @@ OGC ERs may be copied, distributed, and used as required for research and relate
 
 In today's information world, users have access to a vast amount of geospatial information. When information from multiple sources can be combined together, its usefulness increases dramatically. However, there is no well-defined fusion framework available that addresses semantic differences in heterogeneous geospatial sources. The Semantic Web Link Builder and Triple Generator ER describes a generalized approach towards performing data fusion from multiple heterogeneous geospatial sources.
 
-The specific use case addressed in the Testbed 15 research activity was semantic enrichment of hydrographic features provided by https://www.nrcan.gc.ca/home[Natural Resources Canada (NRCan)]. The discussion in the ER attempts to define and formalize the integration pipeline necessary to perform a fusion process for producing semantically coherent fused entities. This was done by using a number of ontologies for supporting correlation and semantic mediation defined using the new https://www.w3.org/TR/shacl/[W3C Shape Constraint Language] (SHACL), as well as a correlation engine that was implemented to be accessible through an Application Programming Interface (API) based on the Representational State Transfer (REST) paradigm. 
+The specific use case addressed in the Testbed 15 Machine Learning Thread research activity was semantic enrichment of hydrographic features provided by https://www.nrcan.gc.ca/home[Natural Resources Canada (NRCan)]. The discussion in the ER attempts to define and formalize the integration pipeline necessary to perform a fusion process for producing semantically coherent fused entities. This was done by using a number of ontologies for supporting correlation and semantic mediation defined using the new https://www.w3.org/TR/shacl/[W3C Shape Constraint Language] (SHACL), as well as a correlation engine that was implemented to be accessible through an Application Programming Interface (API) based on the Representational State Transfer (REST) paradigm.
 
 Based on the findings in Testbed 15, future OGC innovation work will need to implement the suggested semantic mediation and fusion engine.
 
@@ -50,7 +50,7 @@ Based on the findings in Testbed 15, future OGC innovation work will need to imp
 
 ==== D002: Machine Learning Engineering Report
 
-The intersection of Machine Learning (ML) and Deep Learning (DL) and geospatial technology is creating opportunities that have not been possible before. Use of these technologies is enhancing our ability to increase crop yield through precision agriculture, to fight crime by deploying predictive policing models, to enhanced image classification and feature detection. In the Testbed 15 ML activity, participants explored the ability of ML to interact with and use OGC web standards in the context of natural resources applications. A key research objective was to demonstrate the use of OGC standards in the ML domain through scenario development. The scenarios used in the ML thread were:
+The intersection of Machine Learning (ML) and Deep Learning (DL) and geospatial technology is creating opportunities that have not been possible before. Use of these technologies is enhancing our ability to increase crop yield through precision agriculture, to fight crime by deploying predictive policing models, or to enhanced image classification and feature detection. In the Testbed 15 ML activity, participants explored the ability of ML to interact with and use OGC web standards in the context of natural resources applications. A key research objective was to demonstrate the use of OGC standards in the ML domain through the development of scenarios. The scenarios used in the ML thread were:
 
 * Forest Change Prediction
 * Forest Management Planning
@@ -70,16 +70,21 @@ With the rise in cloud computing, sensitive data can transit through or be store
 
 The Data Centric Security ER discusses the current state of security in protecting data in a geospatial environment. The ER examines the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" in combination with geospatial data using the encoding for an OGC Web Feature Service (WFS) FeatureCollection structure. The ER also recommends the creation of new media types to support output container formats such as STANAG 4778. The ER then discusses various implementation scenarios in which a STANAG 4778 (eXtensible Markup Language (XML) container maintains encrypted data from author to service to viewer. These implementations use the new http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] standard with features encrypted using keys supplied by feature authors and users.
 
-The participants demonstrated that data centric security is possible within the OGC API service framework. The ER documents the three DCS scenarios used to investigate the data centric security and concludes with issues encountered and recommendations for future work.
+The participants demonstrated that data centric security is possible within the OGC API service framework. The ER documents the three DCS scenarios used to investigate the data centric security:
+
+[yellow-background]*DCS Scenarios should probably be introduced here*
+
+The ER concludes with issues encountered and recommendations for future work.
+
 
 [[D005]]
 
 ==== D005: Delta Updates Engineering Report
 
-The Delta Updates ER documents the design of a service architecture that allows the delivery of prioritized updates of geospatial features to a client, possibly acting in a DDIL (Denied, Degraded, Intermitted or Limited Bandwidth) environment. Dissemination of GEOINT data in a DDIL Bandwidth environment is a challenging problem. By not serving the entire dataset, but only the changes (_delta updates)_ combined with _priority_ was identified as a valid approach to this problem. Two different technical scenarios were investigated and tested:
+The Delta Updates ER documents the design of a service architecture that allows the delivery of prioritized updates of geospatial features to a client, that may be in a DDIL (Denied, Degraded, Intermitted or Limited Bandwidth) environment. Dissemination of GEOINT data in a DDIL Bandwidth environment is a challenging problem. By not serving the entire dataset, but only the changes (_delta updates)_ combined with _priority_ was identified as a valid approach to this problem. Two different technical scenarios were investigated and tested:
 
-* The enhancement of Web Feature Service (WFS) instances to support updates on features sets. 
-* Utilizing a Web Processing Service (WPS) instance to access features, without the need to modify the downstream data service. 
+* The enhancement of Web Feature Service (WFS) instances to support updates on features sets.
+* Utilizing a Web Processing Service (WPS) instance to access features, without the need to modify the downstream data service.
 
 As such, the ER documents how prioritized `delta updates` can be served using a transactional extension to the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API – Features Core] and the draft https://github.com/opengeospatial/wps-rest-binding[WPS standard/OGC API – Processes] specification in front of Web Feature Service instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
 
@@ -91,7 +96,7 @@ NOTE: `Changeset` is a synonym for `delta updates` as are incremental updates an
 
 Platforms supporting numerous applications have emerged that provide access to Earth Observation data and processing capacities. These platforms host very large datasets, which makes a paradigm shift from data download and local processing towards application upload and processing close to the physical location of the data more and more important. To best interpret peta- and https://en.wikipedia.org/wiki/Exascale_computing[exascale] scientific data, capabilities of these platforms need to be combined.
 
-The work in this activity builds on previous OGC testbed activities. https://portal.opengeospatial.org/files/?artifact_id=77431[OGC Testbed-13] and Testbed-14 ERs propose solutions for packaging, deployment and execution of applications in cloud environments that expose standardized interfaces such as the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)]. As long as a dedicated standardized interface such as an OGC WPS instance, a container execution environment (e.g. Docker), and data access are provided, the proposed approach is agnostic to the target cloud platform.
+The work in this activity builds on previous OGC testbed activities. https://portal.opengeospatial.org/files/?artifact_id=77431[OGC Testbed-13] and Testbed-14 ERs [yellow-background]*T14 link missing* propose solutions for packaging, deployment and execution of applications in cloud environments that expose standardized interfaces such as the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)]. As long as a dedicated standardized interface such as an OGC WPS instance, a container execution environment (e.g. Docker), and data access are provided, the proposed approach is agnostic to the target cloud platform.
 
 The ER presents the data model and interface for a catalogue service enabling discovery of EO applications and related processing services for subsequent deployment and/or invocation in a distributed environment.  The ER also provides the architectural and implementation details of the software components that were developed as part of the activity and which interact through the described data model. These software components include catalogue clients, catalogue servers and WPS transactional (WPS-T) servers.
 
@@ -99,7 +104,7 @@ The ER presents the data model and interface for a catalogue service enabling di
 
 ==== D011: Encoding and Metadata Conceptual Model for Styles Engineering Report
 
-Web Mapping client-side styling requires a way to locate a suitable style on the server, determine the style’s applicability to the current displayed layers, and retrieve the style. A style is a sequence of rules of symbolizing instructions to be applied by a rendering engine on one or more features and/or coverages. Further, style catalogs and style reuse require a way to describe styles (what kind of symbolization is used, what layers are involved, what attributes are needed). At the same time both client and server applications are increasingly supporting a wider variety of open styling encodings.To meet these and other style interoperability requirements, a style encoding and metadata conceptual model is required.  The model provides information for understanding a style’s intended usage, availability, and compatibility with existing layers. The model also supports style search. The ER describes the Styles conceptual model developed in Testbed 15.
+Web Mapping client-side styling requires a way to locate a suitable style on the server, determine the style’s applicability to the current displayed layers, and retrieve the style. A style is a sequence of rules of symbolizing instructions to be applied by a rendering engine on one or more features and/or coverages. Further, style catalogs and style reuse require a way to describe styles (what kind of symbolization is used, what layers are involved, what attributes are needed). At the same time both client and server applications are increasingly supporting a wider variety of open styling encodings. To meet these and other style interoperability requirements, a style encoding and metadata conceptual model is required. The model provides information for understanding a style’s intended usage, availability, and compatibility with existing layers. The model also supports style search. The ER describes the Styles conceptual model developed in Testbed 15.
 
 In Testbed 15, the http://portal.opengeospatial.org/files/?artifact_id=1188[Styled Layer Descriptor (SLD) 1.0], http://portal.opengeospatial.org/files/?artifact_id=16700[Symbology Encoding (SE) 1.1], https://docs.geoserver.org/latest/en/user/styling/css/index.html[Cascading Style Sheets (CSS)], and https://docs.mapbox.com/mapbox-gl-js/style-spec/ [Mapbox GL] styles were reviewed. The testbed activity also built upon previous OGC work, in particular:
 
@@ -114,13 +119,13 @@ This ER documents a draft specification for a Web API that enables map servers a
 
 The draft Styles API supports several types of consumers, mainly:
 
-* Visual style editors that create, update and delete styles for datasets that are shared by other Web APIs implementing the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] Standard or the draft https://github.com/opengeospatial/ogc_api_coverages[OGC API – Coverages] or draft https://github.com/opengeospatial/OGC-API-Tiles[OGC API – Tiles] specifications; 
+* Visual style editors that create, update and delete styles for datasets that are shared by other Web APIs implementing the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] Standard or the draft https://github.com/opengeospatial/ogc_api_coverages[OGC API – Coverages] or draft https://github.com/opengeospatial/OGC-API-Tiles[OGC API – Tiles] specifications;
 * Web APIs implementing the draft https://github.com/opengeospatial/OGC-API-Maps[ OGC API – Maps] specification fetch styles and render spatial data on the server;
-* Map clients that fetch styles and render spatial data (features or coverages) on the client. 
+* Map clients that fetch styles and render spatial data (features or coverages) on the client.
 
-Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts: 
+Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts:
 
-* The style is the main resource. 
+* The style is the main resource.
 * Each style is available in one or more stylesheets - the representation of a style in an encoding such as http://portal.opengeospatial.org/files/?artifact_id=22364[OGC SLD 1.0] or https://docs.mapbox.com/mapbox-gl-js/style-spec/[Mapbox Style]. Clients can then use the stylesheet of a style that best fits their needs.
 * For each style, there is style metadata available which provides general descriptive information about the style.
 
@@ -128,9 +133,9 @@ Feature data is either accessed directly or organized into spatial partitions su
 
 ==== D014: Testbed 15 Maps and Tiles API Engineering Report
 
-Since 2017, the OGC has had a focused effort developing API standards based on the concepts defined in a Resource Oriented Architecture (ROA) The OGC APIs are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a maps and tiles API specification.
+Since 2017, the OGC has had a focused effort developing API standards based on the concepts defined in a Resource Oriented Architecture (ROA). The OGC APIs are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a Maps and Tiles API specification. The draft Maps and Tiles specification builds on the OGC API - Features - Part 1: Core standard.
 
-The draft Maps and Tiles specification builds on the OGC API - Features - Part 1: Core standard. The draft Tiles specification describes a service that retrieves data representations as tiles. In the draft specification, the assumption is that tiles are organized into https://www.opengeospatial.org/standards/tms[Tile Matrix Sets (TMS)] consisting of regular tile matrices available at different scales or resolutions.
+The draft Tiles specification describes a service that retrieves data representations as tiles. In the draft specification, the assumption is that tiles are organized into https://www.opengeospatial.org/standards/tms[Tile Matrix Sets (TMS)] consisting of regular tile matrices available at different scales or resolutions.
 
 The draft Maps specification describes an API that presents data as maps by applying a style. These maps can be retrieved in a tiled structure or as maps of any size generated on-the-fly. Some of the functionality in the draft Maps specification is based on the https://www.opengeospatial.org/standards/wmts[OGC Web Map Tile Service (WMTS) 1.0] standard. This is related to the use of styles by using the draft Styles API specification that was developed in the Testbed-15 Open Portrayal Framework thread.
 
@@ -138,9 +143,9 @@ The draft Maps specification describes an API that presents data as maps by appl
 
 ==== D015: Open Portrayal Framework (OPF) Engineering Report
 
-Standards that enable interoperabile portrayal in distributed environments that use a variety of styles, rendering engines, and spatial data types are critical in many domains. In this context, the goal of the Testbed 15 OPF work was to enable the rendering of geospatial data in a uniform way, according to specific user requirements without undo burden on the user. The ER includes an overview of the requirements, detailed presentation of the demonstration scenario, a high-level architecture, and prototype solutions that were developed. 
+Standards that enable interoperable portrayal are critical in many domains, where distributed environments lead to a variety of styles, rendering engines, and spatial data types. In this context, the goal of the Testbed 15 OPF work was to enable the rendering of geospatial data in a uniform way, according to specific user requirements without undue burden on the user. The ER includes an overview of the requirements, detailed presentation of the demonstration scenario, a high-level architecture, and prototype solutions that were developed.
 
-The main topics addressed in the OPF Thread are style changing and sharing, converting style encodings, client- / server-side rendering of vector- and raster data and data provision in denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure situations. Further, this ER along with companion ERs, document a set of emerging specifications that support interoperable portrayal of heterogeneous geospatial data. This includes an enhanced GeoPackage model was developed to facilitate advanced styling in offline situations. The main results are discussed in GeoPackage chapter.
+The main topics addressed in the OPF Thread are style changing and sharing, converting style encodings, client- / server-side rendering of vector- and raster data and data provision in denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure situations. This ER, along with companion ERs, documents a set of emerging specifications that support interoperable portrayal of heterogeneous geospatial data. This includes an enhanced GeoPackage model which was developed to facilitate advanced styling in offline situations. The main results are discussed in GeoPackage chapter.
 
 A detailed demonstration and requirements scenario was defined and documented. The scenario discussion explains the requirements for the various developments conducted in Testbed-15. Among these are a series of new OGC Web APIs.
 
@@ -152,11 +157,15 @@ The ER concludes with the documentation of a number of general discussions and d
 
 ==== D016: Images and ChangesSet API Engineering Report
 
-There is a critical need to be able to easily and efficiently update - on a priority basis - content in a tiled imagery datastore. The OGC API – Images and Changeset draft specification addresses the use case of an OGC API tile server that serves image tiles and a client that portrays the result as a set of images. The source images can be updated and therefore the tile server also needs to be able to deliver only the tiles that have changed.
+There is a critical need to be able to easily and efficiently update - on a priority basis - content in a tiled imagery datastore. The OGC API - Images and Changeset draft specification addresses the use case of an OGC API tile server that serves image tiles and a client that portrays the result as a set of images. The source images can be updated and therefore the tile server also needs to be able to deliver only the tiles that have changed.
 
-The ER two independent but related APIs. The OGC API – Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection. The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
+The ER addresses two independent but related APIs:
 
-The OGC API – Images is designed to simplify the creation and maintenance of sets of images that can then be exposed and retrieved by other OGC API’s, such as OGC API – Coverages.. The use of the Changeset filter helps keep clients synchronized with changes to the source content on servers while also minimizing the bandwidth necessary for the synchronization.
+- The OGC API - Images: Enables managing (retrieving, creating and updating) sets of images that are georeferenced. The API enables the mosaicking use case (where the imagery is combined in a single bigger “picture”) but could also serve for a use case in which a moving camera is taking pictures at locations along a route and then stores the images as a single collection.
+
+- The draft Changeset Filter API enables filtering a request to a data service that specifies rules such that only recent changes are delivered to the client.
+
+The OGC API - Images is designed to simplify the creation and maintenance of sets of images that can then be exposed and retrieved by other OGC API’s, such as OGC API - Coverages.. The use of the Changeset filter helps keep clients synchronized with changes to the source content on servers while also minimizing the bandwidth necessary for the synchronization.
 
 [[D017]]
 
@@ -164,9 +173,14 @@ The OGC API – Images is designed to simplify the creation and maintenance of s
 
 The Portrayal Summary ER provides an executive summary of the Testbed 15 Open Portrayal Framework (OPF) Thread. The OGC Open Portrayal Framework is a set of emerging models and API specifications that support interoperable portrayal of heterogeneous geospatial data. The OPF facilitates the rendering of geospatial data in a uniform way, according to specific user requirements. The primary topics addressed in the OPF thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on the concepts, relationships and terms defined in a draft conceptual style model. In addition, the requirement to render data according to style definitions in a scenario with denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure was addressed.
 
-To progress the development, testing, and demonstration of the prototype models and APIs, a detailed scenario was defined that allowed the participants to assess the ability of the OPF to support simulated users in a humanitarian relief situation. The OPF scenario was comprised of four major aspects: Applying styles to data; Modifying and managing styles; Managing “changesets”; and Addressing offline or DDIL situations.
+To progress the development, testing, and demonstration of the prototype models and APIs, a detailed scenario was defined that allowed the participants to assess the ability of the OPF to support simulated users in a humanitarian relief situation. The OPF scenario was comprised of four major aspects:
 
-The ER then describes how the work completed in the OPF thread set a milestone towards realizing a fully interoperable multi-source/multi-data type geospatial data rendering environments. The balance of the ER highlights the achievements of the testbed participants, discussing and demonstrating how the OPF scenario requirements were addressed.
+- Applying styles to data
+- Modifying and managing styles
+- Managing “changesets”
+- Addressing offline or DDIL situations
+
+Based on the OPF scenario the ER describes how the work completed in the OPF thread set a milestone towards realizing a fully interoperable multi-source/multi-data type geospatial data rendering environments. The ER highlights the achievements of the testbed participants by discussing and demonstrating how the OPF scenario requirements were addressed.
 
 
 [[D019]]
@@ -175,7 +189,7 @@ The ER then describes how the work completed in the OPF thread set a milestone t
 
 There is rapid growth in the area of Federated Clouds. Federated Clouds represent the union of software, infrastructure and platform services from disparate networks that can be accessed by a client via the internet. Within this environment, the need for innovative security models for user access to cloud resources is paramount. Traditional security models are not adequate.
 
-The Federated Clouds Security ER documents the analysis of two types of federation: The centralized entity and distributed architecture approaches. Both approaches were analyzed through the lens of security. The work documented in this ER is on analyzing how federated membership, resource and access policy management can be provided within a security environment, while also providing portability and interoperability to all stakeholders. The work presented in the ER also took into account how governance can be affected by design choices. The ER also provides an introduction to the concepts of Federation and Federated Clouds and then introduces the concept of a Federation Manager (FM) and tries to establish a clear list of functionality aspects necessary to manage and use a Federation. The ER concludes with a complete analysis of the Federation Managers deployed during this Testbed-15 activity, and how to tackle each of the functionality challenges.
+The Federated Clouds Security ER documents the analysis of two types of federation: The centralized entity and distributed architecture approaches. Both approaches were analyzed through the lens of security. The ER documents how federated membership, resource and access policy management can be provided within a security environment, while also providing portability and interoperability to all stakeholders. The work presented in the ER also took into account how governance can be affected by design choices. I addition the ER provides an introduction to the concepts of Federation and Federated Clouds and then introduces the concept of a Federation Manager (FM) and tries to establish a clear list of functionality aspects necessary to manage and use a Federation. The ER concludes with a complete analysis of the Federation Managers deployed during this Testbed-15 activity, and how to tackle each of the functionality challenges.
 
 The results of the integration experiments indicated that both architectures lead to different technical consequences which were investigated and described in the ER. As such, the ER forms a suitable basis for further investigation on interoperability and security between and across federations.
 
@@ -183,21 +197,21 @@ The results of the integration experiments indicated that both architectures lea
 
 ==== D020: Federated Cloud Analytics Engineering Report
 
-The Federated Clouds Analytics ER documents the results and experiences gained during the Federated Cloud Analytics task. The work documented addresses a broader question as to how to leverage Cloud architectures managing automated processing on a cluster of machines combined with using OGC standards. The research focused on the https://ngageoint.github.io/scale/docs/architecture/jobs/index.html[SCALE] Data Center Environment. Also as part of this activity, the https://ngageoint.github.io/seed/[SEED] job interface specification was used to package job input/output parameters metadata with Docker images that contain discrete processing algorithms. This enables developers to prepare the software in a self-contained package containing all execution dependencies, deploy and execute it in a hosted environment with access to data. Within this context, the ER documents how the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS) 2.0 Standard] can be used as a standard API for Cloud analytics for workflow automation.
+The Federated Clouds Analytics ER documents the results and experiences gained during the Federated Cloud Analytics task. The work documented addresses a broader question of how to leverage Cloud architectures managing automated processing on a cluster of machines combined with using OGC standards. The research focused on the https://ngageoint.github.io/scale/docs/architecture/jobs/index.html[SCALE] Data Center Environment. Also as part of this activity, the https://ngageoint.github.io/seed/[SEED] job interface specification was used to package job input/output parameters metadata with Docker images that contain discrete processing algorithms. This enables developers to prepare the software in a self-contained package containing all execution dependencies, deploy and execute it in a hosted environment with access to data. Within this context, the ER documents how the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS) 2.0 Standard] can be used as a standard API for Cloud analytics for workflow automation.
 
-More specifically, the ER provides an analysis of: 
+More specifically, the ER provides an analysis of:
 
-* The potential for the OGC WPS Standard as an Application Programming Interface (API) to a workflow automation service for managing job execution involving multiple containers in the Scale Data Center Environment; 
-* Using an implementation of the OGC WPS Standard as a general frontend to workflow automation with containers; 
-* The suitability of the OGC WPS 2.0 Standard as an API for Cloud analytics; 
+* The potential for the OGC WPS Standard as an Application Programming Interface (API) to a workflow automation service for managing job execution involving multiple containers in the Scale Data Center Environment;
+* Using an implementation of the OGC WPS Standard as a general frontend to workflow automation with containers;
+* The suitability of the OGC WPS 2.0 Standard as an API for Cloud analytics;
 * Using OGC Web Services (OWS) as analytics data sources and sinks.
 
 [[D021]]
 
 ==== D021: Scaling Units of Work (EOC, Scale, SEED) Engineering Report
-This ER presents a thorough analysis of the work produced in the Earth Observation Clouds (EOC) threads in OGC Testbeds 13 and 14 in relation to the US National Geospatial Intelligence (NGA) GeoInt https://github.com/ngageoint/scale[Scale] and https://github.com/ngageoint/seed[SEED] environments. Scale provides management of automated processing on a cluster of machines. The SEED specification aids the discovery and consumption of a discrete unit of work contained within a Docker image. 
+This ER presents a thorough analysis of the work produced in the Earth Observation Clouds (EOC) threads in OGC Testbeds 13 and 14 in relation to the US National Geospatial Intelligence (NGA) GeoInt https://github.com/ngageoint/scale[Scale] and https://github.com/ngageoint/seed[SEED] environments. Scale provides management of automated processing on a cluster of machines. The SEED specification aids the discovery and consumption of a discrete unit of work contained within a Docker image.
 
-The ER attempts to explain how the OGC Testbed-13 and OGC Testbed-14 research results of "bringing applications/users to the data" relate to Scale and SEED. Both approaches have in common that they encapsulate workloads in Docker containers, making them as independent as possible of the execution environment. More importantly, such Docker containers can be moved to nodes in the data center closest to the data or to other data centers altogether. While comparing the two approaches, the ER identifies and describes opportunities for harmonization or standardization. This includes features that must remain separate and why. These hard problems require additional work but represent opportunities which should be examined in future initiatives.
+The ER outlines how the OGC Testbed-13 and OGC Testbed-14 research results of "bringing applications/users to the data" relate to Scale and SEED. Both approaches have in common that they encapsulate workloads in Docker containers, making them as independent as possible of the execution environment. More importantly, such Docker containers can be moved to nodes in the data center closest to the data or to other data centers altogether. While comparing the two approaches, the ER identifies and describes opportunities for harmonization or standardization. However, this also provides reasons why some features must remain separate. These hard problems require additional work but represent opportunities which should be examined in future initiatives.
 
 For developers, the ER constitutes a technical reference supporting the comparison of the two approaches, thereby enabling developers to make informed choices, understand trade-offs, identify relevant standards and clarify misunderstandings.
 
@@ -207,9 +221,10 @@ For developers, the ER constitutes a technical reference supporting the comparis
 
 Assurance of the quality and repeatability of data results is essential in many fields, such as eScience, and healthcare, and requires cloud auditing and the maintenance of provenance information for the whole workflow execution. The use of heterogeneous components in cloud computing environment introduces the risks of accidental data corruption, processing errors, vulnerabilities such as security violation, data tampering or malicious forgery of provenance. Cloud systems are structured in a fundamentally different way from other distributed systems, such as grids, and therefore present new challenges for the collection of provenance data.
 
-The scope of the study documented in this ER is a review of the state-of-the-art of Provenance and Blockchain technologies, identifing the challenges and requirements about using cloud computing provenance on a blockchain. Based on these analyses, an architecture is proposed to share provenance information from federated cloud workflows that ensure the provenance information has not be tampered with so that user can trust the results produced by the workflow. 
+The scope of the study documented in this ER is a review of the state-of-the-art of Provenance and Blockchain technologies, identifing the challenges and requirements about using cloud computing provenance on a blockchain. Based on these analyses, an architecture is proposed to share provenance information from federated cloud workflows that ensure the provenance information has not be tampered with so that user can trust the results produced by the workflow.
 
-The study determined that W3C Self Sovereign Identifiers (SSIs) and Verifiable credentials are fundamental assets for interaction over the Internet and are the cornerstone of establishing the Web Of Trust needed to ensure provenance of information. SSI brings back full control of the identity to the owner and the use of DLTs and Blockchain to support Decentralized PKI provides a solid alternative that addresses the usability and security issues of the centralized PKI approach. 
+The study determined that W3C Self Sovereign Identifiers (SSIs) and verifiable credentials are fundamental assets for interaction over the Internet and are the cornerstone of establishing the Web Of Trust needed to ensure provenance of information. SSI brings back full control of the identity to the owner and the use of DLTs and Blockchain to support Decentralized PKI provides a solid alternative that addresses the usability and security issues of the centralized PKI approach.
+[yellow-background]*DLTs and Decentralized PKI should probably be defined*
 
 [[D023]]
 
