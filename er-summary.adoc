@@ -87,7 +87,7 @@ The Delta Updates ER documents the design of a service architecture that allows 
 
 As such, the ER documents how prioritized `delta updates` can be served using a transactional extension to the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API – Features Core] and the draft https://github.com/opengeospatial/wps-rest-binding[WPS standard/OGC API – Processes] specification in front of Web Feature Service instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
 
-The work demonstrated that prioritized delta updates of datasets can be served using a transactional extension of the OGC API – Features as well as an OGC API – Processes implementation in front of existing WFS instances.The ER concludes with a key recommendation that the OGC investigate a common approach for delta updates across existing and in development OGC APIs.
+The ER concludes with a key recommendation that the OGC investigate a common approach for delta updates across existing and in development OGC APIs.
 
 NOTE: `Changeset` is a synonym for `delta updates` as are incremental updates and change only updates (COU). The term `Changeset` is used in the <<D015,OGC Testbed-15: Open Portrayal Framework Engineering Report>> and <<D016,OGC Testbed-15: Images and ChangesSet API Draft Specification>>.
 
