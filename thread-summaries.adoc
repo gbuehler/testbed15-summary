@@ -18,12 +18,12 @@ Data-centric security emphasizes the security of the data itself rather than the
 * Which elements are already supported and how?
 * Which modifications to existing OGC standards or best practices are necessary to exploit the full potential of data centric security?
 
-To answer these questions, the Testbed particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an OGC API for Features and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
+To answer these questions, the Testbed particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
 
 image::images/GepPEP as a Proxy for STANAG 4778.png[image,width=326,height=308]
 *Geospatial Policy Enforcement Point (GeoPEP) as a Proxy for STANAG 4778*
 
-In general, the work performed in Testbed 15 demonstrated that with a security proxy and an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] service, an implementation can satisfy the requirements for a data centric security model. An OGC Engineering Report [yellow-background]*update with title and include ER Link* documents the results of implementing three data centric scenarios. Two of the scenarios verified that there are backward compatible methods for implementing data centric security.
+In general, the work performed in Testbed 15 demonstrated that with a security proxy and an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] service, an implementation can satisfy the requirements for a data centric security model. The http://docs.opengeospatial.org/per/19-016r1.html[OGC Data Centric Security Engineering Report documents the results of implementing three data centric scenarios. Two of the scenarios verified that there are backward compatible methods for implementing data centric security.
 
 The following are additional information resources regarding the Data Centric Security task.
 
@@ -55,7 +55,7 @@ Of particular interest in this context are three aspects. Firstly, the handling 
 To meet this objective, this task was organized in four separate sub-tasks. The following research questions were addressed by the particpants:
 
 * Federated Security: Can the https://www.nist.gov/system/files/documents/2019/07/09/nist_cfra_20190709_draft_v1.0.pdf[NIST/IEEE Federated Cloud Architecture] be validated (or invalidated) in a typical federated clouds analytics scenario that includes separate cloud environments? How can the Mediation Server concept developed in Testbed-14 be further enhanced to a fully functional Federation Manager in the sense of NIST/IEEE? What are the advantages and disadvantages, and how does this extended functionality fit within the OGC family of standards?
-* Federated Cloud Analytics: How to bring SCALE and SEED into the family of cloud architectures supported by OGC standards? What role does WPS play? What catalog solutions work best?
+* Federated Cloud Analytics: How to bring SCALE and SEED into the family of cloud architectures supported by OGC standards? What role does the OGC WPS Standard play? What catalog solutions work best?
 * EOC, SCALE, and SEED: How to handle the different approaches for cloud processing? Where are harmonization opportunities, what needs to remain separate?
 * Federated Clouds Provenance: How can Blockchain and distributed ledger technologies be used to protect the integrity of different types of provenance data?
 
@@ -191,7 +191,7 @@ The research involved implementing five different scenarios. Each scenario focus
 
 In today's world, geosaptial data is collected and updated at an ever increasing pace. In many application domains, users require these updated data as quickly as possible. First responders, wild fire repsonse teams, war fighters, extreme sports enthusiasts and more all need the latest and best content - including near real time updates.
 
-The key research question in the Delta Updates task was how to implement reliable and secure delta update mechanisms with OGC next generation Web Services such as http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] (aka WFS 3.0) and the draft https://github.com/opengeospatial/wps-rest-binding[OGC API - Processes] (aka WPS 3.0). The research included exploring different mechanisms that either require enhancements to existing WFS 3.0 instances or use to be developed WPS 3.0 instances to realize similar functionality without touching existing data access services.
+The key research question in the Delta Updates task was how to implement reliable and secure delta update mechanisms with OGC next generation Web Services such as http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] and the draft https://github.com/opengeospatial/wps-rest-binding[OGC API - Processes]. The research included exploring different mechanisms that either require enhancements to existing OGC API - Features instances or use to be developed OGC API - Processes instances to realize similar functionality without touching existing data access services.
 
 The Delta Updates participants designed and documented a service architecture that allows the delivery of prioritized updates of features to a client, possibly acting in a DDIL (Denied, Degraded, Intermitted or Limited Bandwidth) environment. Two different technical scenarios were investigated and tested:
 
@@ -200,7 +200,7 @@ The Delta Updates participants designed and documented a service architecture th
 
 image::images/DeltaUpdates.png[image,width=380,height=308]
 
-In the Delta Updates ER, the participants document how prioritized delta updates can be served using a transactional extension to the OGC API – Features and the WPS standard/OGC API – Processes in front of WFS instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
+In the Delta Updates ER, the participants document how prioritized delta updates can be served using a transactional extension to the OGC API – Features and the current WPS standard and draft OGC API – Processes specification in front of operational WFS instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
 
 [options="header"]
 |===
