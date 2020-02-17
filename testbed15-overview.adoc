@@ -25,8 +25,8 @@ Testbed 15 work resulted in:
 * The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] supporting the release of this document as a draft OGC standard.
 * Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.[yellow-background]*if already available, a link to the charter doc / WG landing page would be good*
 * Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
-* Proposals for extensions/enhancements to the OGC GeoPackage Standard: Extensions related to tiled feature data, extensions to encode portrayal information (styles and symbols), proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
+* Proposals for extensions/enhancements to the https://www.opengeospatial.org/standards/geopackage[OGC GeoPackage Standard] inclusing extensions related to tiled feature data, encoding portrayal information (styles and symbols), a proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
 
 = Future Steps
 
-The next major OGC Initiative, Testbed-16, runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
+The next major OGC Initiative, https://portal.opengeospatial.org/files/91644[Testbed-16], runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
