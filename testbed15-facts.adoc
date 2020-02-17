@@ -13,16 +13,16 @@ In OGC’s annual testbeds, sponsoring organisations specify interoperability re
 The following are key facts about the OGC Testbed 15 activity.
 
 * <<Sponsoring,8 Sponsoring Member organizations>>
-* 30 Representatives from the 8 Sponsoring organizations
+* 30 Representatives from the 8 Sponsoring Organizations
 * 66 Active individual particpants from <<Participating,22 Member Organizations>>.
-* 113 Observers representing 72 Member organizations.
+* 113 Observers representing 72 Member Organizations.
 * 16 <<ER_Overview,Engineering Reports>> written and approved for public release
 
-Testbed-15 commenced with a Kickoff Workshop in early April, 2019. The kick-off workshop was hosted by the USGS at their Reston Virgina facility. The Testbed activity culminated with a presentations and short demonstrations at the December 2019 Technical Committee meetings in Toulouse France. 
+Testbed-15 commenced with a Kickoff Workshop in early April, 2019, hosted by the USGS at their Reston Virgina facility. The Testbed activity culminated with a presentations and short demonstrations at the November 2019 Technical Committee meetings in Toulouse France.
 
 [[Threads]]
 
-=== Testbed 15 Key work activities (Threads)
+=== Testbed 15 Key Work Activities (Threads)
 
 The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the Call for Participation. The threads integrate both an architectural and a thematic view, which allows keeping related work items close together and removing dependencies across threads. Click on the link if you want to read the detailed description of a Thread as provided in the CFP. In addition, short overviews are provided <<thread-summaries,here>>.
 
@@ -40,9 +40,7 @@ The Testbed is organized in a number of threads. Each thread combines a number o
 
 === Online Demonstrations
 
-In addition to the Engineering Reports, the participants developed a suite of videos that showcase the results of the work done to meet the requirements for each Thread as defined in the CFP and modified as necessary as part of the research and prototyping activity.
-
-The videos are available on the https://www.youtube.com/channel/UCR5YGb1pVBBFV-XNA6mA0gg[Open Geospatial YouTube channel]. If you navigate to the OGC YouTube channel, then click on the Testbed 15 playlist. Also take the opportunity to view other videos that document a variety of OGC Interoperability Initiatives.
+In addition to the Engineering Reports, the participants developed a suite of videos that showcase the results of the work done. The videos are available on the https://www.youtube.com/channel/UCR5YGb1pVBBFV-XNA6mA0gg[Open Geospatial YouTube channel]. If you navigate to the OGC YouTube channel, then click on the Testbed 15 playlist. Also take the opportunity to view other videos that document a variety of OGC Interoperability Initiatives.
 
 [[Sponsoring]]
 
@@ -74,7 +72,7 @@ The following organizations were selected as official Testbed 15 participants. E
 |http://www.elecnor-deimos.com/[Deimos Space]  | Spain
 |http://www.digitalglobe.com/[DigitalGlobe]    | US
 |http://ecere.ca/[Ecere]                       | Canada
-|Frisia IT| Germany
+|http://frisia-it.com/[Frisia IT]              | Germany
 |http://www.geo-solutions.it/[GeoSolutions]    | Italy
 |http://csiss.gmu.edu/[CSISS George Mason University] | US
 |http://www.helyx.co.uk/[Helyx Ltd.]           | UK
@@ -89,4 +87,3 @@ The following organizations were selected as official Testbed 15 participants. E
 |http://www.terradue.com/[Terradue]            |Italy
 |http://www.creaf.uab.es/miramon[UAB-CREAF]    |Spain
 |===
-
