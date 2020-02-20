@@ -26,6 +26,8 @@ Testbed 15 work resulted in:
 * Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
 * Development and testing of prototype https://github.com/opengeospatial/OGC-API-Maps/tree/master/standard[OGC API-Maps/Tiles] and OGC API-Images and ChangeSets specifications.
 * Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
+* Investigation of the integration of several machine learning models into standards based digital infrastructures.
+* Enhancement of the "applications to the data" architecture for Earth Observation data cloud processing.
 * Proposals for extensions/enhancements to the https://www.opengeospatial.org/standards/geopackage[OGC GeoPackage Standard] inclusing extensions related to tiled feature data, encoding portrayal information (styles and symbols), a proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
 
 = Future Steps
