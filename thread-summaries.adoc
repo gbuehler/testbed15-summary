@@ -10,7 +10,7 @@ The major activities of the six Testbed 15 Threads are summarized in the followi
 
 [[DataCentricSecurity]]
 
-==== Data Centric Security
+==== `Data Centric Security`
 
 *Explore How Data Centric Security principals can be applied at the feature level in a geospatial data store.*
 
