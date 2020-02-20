@@ -52,7 +52,7 @@ Simply put, a federation enables a set of participating organizations to selecti
 
 Previous OGC Testbeds addressed a number of issues related to supporting analytic workflows where the data and analytics are hosted or deployed in an ad-hoc manner on multiple heterogeneous clouds that belong to different administrative domains. In this Testbed activity the OGC began to assess the sufficiency of that body of work and identify areas were additional work is needed. This assessment was performed through a proof of concept executing a non-trivial analytic mission leveraging data and analytics hosted on two or more clouds.
 
-Of particular interest in this context are three use cases. Firstly, the handling of security in federations. Second, how the Testbed-13 and Testbed-14 research results of "bringing applications to the data" relate to SCALE and SEED. SCALE is an open source system that provides management and scheduling of automated processing on a cluster of machines. SCALE uses the SEED specification to aid in the discovery and consumption of processes packaged in a Docker containers. Third, the role of blockchain and distributed ledger technologies in the context of handling provenance in federations.
+Of particular interest in this context are three use cases. First, the handling of security in federations. Second, how the https://www.opengeospatial.org/pub/Testbed13/overview.html[Testbed-13] and https://www.opengeospatial.org/projects/initiatives/testbed14[Testbed-14] research results of "bringing applications to the data" relate to SCALE and SEED. SCALE is an open source system that provides management and scheduling of automated processing on a cluster of machines. SCALE uses the SEED specification to aid in the discovery and consumption of processes packaged in a Docker containers. Third, the role of blockchain and distributed ledger technologies in the context of handling provenance in federations.
 
 image::images/federated_scale.png[image,width=500,height=308]
 *Scale Concept Overview*
@@ -117,17 +117,23 @@ The results of the Data Centric Security task activities as well as supporting i
 
 *Define the Models, APIs, and Architecture to Support and enable Open and Interoperable Portrayal.*
 
-Interoperable, dynamic portrayal of maps and related geospatial data is still challenging when working across multiple computing, rendering, communications and display environments.  Despite previous efforts, the OGC is still missing a robust conceptual model and related APIs capable of supporting multiple style encodings and the style encodings themselves.
+Interoperable, dynamic portrayal of maps and related geospatial data is still challenging when working across multiple computing, rendering, communications and display environments.  Despite previous efforts, the OGC is still missing a robust conceptual model and related APIs capable of supporting multiple style encodings.
 
-Therefore, the primary topics addressed in the OPF Thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on a draft http://www.opengis.net/doc/PER/t15-D011[conceptual style model]. In addition, there was a requirement to render data according to style definitions in a denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure.
+Therefore, the primary topics addressed in the OPF Thread covered supporting style sharing and updates, client- and server-side rendering of both vector- and raster data, and converting styles from one encoding to another. This work was based on a draft http://www.opengis.net/doc/PER/t15-D011[Conceptual Style Model]. In addition, there was a requirement to render data according to style definitions in a denied, disrupted, intermittent, and limited bandwidth (DDIL) infrastructure.
 
 image::images/overviewOPF.png[image,width=380,height=308]
 *Overview of the Testbed-15 Open Portrayal Framework major work items*
 
-The goal of the Testbed-15 Open Portrayal Framework thread was to implement a data discovery, access, and styled rendering scenario. The scenario was based on a simulated humanitarian relief effort in Daraa, Syria area. The simulated scenario requied multiple partners to share information quickly and seamlessly via a Common Operational Picture. To promote this 'common picture', simple maps with styles for day or night operations must be rapidly customized and shared between partnering organizations from many nations. The most recent satellite imagery for the Daraa, Syria, area was also added to the 'common picture', as illustrated below. The scenario also included requirements for data updates performed as a background tasks and support for online/offline functionality.
+The goal of the Testbed-15 Open Portrayal Framework thread was to implement a data discovery, access, and styled rendering scenario. The scenario was based on a simulated humanitarian relief effort in Daraa, Syria area. The simulated scenario required multiple partners to share information quickly and seamlessly via a Common Operational Picture. To promote this 'common picture', simple maps with styles for day or night operations must be rapidly customized and shared between partnering organizations from many nations. The most recent satellite imagery for the Daraa, Syria, area was also added to the 'common picture', as illustrated below. The scenario also included requirements for data updates performed as a background tasks and support for online/offline functionality.
 
 image::images/TB15_OPF.png[image,width=380,height=308]
 *Result of applying knowledge and draft APIs developed in the OPF Thread*
+
+Some of the key OPF results:
+
+* Improvement and validation of the Styles Conceptual Model;
+* Development and testing of prototype OGC APIs for tiles, maps, images, and coverages;
+* Demonstration that the conceptual model and the Style API work well in conjunction with OGC API - Features and the emerging specifications OGC API - Coverages, -Tiles, and -Maps.
 
 [options="header"]
 |===
