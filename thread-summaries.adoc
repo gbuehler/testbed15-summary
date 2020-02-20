@@ -14,7 +14,7 @@ The major activities of the six Testbed 15 Threads are summarized in the followi
 
 *Explore How Data Centric Security principals can be applied at the feature level in a geospatial data store.*
 
-Data-centric security emphasizes the security of the data itself rather than the security of networks, servers, or applications. In Testbed-15, the focus was on how security works at a Feature Level and what implications this has on the network in terms of additional data burden. With a focus on actual interactions and general workflows, Testbed-15 work sought to answer the question of how data centric security can be applied to OGC standards based architectures:
+Data-centric security emphasizes the security of the data itself rather than the security of networks, servers, or applications. In Testbed-15, the focus was on how security works at a Feature Level and what implications this has on the network in terms of additional communication burden. With a focus on actual interactions and general workflows, Testbed-15 work sought to answer the question of how data centric security can be applied to OGC standards based architectures:
 
 * How does data centric security work with OGC standards and best practices?
 * Which elements are already supported and how?
@@ -25,7 +25,7 @@ To answer these questions, the Testbed particpants examined the use of encrypted
 image::images/GepPEP as a Proxy for STANAG 4778.png[image,width=326,height=308]
 *Geospatial Policy Enforcement Point (GeoPEP) as a Proxy for STANAG 4778*
 
-In general, the work performed in Testbed 15 demonstrated that with a security proxy and an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] service, an implementation can satisfy the requirements for a data centric security model. The http://docs.opengeospatial.org/per/19-016r1.html[OGC Data Centric Security Engineering Report documents the results of implementing three data centric scenarios. Two of the scenarios verified that there are backward compatible methods for implementing data centric security.
+The work performed in Testbed 15 demonstrated that with a security proxy and an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] service, an implementation can satisfy the requirements for a data centric security model. The http://docs.opengeospatial.org/per/19-016r1.html[OGC Data Centric Security] Engineering Report documents the results of implementing three data centric scenarios. Two of the scenarios verified that there are backward compatible methods for implementing data centric security.
 
 The following are additional information resources regarding the Data Centric Security task.
 
@@ -40,19 +40,22 @@ The following are additional information resources regarding the Data Centric Se
 
 [[FCA]]
 
-==== Federated Cloud Analytics
+==== `Federated Cloud Analytics`
 
 *Research how emerging technologies and architectures featuring distributed cloud environments can be successfully integrated with OGC standards*
 
-The advent of the cloud computing era has fundamentally changed how people and organizations view computing — and more specifically how people and organizations interact with the resources that they care about: data and services. All computing resources, including clouds, exist in some type of administrative domain wherein access management can be done. As long as resources are all in the same administrative domain, managing access is straight-forward. However, with the continued development of our interconnected world, it is becoming increasingly common that data and services desired by a user exist across different administrative domains.
+The advent of cloud computing has fundamentally changed how people and organizations view computing — and more specifically how people and organizations interact with data and service resources. All computing resources, including clouds, exist in some type of administrative domain wherein access management can be done. As long as resources are all in the same administrative domain, managing access is straight-forward. However, with the continued development of our interconnected world, it is becoming increasingly common that data and services desired by a user exist across different administrative domains.
 
 Easily accessing resources distributed across different administrative domains is a challenge. The naive approach is for an individual to maintain n1 different accounts and credentials for n2 different organizations. A more effective approach is federation.
 
-Simply put, a federation enables a set of participating organizations to selectively share data and resources for specific purposes. The goal is to make federated environments as seamless, transparent, and easy to use as a single centralized environment. More precisely, a federation is a security and collaboration context wherein participants can define, agree up on, and enforce joint resource discovery and access policies.
+Simply put, a federation enables a set of participating organizations to selectively share data and resources for specific purposes. The goal is to make federated environments as seamless, transparent, and easy to use as a single centralized environment. More precisely, a federation is a security and collaboration context wherein participants can define, agree on, and enforce joint resource discovery and access policies.
 
 Previous OGC Testbeds addressed a number of issues related to supporting analytic workflows where the data and analytics are hosted or deployed in an ad-hoc manner on multiple heterogeneous clouds that belong to different administrative domains. In this Testbed activity the OGC began to assess the sufficiency of that body of work and identify areas were additional work is needed. This assessment was performed through a proof of concept executing a non-trivial analytic mission leveraging data and analytics hosted on two or more clouds.
 
 Of particular interest in this context are three aspects. Firstly, the handling of security in federations. Second, how the Testbed-13 and Testbed-14 research results of "bringing applications to the data" relate to SCALE and SEED. SCALE is an open source system that provides management and scheduling of automated processing on a cluster of machines. SCALE uses the SEED specification to aid in the discovery and consumption of processes packaged in a Docker containers. Third, the role of blockchain and distributed ledger technologies in the context of handling provenance in federations.
+
+image::images/federated_scale.png[image,width=326,height=308]
+*Scale Concept Overview*
 
 To meet this objective, this task was organized in four separate sub-tasks. The following research questions were addressed by the particpants:
 
