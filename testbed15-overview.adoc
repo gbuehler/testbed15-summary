@@ -1,8 +1,8 @@
 [[Overview]]
 
-= Innovating Geospatial Data Processing, Analysis, and Visualization
+= Testbed 15: Innovating Geospatial Data Processing, Analysis, and Visualization
 
-Sponsoring organisations once again defined geospatial IT interoperability and/or technology requirements in OGC’s 15th annual major testbed, following the proven and well established https://www.opengeospatial.org/ogc/programs/ip[OGC testbed process]. Testbed Sponsors' real world requirements are integrated into a set of software architectures by OGC Staff. The combined requirements are documented and released as an OGC Call for Participation (CFP). Technology providers respond to the CFP and the selected organizations receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. Eventually, the results of the Testbed activity are submitted to the OGC Standards Program to be considered as input into ongoing OGC consensus-based standards and best practices work. 
+In OGC’s 15th annual major testbed, Sponsoring organisations once again defined geospatial IT interoperability and/or technology requirements. Following the proven and well established https://www.opengeospatial.org/ogc/programs/ip[OGC testbed process], Testbed Sponsors' real world requirements are integrated into a set of software architectures by OGC Staff. The combined requirements are documented and released as an OGC Call for Participation (CFP). Technology providers respond to the CFP and the selected organizations receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. The results of the Testbed activity are submitted to the https://www.opengeospatial.org/ogc/programs/spec[OGC Standards Program] to be considered as input into ongoing OGC consensus-based standards and best practices work. 
 
 Testbed-15 addressed six main topics (<<thread-summaries,Threads>>) as illustrated in the figure below:
 
@@ -17,16 +17,18 @@ The following was the primary research goal for each thread:
 - The <<OPF,Open Portrayal Framework>> thread defined models, APIs, and an architecture to support and enable open and interoperable portrayal of geospatial content.
 - The <<MachineLearning,Machine Learning>> thread explored how machine learning models and their outputs could be integrated with OGC Open Web Services.
 
-= Impacts on OGC Standards Work and the Future
+= Key Impacts on OGC Standards Work
 
 Testbed 15 work resulted in:
 
 * Sixteen Engineering Reports presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
 * The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] supporting the release of this document as a draft OGC standard.
-* Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.[yellow-background]*if already available, a link to the charter doc / WG landing page would be good*
+* Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
+* Development and testing of prototype OGC API-Maps/Tiles and OGC API-Images and ChangeSets specifications.
 * Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
 * Proposals for extensions/enhancements to the https://www.opengeospatial.org/standards/geopackage[OGC GeoPackage Standard] inclusing extensions related to tiled feature data, encoding portrayal information (styles and symbols), a proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
 
 = Future Steps
 
-The next major OGC Initiative, https://portal.opengeospatial.org/files/91644[Testbed-16], runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
+* Submission of the various prototype OGC API specifications into the OGC Standard Program for continued development and consensus approval as OGC Standards.
+* The next major OGC Initiative, https://portal.opengeospatial.org/files/91644[Testbed-16], runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
