@@ -2,7 +2,7 @@
 
 = Thread Summaries
 
-The major activities of the six Testbed 15 Threads are summarized in the following sections.
+The six Testbed 15 Threads are summarized in the following sections.
 
 [[SFC]]
 
