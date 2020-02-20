@@ -168,13 +168,16 @@ The synergies obtained by integrating machine learning/deep learning (ML/DL) wit
 
 Therefore, the OGC Testbed-15 Machine Learning (ML) task explored the utility of existing OGC Web Services (OWS) to support a large scope of ML tools including EO data processing, image classification, feature extraction and vector attribution. The key research question was how these various ML models can be integrated best within standards-based infrastructures. These infrastructures include OGC Web services that interface any kind of data repository from rather stable image archives to Big data sensor data archives or real time systems.
 
+image::images/ml-dl-example-workflow.png[image,width=600,height=200]
+*Example OGC Web Processing Service based ML/DL workflow*
+
 The research involved implementing five different scenarios. Each scenario focused on a different machine learning challenge and prototype were implemented as an individual demonstrations. The five scenarios were:
 
 * Forest Change Prediction: As a first step towards an automated forest change prediction system, participants developed prototype capability and demonstrated the use of Machine Learning to remove clouds and high altitude cloudets (popcorn clouds) from historical datasets for the http://www.forestresearch.ca/index.php?option=com_content&view=article&id=272&Itemid=83[Petawawa super site].
 * Forest Management Planning: For this scenario, particpants delivered a forest supply management decision maker ML model for the province of New Brunswick forested areas. This included recommending the most efficient optimized path from forest to market -”wood flow model” and recommending new road construction that will be the most efficient over time and safety being considered.
 * Lake/River Differentiation: Participants delivered an ML model that delineated lake and river features from an undifferentiated waterbody vector dataset.
 * Linked Data Harvesting: The participants developed a semantically driven ML capability to harvest hydrological relations from the web for the Richelieu River / Watershed area. The harvesting process used a variety of data sources.
-* Web Service Discovery via Location: The participants delivered a component capable of building an evergreen catalogue of relevant arctic circumpolar Web services. The goal was to develop a ML model that could perform such activities as discover OGC and Esri REST Web services that have some relevance to circumpolar science and evaluate the confidence level of each recommended service using both metadata and data parameters.
+* Web Service Discovery via Location: The participants delivered a component capable of building an evergreen catalogue of relevant arctic circumpolar Web Services. The goal was to develop a ML model that could perform such activities as discovering OGC and Esri REST Web services that have some relevance to circumpolar science and evaluate the confidence level of each recommended service using both metadata and data parameters.
 
 [options="header"]
 |===
