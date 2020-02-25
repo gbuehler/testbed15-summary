@@ -2,7 +2,7 @@
 
 = Testbed 15: Innovating Geospatial Data Processing, Analysis, and Visualization
 
-In OGC’s 15th annual major testbed, Sponsoring organisations once again defined geospatial IT interoperability and/or technology requirements. Following the proven and well established https://www.opengeospatial.org/ogc/programs/ip[OGC testbed process], Testbed Sponsors' real world requirements are integrated into a set of software architectures by OGC Staff. The combined requirements are documented and released as an OGC Call for Participation (CFP). Technology providers respond to the CFP and the selected organizations receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. The results of the Testbed activity are submitted to the https://www.opengeospatial.org/ogc/programs/spec[OGC Standards Program] to be considered as input into ongoing OGC consensus-based standards and best practices work. 
+In OGC’s 15th annual major testbed, Sponsoring organisations once again defined geospatial IT interoperability and/or technology requirements. Following the proven and well established https://www.ogc.org/ogc/programs/ip[OGC testbed process], Testbed Sponsors' real world requirements are integrated into a set of software architectures by OGC Staff. The combined requirements are documented and released as an OGC Call for Participation (CFP). Technology providers respond to the CFP and the selected organizations receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. The results of the Testbed activity are submitted to the https://www.ogc.org/ogc/programs/spec[OGC Standards Program] to be considered as input into ongoing OGC consensus-based standards and best practices work. 
 
 Testbed-15 addressed six main topics (<<thread-summaries,Threads>>) as illustrated in the figure below:
 
@@ -21,19 +21,19 @@ The following was the primary research goal for each thread:
 
 Testbed 15 work resulted in:
 
-* <<ER_Overview,Sixteen Engineering Reports>> presented to the Members and approved for https://www.opengeospatial.org/docs/er[public release].
+* <<ER_Overview,Sixteen Engineering Reports>> presented to the Members and approved for https://www.ogc.org/docs/er[public release].
 * The various API prototype activities provided detailed input into the https://github.com/opengeospatial/oapi_common[OGC API-Common draft specification] supporting the release of this document as a draft OGC standard.
 * Submission of a formal proposal to form a Styles API Standards Working Group to continue development of the OGC API-Styles with the intent to have that API approved as an official OGC standard.
 * Development and testing of prototype https://github.com/opengeospatial/OGC-API-Maps/tree/master/standard[OGC API-Maps/Tiles] and OGC API-Images and ChangeSets specifications.
-* Detailed technical and requirements input into the new https://www.opengeospatial.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
+* Detailed technical and requirements input into the new https://www.ogc.org/projects/groups/apirecordsswg[OGC API-Records] (Formerly Catalog) Standards Working Group.
 * Investigation of the integration of several machine learning models into standards based digital infrastructures.
 * Enhancement of the "applications to the data" architecture for Earth Observation data cloud processing.
-* Proposals for extensions/enhancements to the https://www.opengeospatial.org/standards/geopackage[OGC GeoPackage Standard] inclusing extensions related to tiled feature data, encoding portrayal information (styles and symbols), a proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
+* Proposals for extensions/enhancements to the https://www.ogc.org/standards/geopackage[OGC GeoPackage Standard] inclusing extensions related to tiled feature data, encoding portrayal information (styles and symbols), a proposal for Metadata and Application Profiles, and an extension to support semantic annotations.
 
 = Future Steps
 
 * Submission of the various prototype OGC API specifications into the OGC Standard Program for continued development and consensus approval as OGC Standards.
-* The next major OGC Initiative, https://portal.opengeospatial.org/files/91644[Testbed-16], runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
+* The next major OGC Initiative, https://portal.ogc.org/files/91644[Testbed-16], runs April to December 2020, with testbed results to be reported as part of the OGC Technical Committee meetings in September and December 2020.
 
 [[Testbed15Facts]]
 
@@ -41,7 +41,7 @@ Testbed 15 work resulted in:
 
 [big red yellow-background]*Research and Rapid Prototyping with the goal of enhancing and extending the OGC Standards Baseline to meet Community requirements.*
 
-In OGC’s annual testbeds, sponsoring organisations specify interoperability requirements to address both their needs as well as gaps in the https://www.opengeospatial.org/standards[OGC Standards Baseline]. OGC staff integrate these requirements into a formal https://www.opengeospatial.org/pressroom/pressreleases/2927[Call for Participation (CFP)]. Technology providers, also known as participants, then receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. When the testbed is completed, the results are documented in https://www.opengeospatial.org/docs/er[OGC Engineering Reports]. The Engineering Reports may specify change requests to existing OGC standards, extensions to an existing standard, or even a new draft specification. These are submitted to the OGC Standards Program for discussion, consideration, and eventually Member approved consensus-based open standards and best practices.
+In OGC’s annual testbeds, sponsoring organisations specify interoperability requirements to address both their needs as well as gaps in the https://www.ogc.org/standards[OGC Standards Baseline]. OGC staff integrate these requirements into a formal https://www.ogc.org/pressroom/pressreleases/2927[Call for Participation (CFP)]. Technology providers, also known as participants, then receive cost-share support and funding to collaboratively research and rapidly develop prototype solutions. When the testbed is completed, the results are documented in https://www.ogc.org/docs/er[OGC Engineering Reports]. The Engineering Reports may specify change requests to existing OGC standards, extensions to an existing standard, or even a new draft specification. These are submitted to the OGC Standards Program for discussion, consideration, and eventually Member approved consensus-based open standards and best practices.
 
 [[Facts]]
 
@@ -64,14 +64,14 @@ Testbed-15 commenced with a Kickoff Workshop in early April, 2019, hosted by the
 The Testbed is organized in a number of threads. Each thread combines a number of tasks that are further defined in the Call for Participation. The threads integrate both an architectural and a thematic view, which allows keeping related work items close together and removing dependencies across threads. Click on the link if you want to read the detailed description of a Thread as provided in the CFP. In addition, short overviews are provided <<thread-summaries,here>>.
 
 * Thread 1: Secure Data and Federated Clouds (SFC)
-** https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity[Data Centric Security]
-** https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics[Federated Cloud Analytics]
+** https://portal.ogc.org/files/?artifact_id=82290#DataCentricSecurity[Data Centric Security]
+** https://portal.ogc.org/files/?artifact_id=82290#FederatedCloudAnalytics[Federated Cloud Analytics]
 * Thread 2: Cloud Processing and Portrayal (CPP)
-** https://portal.opengeospatial.org/files/?artifact_id=82290#EOPAD[Earth Observation Process and Application Discovery]
-** https://portal.opengeospatial.org/files/?artifact_id=82290#Portrayal[Open Portrayal Framework]
+** https://portal.ogc.org/files/?artifact_id=82290#EOPAD[Earth Observation Process and Application Discovery]
+** https://portal.ogc.org/files/?artifact_id=82290#Portrayal[Open Portrayal Framework]
 * Thread 3: Machine Learning and Delta Updates (MLD)
-** https://portal.opengeospatial.org/files/?artifact_id=82290#MachineLearning[Machine Learning]
-** https://portal.opengeospatial.org/files/?artifact_id=82290#DeltaUpdates[Delta Updates]
+** https://portal.ogc.org/files/?artifact_id=82290#MachineLearning[Machine Learning]
+** https://portal.ogc.org/files/?artifact_id=82290#DeltaUpdates[Delta Updates]
 
 [[Demonstrations]]
 
@@ -147,20 +147,20 @@ Data-centric security emphasizes the security of the data itself rather than the
 * Which elements are already supported and how?
 * Which modifications to existing OGC standards or best practices are necessary to exploit the full potential of data centric security?
 
-To answer these questions, the Testbed particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
+To answer these questions, the Testbed particpants examined the use of encrypted containers in combination with geospatial data using the encoding for an http://docs.ogc.org/is/17-069r3/17-069r3.html[OGC API - Features] and the Web Feature Service (WFS) FeatureCollection structure. Within that context, the particants looked at the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" to permit the sharing of sensitive information between allies.
 
 image::images/GepPEP as a Proxy for STANAG 4778.png[image,width=326,height=308]
 *Geospatial Policy Enforcement Point (GeoPEP) as a Proxy for STANAG 4778*
 
-The work performed in Testbed 15 demonstrated that with a security proxy and an http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] service, an implementation can satisfy the requirements for a data centric security model. The http://docs.opengeospatial.org/per/19-016r1.html[OGC Data Centric Security] Engineering Report documents the results of implementing three data centric scenarios. Two of the scenarios verified that there are backward compatible methods for implementing data centric security.
+The work performed in Testbed 15 demonstrated that with a security proxy and an http://docs.ogc.org/is/17-069r3/17-069r3.html[OGC API - Features] service, an implementation can satisfy the requirements for a data centric security model. The http://docs.ogc.org/per/19-016r1.html[OGC Data Centric Security] Engineering Report documents the results of implementing three data centric scenarios. Two of the scenarios verified that there are backward compatible methods for implementing data centric security.
 
 The following are additional information resources regarding the Data Centric Security task.
 
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DataCentricSecurity[CFP Sponsor Requirements for Data Centric Security]
-| Engineering Report |http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
+| Requirements | https://portal.ogc.org/files/?artifact_id=82290#DataCentricSecurity[CFP Sponsor Requirements for Data Centric Security]
+| Engineering Report |http://docs.ogc.org/per/19-016r1.html[Data Centric Security Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Data%20Centric%20Security.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=5_ynVa8ZMY4&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=7&t=0s[Youtube Video]
 |===
@@ -179,7 +179,7 @@ Simply put, a federation enables a set of participating organizations to selecti
 
 Previous OGC Testbeds addressed a number of issues related to supporting analytic workflows where the data and analytics are hosted or deployed in an ad-hoc manner on multiple heterogeneous clouds that belong to different administrative domains. In this Testbed activity the OGC began to assess the sufficiency of that body of work and identify areas were additional work is needed. This assessment was performed through a proof of concept executing a non-trivial analytic mission leveraging data and analytics hosted on two or more clouds.
 
-Of particular interest in this context are three use cases. First, the handling of security in federations. Second, how the https://www.opengeospatial.org/pub/Testbed13/overview.html[Testbed-13] and https://www.opengeospatial.org/projects/initiatives/testbed14[Testbed-14] research results of "bringing applications to the data" relate to SCALE and SEED. SCALE is an open source system that provides management and scheduling of automated processing on a cluster of machines. SCALE uses the SEED specification to aid in the discovery and consumption of processes packaged in a Docker containers. Third, the role of blockchain and distributed ledger technologies in the context of handling provenance in federations.
+Of particular interest in this context are three use cases. First, the handling of security in federations. Second, how the https://www.ogc.org/pub/Testbed13/overview.html[Testbed-13] and https://www.ogc.org/projects/initiatives/testbed14[Testbed-14] research results of "bringing applications to the data" relate to SCALE and SEED. SCALE is an open source system that provides management and scheduling of automated processing on a cluster of machines. SCALE uses the SEED specification to aid in the discovery and consumption of processes packaged in a Docker containers. Third, the role of blockchain and distributed ledger technologies in the context of handling provenance in federations.
 
 image::images/federated_scale.png[image,width=500,height=308]
 *Scale Concept Overview*
@@ -196,13 +196,13 @@ The results of each of these work activities are described in the Thread Enginee
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#FederatedCloudAnalytics[CFP Sponsor Requirements for Federated Cloud Analytics]
-| Engineering Reports | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
-      http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report] +
-      http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report] +
-      http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
+| Requirements | https://portal.ogc.org/files/?artifact_id=82290#FederatedCloudAnalytics[CFP Sponsor Requirements for Federated Cloud Analytics]
+| Engineering Reports | http://docs.ogc.org/per/19-024r1.html[Federated Clouds Security Engineering Report] +
+      http://docs.ogc.org/per/19-026.html[Federated Clouds Analytics Engineering Report] +
+      http://docs.ogc.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report] +
+      http://docs.ogc.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Federated%20Cloud%20analytics.pdf[Slide presentation]
-| Short Video | link:https://portal.opengeospatial.org/files/?artifact_id=91766[OGC Video]
+| Short Video | link:https://portal.ogc.org/files/?artifact_id=91766[OGC Video]
 |===
 
 [[CPP]]
@@ -224,7 +224,7 @@ The results of this work define the building blocks through which such applicati
 The key findings from the work include:
 
 * The bindings for the proposed Catalogue and GeoJSON Data Model are consistent with existing OGC Standards related to OWS Context and OGC Extensions of OpenSearch.
-* Support for facet discovery and faceted search responses was borrowed from existing OASIS SRU specifications and the http://docs.opengeospatial.org/per/19-020r1.html#SRU-Extension[SRU extension of OpenSearch].
+* Support for facet discovery and faceted search responses was borrowed from existing OASIS SRU specifications and the http://docs.ogc.org/per/19-020r1.html#SRU-Extension[SRU extension of OpenSearch].
 * The proposed Data Model relies on OGC OWS Context [OGC14-055r2] offerings to describe service or application access mechanisms and endpoints.
 * In addition to the GeoJSON-based model, the corresponding JSON-LD representation is proposed as well in this ER. A service or application described in the catalog is modelled as a dcat:DataService in [DCAT-2].
 
@@ -233,8 +233,8 @@ The results of the Data Centric Security task activities as well as supporting i
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#EOPAD[CFP Sponsor Requirements for Earth Observation Process and Application Discovery]
-| Engineering Report(s) |http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
+| Requirements | https://portal.ogc.org/files/?artifact_id=82290#EOPAD[CFP Sponsor Requirements for Earth Observation Process and Application Discovery]
+| Engineering Report(s) |http://docs.ogc.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Earth%20Observation%20Task.pdf[Slide presentation]
 |===
 
@@ -265,13 +265,13 @@ Some of the key OPF results:
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#Portrayal[CFP Sponsor Requirements for Open Portrayal Framework]
-| Engineering Reports | http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report] +
-     http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report] +
-     http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report] +
-     http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report] +
-     http://docs.opengeospatial.org/per/19-070.html[Images and Changes Set API Engineering Report] +
-     http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
+| Requirements | https://portal.ogc.org/files/?artifact_id=82290#Portrayal[CFP Sponsor Requirements for Open Portrayal Framework]
+| Engineering Reports | http://docs.ogc.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report] +
+     http://docs.ogc.org/per/19-010r2.html[Styles API Engineering Report] +
+     http://docs.ogc.org/per/19-069.html[Maps and Tiles API Engineering Report] +
+     http://docs.ogc.org/per/19-018.html[Open Portrayal Framework Engineering Report] +
+     http://docs.ogc.org/per/19-070.html[Images and Changes Set API Engineering Report] +
+     http://docs.ogc.org/per/19-019.html[Portrayal Summary Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Open%20Portrayal%20Framework.pdf[Slide presentation]
 | Short Videos | link:https://www.youtube.com/watch?v=igtXZcHgqfQ[Example of using draft OGC Tiles API (Step 1)] +
       link:https://www.youtube.com/watch?v=jToYiE89cSA[Example of using draft Styles API (Step 2)] +
@@ -309,10 +309,10 @@ The research involved implementing five different scenarios. Each scenario focus
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#MachineLearning[CFP Sponsor Requirements for Machine Learning]
-| Engineering Report(s) |http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report] +
-                         http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report] +
-                         http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
+| Requirements | https://portal.ogc.org/files/?artifact_id=82290#MachineLearning[CFP Sponsor Requirements for Machine Learning]
+| Engineering Report(s) |http://docs.ogc.org/per/19-027r2.html[Machine Learning Engineering Report] +
+                         http://docs.ogc.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report] +
+                         http://docs.ogc.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Machine%20Learning.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=k6Gdem41Zw8[Youtube Video of New Brunswick Forest ML Model]
 |===
@@ -325,7 +325,7 @@ The research involved implementing five different scenarios. Each scenario focus
 
 In today's world, geosaptial data is collected and updated at an ever increasing pace. In many application domains, users require these updated data as quickly as possible. First responders, wild fire repsonse teams, war fighters, extreme sports enthusiasts and more all need the latest and best content - including near real time updates.
 
-The key research question in the Delta Updates task was how to implement reliable and secure delta update mechanisms with OGC next generation Web Services such as http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] and the draft https://github.com/opengeospatial/wps-rest-binding[OGC API - Processes]. The research included exploring different mechanisms that either require enhancements to existing OGC API - Features instances or use to be developed OGC API - Processes instances to realize similar functionality without touching existing data access services.
+The key research question in the Delta Updates task was how to implement reliable and secure delta update mechanisms with OGC next generation Web Services such as http://docs.ogc.org/is/17-069r3/17-069r3.html[OGC API - Features] and the draft https://github.com/opengeospatial/wps-rest-binding[OGC API - Processes]. The research included exploring different mechanisms that either require enhancements to existing OGC API - Features instances or use to be developed OGC API - Processes instances to realize similar functionality without touching existing data access services.
 
 The Delta Updates participants designed and documented a service architecture that allows the delivery of prioritized updates of features to a client, possibly acting in a DDIL (Denied, Degraded, Intermitted or Limited Bandwidth) environment. Two different technical scenarios were investigated and tested:
 
@@ -339,8 +339,8 @@ In the Delta Updates ER, the participants document how prioritized delta updates
 [options="header"]
 |===
 | Information Resource | Location of resource
-| Requirements | https://portal.opengeospatial.org/files/?artifact_id=82290#DeltaUpdates[CFP Sponsor Requirements for Delta Updates]
-| Engineering Report(s) |http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
+| Requirements | https://portal.ogc.org/files/?artifact_id=82290#DeltaUpdates[CFP Sponsor Requirements for Delta Updates]
+| Engineering Report(s) |http://docs.ogc.org/per/19-012r1.html[Delta Updates Engineering Report]
 | Power Point Presentation | link:https://github.com/cnreediii/testbed15-summary/blob/master/slides/Testbed%2015%20Delta%20Updates.pdf[Slide presentation]
 | Short Video | link:https://www.youtube.com/watch?v=Ka_xCszws1A&list=PLQsQNjNIDU85HBDZWc8aE7EvQKE5nIedK&index=8&t=0s[Youtube Video]
 |===
@@ -358,22 +358,22 @@ Following is the complete set of Testbed 15 ERs:
 [options="header"]
 |===
 |OGC Doc #|TB 15 Task|Thread|Title
-|19-021  | <<D001,D001>>|Machine Learning | http://docs.opengeospatial.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
-|19-027r2| <<D002,D002>>|Machine Learning | http://docs.opengeospatial.org/per/19-027r2.html[Machine Learning Engineering Report]
-|19-023  | <<D023,D023>>|Machine Learning | http://docs.opengeospatial.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
-|19-016r1| <<D004,D004>>|Data Centric Security | http://docs.opengeospatial.org/per/19-016r1.html[Data Centric Security Engineering Report]
-|19-012r1| <<D005,D005>>|Delta Updates | http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates Engineering Report]
-|19-020r1| <<D010,D010>>|Machine Learning | http://docs.opengeospatial.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
-|19-023r1| <<D011,D011>>|Open Portrayal Framework | http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
-|19-010r2| <<D012,D012>>|Open Portrayal Framework | http://docs.opengeospatial.org/per/19-010r2.html[Styles API Engineering Report]
-|19-069  | <<D014,D014>>|Open Portrayal Framework | http://docs.opengeospatial.org/per/19-069.html[Maps and Tiles API Engineering Report]
-|19-018  | <<D015,D015>>|Open Portrayal Framework | http://docs.opengeospatial.org/per/19-018.html[Open Portrayal Framework Engineering Report]
-|19-070  | <<D016,D016>>|Open Portrayal Framework | http://docs.opengeospatial.org/per/19-070.html[Images and ChangesSet API Engineering Report]
-|19-019  | <<D017,D017>>|Open Portrayal Framework | http://docs.opengeospatial.org/per/19-019.html[Portrayal Summary Engineering Report]
-|19-024r1| <<D019,D019>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
-|19-026  | <<D020,D020>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
-|10-022r1| <<D021,D021>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
-|19-015  | <<D022,D022>>|Federated Cloud Analytics | http://docs.opengeospatial.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
+|19-021  | <<D001,D001>>|Machine Learning | http://docs.ogc.org/per/19-021.html[Semantic Web Link Builder and Triple Generator Engineering Report]
+|19-027r2| <<D002,D002>>|Machine Learning | http://docs.ogc.org/per/19-027r2.html[Machine Learning Engineering Report]
+|19-023  | <<D023,D023>>|Machine Learning | http://docs.ogc.org/per/19-046r1.html[Quebec Model MapML Engineering Report]
+|19-016r1| <<D004,D004>>|Data Centric Security | http://docs.ogc.org/per/19-016r1.html[Data Centric Security Engineering Report]
+|19-012r1| <<D005,D005>>|Delta Updates | http://docs.ogc.org/per/19-012r1.html[Delta Updates Engineering Report]
+|19-020r1| <<D010,D010>>|Machine Learning | http://docs.ogc.org/per/19-020r1.html[Catalogue and Discovery Engineering Report]
+|19-023r1| <<D011,D011>>|Open Portrayal Framework | http://docs.ogc.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles Engineering Report]
+|19-010r2| <<D012,D012>>|Open Portrayal Framework | http://docs.ogc.org/per/19-010r2.html[Styles API Engineering Report]
+|19-069  | <<D014,D014>>|Open Portrayal Framework | http://docs.ogc.org/per/19-069.html[Maps and Tiles API Engineering Report]
+|19-018  | <<D015,D015>>|Open Portrayal Framework | http://docs.ogc.org/per/19-018.html[Open Portrayal Framework Engineering Report]
+|19-070  | <<D016,D016>>|Open Portrayal Framework | http://docs.ogc.org/per/19-070.html[Images and ChangesSet API Engineering Report]
+|19-019  | <<D017,D017>>|Open Portrayal Framework | http://docs.ogc.org/per/19-019.html[Portrayal Summary Engineering Report]
+|19-024r1| <<D019,D019>>|Federated Cloud Analytics | http://docs.ogc.org/per/19-024r1.html[Federated Clouds Security Engineering Report]
+|19-026  | <<D020,D020>>|Federated Cloud Analytics | http://docs.ogc.org/per/19-026.html[Federated Clouds Analytics Engineering Report]
+|10-022r1| <<D021,D021>>|Federated Cloud Analytics | http://docs.ogc.org/per/19-022r1.html[Scaling Units of Work (EOC, Scale, SEED) Engineering Report]
+|19-015  | <<D022,D022>>|Federated Cloud Analytics | http://docs.ogc.org/per/19-015.html[Federated Cloud Provenance Engineering Report]
 |===
 
 Every OGC Engineering Report (ER) has an official OGC document number (shown in first column). This is for easy reference. The column labeled "TB 15 Task" refers to the internal task number used in the Testbed. The task numbers are used as easy references in the Call for Participation and all documents and presentation materials developed in the Testbed. If you click on the Testbed task number, you will be redirected to a short summary of that particular ER.
@@ -406,7 +406,7 @@ The intersection of Machine Learning (ML) and Deep Learning (DL) and geospatial 
 
 Each scenario utilized a set of supporting geospatial data coupled with cataloging and processing services to support the research objectives. A ML model is at the core of each scenario. In each scenario the goal was to have the model make key decisions that a human in the system would typically make under normal circumstances. Each scenario and corresponding prototype implementations were supported by at least one client to demonstrate the execution and parsing of outputs for visualization.
 
-In summary, the ML thread included five scenarios utilizing seven ML models in a solution architecture that included implementations of the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)], http://docs.opengeospatial.org/is/09-025r2/09-025r2.html[OGC Web Feature Service (WFS)] and http://docs.opengeospatial.org/is/12-168r6/12-168r6.html[OGC Catalogue Service for the Web (CSW)] standards. This ER includes a thorough investigation and documentation of the experiences of the ML participants resulting in a set of recommendations for future work.
+In summary, the ML thread included five scenarios utilizing seven ML models in a solution architecture that included implementations of the http://docs.ogc.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)], http://docs.ogc.org/is/09-025r2/09-025r2.html[OGC Web Feature Service (WFS)] and http://docs.ogc.org/is/12-168r6/12-168r6.html[OGC Catalogue Service for the Web (CSW)] standards. This ER includes a thorough investigation and documentation of the experiences of the ML participants resulting in a set of recommendations for future work.
 
 [[D004]]
 
@@ -414,7 +414,7 @@ In summary, the ML thread included five scenarios utilizing seven ML models in a
 
 With the rise in cloud computing, sensitive data can transit through or be stored in systems that are outside the traditional security perimeter. Data is free to flow anywhere and everywhere it might be needed by an increasingly mobile workforce. Therefore, cybersecurity strategies need to shift from trying to maintain a secure perimeter around systems and applications to secure data against unauthorized access. https://blog.netwrix.com/2019/12/17/the-shift-to-data-centric-security/[A data-centric security strategy is required].
 
-The Data Centric Security ER discusses the current state of security in protecting data in a geospatial environment. The ER examines the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" in combination with geospatial data using the encoding for an OGC Web Feature Service (WFS) FeatureCollection structure. The ER also recommends the creation of new media types to support output container formats such as STANAG 4778. The ER then discusses various implementation scenarios in which a STANAG 4778 (eXtensible Markup Language (XML) container maintains encrypted data from author to service to viewer. These implementations use the new http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features] standard with features encrypted using keys supplied by feature authors and users.
+The Data Centric Security ER discusses the current state of security in protecting data in a geospatial environment. The ER examines the use of encrypted container formats such as https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4778%20EDA%20V1%20E.pdf[NATO STANAG 4778] "Information on standard Metadata Binding" with metadata as defined in https://nso.nato.int/nso/zPublic/ap/PROM/ADatP-4774%20EDA%20V1%20E.pdf[NATO STANAG 4774] "Confidentiality Metadata Label Syntax" in combination with geospatial data using the encoding for an OGC Web Feature Service (WFS) FeatureCollection structure. The ER also recommends the creation of new media types to support output container formats such as STANAG 4778. The ER then discusses various implementation scenarios in which a STANAG 4778 (eXtensible Markup Language (XML) container maintains encrypted data from author to service to viewer. These implementations use the new http://docs.ogc.org/is/17-069r3/17-069r3.html[OGC API - Features] standard with features encrypted using keys supplied by feature authors and users.
 
 The participants demonstrated that data centric security is possible within the OGC API service framework. The ER documents the three DCS scenarios used to investigate the data centric security:
 
@@ -431,7 +431,7 @@ The Delta Updates ER documents the design of a service architecture that allows 
 * The enhancement of Web Feature Service (WFS) instances to support updates on features sets.
 * Utilizing a Web Processing Service (WPS) instance to access features, without the need to modify the downstream data service.
 
-As such, the ER documents how prioritized `delta updates` can be served using a transactional extension to the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API – Features Core] and the draft https://github.com/opengeospatial/wps-rest-binding[WPS standard/OGC API – Processes] specification in front of Web Feature Service instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
+As such, the ER documents how prioritized `delta updates` can be served using a transactional extension to the http://docs.ogc.org/is/17-069r3/17-069r3.html[OGC API – Features Core] and the draft https://github.com/opengeospatial/wps-rest-binding[WPS standard/OGC API – Processes] specification in front of Web Feature Service instances. Both approaches use the same algorithm to keep track of the changes to the dataset.
 
 The ER concludes with a key recommendation that the OGC investigate a common approach for delta updates across existing and in development OGC APIs.
 
@@ -443,7 +443,7 @@ NOTE: `Changeset` is a synonym for `delta updates` as are incremental updates an
 
 Platforms supporting numerous applications have emerged that provide access to Earth Observation data and processing capacities. These platforms host very large datasets, which makes a paradigm shift from data download and local processing towards application upload and processing close to the physical location of the data more and more important. To best interpret peta- and https://en.wikipedia.org/wiki/Exascale_computing[exascale] scientific data, capabilities of these platforms need to be combined.
 
-The work in this activity builds on previous OGC testbed activities. https://portal.opengeospatial.org/files/?artifact_id=77431[OGC Testbed-13] and Testbed-14 ERs [yellow-background]*T14 link missing* propose solutions for packaging, deployment and execution of applications in cloud environments that expose standardized interfaces such as the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)]. As long as a dedicated standardized interface such as an OGC WPS instance, a container execution environment (e.g. Docker), and data access are provided, the proposed approach is agnostic to the target cloud platform.
+The work in this activity builds on previous OGC testbed activities. https://portal.ogc.org/files/?artifact_id=77431[OGC Testbed-13] and Testbed-14 ERs [yellow-background]*T14 link missing* propose solutions for packaging, deployment and execution of applications in cloud environments that expose standardized interfaces such as the http://docs.ogc.org/is/14-065/14-065.html[OGC Web Processing Service (WPS)]. As long as a dedicated standardized interface such as an OGC WPS instance, a container execution environment (e.g. Docker), and data access are provided, the proposed approach is agnostic to the target cloud platform.
 
 The ER presents the data model and interface for a catalogue service enabling discovery of EO applications and related processing services for subsequent deployment and/or invocation in a distributed environment.  The ER also provides the architectural and implementation details of the software components that were developed as part of the activity and which interact through the described data model. These software components include catalogue clients, catalogue servers and WPS transactional (WPS-T) servers.
 
@@ -453,10 +453,10 @@ The ER presents the data model and interface for a catalogue service enabling di
 
 Web Mapping client-side styling requires a way to locate a suitable style on the server, determine the style’s applicability to the current displayed layers, and retrieve the style. A style is a sequence of rules of symbolizing instructions to be applied by a rendering engine on one or more features and/or coverages. Further, style catalogs and style reuse require a way to describe styles (what kind of symbolization is used, what layers are involved, what attributes are needed). At the same time both client and server applications are increasingly supporting a wider variety of open styling encodings. To meet these and other style interoperability requirements, a style encoding and metadata conceptual model is required. The model provides information for understanding a style’s intended usage, availability, and compatibility with existing layers. The model also supports style search. The ER describes the Styles conceptual model developed in Testbed 15.
 
-In Testbed 15, the http://portal.opengeospatial.org/files/?artifact_id=1188[Styled Layer Descriptor (SLD) 1.0], http://portal.opengeospatial.org/files/?artifact_id=16700[Symbology Encoding (SE) 1.1], https://docs.geoserver.org/latest/en/user/styling/css/index.html[Cascading Style Sheets (CSS)], and https://docs.mapbox.com/mapbox-gl-js/style-spec/ [Mapbox GL] styles were reviewed. The testbed activity also built upon previous OGC work, in particular:
+In Testbed 15, the http://portal.ogc.org/files/?artifact_id=1188[Styled Layer Descriptor (SLD) 1.0], http://portal.ogc.org/files/?artifact_id=16700[Symbology Encoding (SE) 1.1], https://docs.geoserver.org/latest/en/user/styling/css/index.html[Cascading Style Sheets (CSS)], and https://docs.mapbox.com/mapbox-gl-js/style-spec/ [Mapbox GL] styles were reviewed. The testbed activity also built upon previous OGC work, in particular:
 
-* The https://portal.opengeospatial.org/files/89616[OGC Symbology Conceptual Model: Core part] candidate standard which defines common portrayal concepts shared across various style encodings.
-* The http://docs.opengeospatial.org/per/18-101.html[OGC Vector Tiles Pilot] initiative that defined a prototype of a Styles API that is independent of the style encoding.
+* The https://portal.ogc.org/files/89616[OGC Symbology Conceptual Model: Core part] candidate standard which defines common portrayal concepts shared across various style encodings.
+* The http://docs.ogc.org/per/18-101.html[OGC Vector Tiles Pilot] initiative that defined a prototype of a Styles API that is independent of the style encoding.
 
 [[D012]]
 
@@ -466,14 +466,14 @@ This ER documents a draft specification for a Web API that enables map servers a
 
 The draft Styles API supports several types of consumers, mainly:
 
-* Visual style editors that create, update and delete styles for datasets that are shared by other Web APIs implementing the http://docs.opengeospatial.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] Standard or the draft https://github.com/opengeospatial/ogc_api_coverages[OGC API – Coverages] or draft https://github.com/opengeospatial/OGC-API-Tiles[OGC API – Tiles] specifications;
+* Visual style editors that create, update and delete styles for datasets that are shared by other Web APIs implementing the http://docs.ogc.org/is/17-069r3/17-069r3.html[OGC API - Features - Part 1: Core] Standard or the draft https://github.com/opengeospatial/ogc_api_coverages[OGC API – Coverages] or draft https://github.com/opengeospatial/OGC-API-Tiles[OGC API – Tiles] specifications;
 * Web APIs implementing the draft https://github.com/opengeospatial/OGC-API-Maps[ OGC API – Maps] specification fetch styles and render spatial data on the server;
 * Map clients that fetch styles and render spatial data (features or coverages) on the client.
 
-Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.opengeospatial.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts:
+Feature data is either accessed directly or organized into spatial partitions such as a tiled data store (aka "vector tiles"). The Styles API is consistent with the emerging OGC API family of standards. The Styles API implements the conceptual model for style encodings and style metadata as documented in chapter 6 of the http://docs.ogc.org/per/19-023r1.html[Encoding and Metadata Conceptual Model for Styles ER]. The model defines three main concepts:
 
 * The style is the main resource.
-* Each style is available in one or more stylesheets - the representation of a style in an encoding such as http://portal.opengeospatial.org/files/?artifact_id=22364[OGC SLD 1.0] or https://docs.mapbox.com/mapbox-gl-js/style-spec/[Mapbox Style]. Clients can then use the stylesheet of a style that best fits their needs.
+* Each style is available in one or more stylesheets - the representation of a style in an encoding such as http://portal.ogc.org/files/?artifact_id=22364[OGC SLD 1.0] or https://docs.mapbox.com/mapbox-gl-js/style-spec/[Mapbox Style]. Clients can then use the stylesheet of a style that best fits their needs.
 * For each style, there is style metadata available which provides general descriptive information about the style.
 
 [[D014]]
@@ -482,9 +482,9 @@ Feature data is either accessed directly or organized into spatial partitions su
 
 Since 2017, the OGC has had a focused effort developing API standards based on the concepts defined in a Resource Oriented Architecture (ROA). The OGC APIs are described using the https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md[OpenAPI 3.0] specification. The ER defines a proof-of-concept for a Maps and Tiles API specification. The draft Maps and Tiles specification builds on the OGC API - Features - Part 1: Core standard.
 
-The draft Tiles specification describes a service that retrieves data representations as tiles. In the draft specification, the assumption is that tiles are organized into https://www.opengeospatial.org/standards/tms[Tile Matrix Sets (TMS)] consisting of regular tile matrices available at different scales or resolutions.
+The draft Tiles specification describes a service that retrieves data representations as tiles. In the draft specification, the assumption is that tiles are organized into https://www.ogc.org/standards/tms[Tile Matrix Sets (TMS)] consisting of regular tile matrices available at different scales or resolutions.
 
-The draft Maps specification describes an API that presents data as maps by applying a style. These maps can be retrieved in a tiled structure or as maps of any size generated on-the-fly. Some of the functionality in the draft Maps specification is based on the https://www.opengeospatial.org/standards/wmts[OGC Web Map Tile Service (WMTS) 1.0] standard. This is related to the use of styles by using the draft Styles API specification that was developed in the Testbed-15 Open Portrayal Framework thread.
+The draft Maps specification describes an API that presents data as maps by applying a style. These maps can be retrieved in a tiled structure or as maps of any size generated on-the-fly. Some of the functionality in the draft Maps specification is based on the https://www.ogc.org/standards/wmts[OGC Web Map Tile Service (WMTS) 1.0] standard. This is related to the use of styles by using the draft Styles API specification that was developed in the Testbed-15 Open Portrayal Framework thread.
 
 [[D015]]
 
@@ -514,7 +514,7 @@ The ER addresses two independent but related APIs:
 
 The OGC API - Images is designed to simplify the creation and maintenance of sets of images that can then be exposed and retrieved by other OGC API’s, such as OGC API - Coverages. The use of the ChangeSet filter helps keep clients synchronized with changes to the source content on servers while also minimizing the bandwidth necessary for the synchronization.
 
-Note: That the http://docs.opengeospatial.org/per/19-012r1.html[Delta Updates ER] recommends that the OGC investigate a common approach for delta updates across existing and in development OGC APIs.
+Note: That the http://docs.ogc.org/per/19-012r1.html[Delta Updates ER] recommends that the OGC investigate a common approach for delta updates across existing and in development OGC APIs.
 
 [[D017]]
 
@@ -546,7 +546,7 @@ The results of the integration experiments indicated that both architectures lea
 
 ==== D020: Federated Cloud Analytics Engineering Report
 
-The Federated Clouds Analytics ER documents the results and experiences gained during the Federated Cloud Analytics task. The work documented addresses a broader question of how to leverage Cloud architectures managing automated processing on a cluster of machines combined with using OGC standards. The research focused on the https://ngageoint.github.io/scale/docs/architecture/jobs/index.html[SCALE] Data Center Environment. Also as part of this activity, the https://ngageoint.github.io/seed/[SEED] job interface specification was used to package job input/output parameters metadata with Docker images that contain discrete processing algorithms. This enables developers to prepare the software in a self-contained package containing all execution dependencies, deploy and execute it in a hosted environment with access to data. Within this context, the ER documents how the http://docs.opengeospatial.org/is/14-065/14-065.html[OGC Web Processing Service (WPS) 2.0 Standard] can be used as a standard API for Cloud analytics for workflow automation.
+The Federated Clouds Analytics ER documents the results and experiences gained during the Federated Cloud Analytics task. The work documented addresses a broader question of how to leverage Cloud architectures managing automated processing on a cluster of machines combined with using OGC standards. The research focused on the https://ngageoint.github.io/scale/docs/architecture/jobs/index.html[SCALE] Data Center Environment. Also as part of this activity, the https://ngageoint.github.io/seed/[SEED] job interface specification was used to package job input/output parameters metadata with Docker images that contain discrete processing algorithms. This enables developers to prepare the software in a self-contained package containing all execution dependencies, deploy and execute it in a hosted environment with access to data. Within this context, the ER documents how the http://docs.ogc.org/is/14-065/14-065.html[OGC Web Processing Service (WPS) 2.0 Standard] can be used as a standard API for Cloud analytics for workflow automation.
 
 More specifically, the ER provides an analysis of:
 
